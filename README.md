@@ -7,6 +7,8 @@ EOS concepts and programming covered here.
 
 ## Concepts
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
+* EOS: an Introduction - https://eos.io/documents/EOS_An_Introduction.pdf
+* EOS: The Next Generation Extensible Operating System - https://www.arista.com/assets/data/pdf/EOSWhitepaper.pdf
 
 ## Smart contracts
 * **Tutorials** - https://github.com/EOSIO/eos/wiki/Tutorials
