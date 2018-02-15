@@ -5,9 +5,14 @@ EOS concepts and programming covered here.
 * Python API for EOS - https://github.com/Netherdrake/py-eos-api
 * JavaScript API for EOS - https://github.com/EOSIO/eosjs-json
 
+## Concepts
+* EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
+
 ## Smart contracts
 * **Tutorials** - https://github.com/EOSIO/eos/wiki/Tutorials
 * _Hello world_ - https://github.com/EOSIO/eos/wiki/Tutorials#3-smart-contract-hello-world
 * _Currency contract_ - https://github.com/EOSIO/eos/wiki/Tutorials#2-currency-contract-walkthrough
 * _Tic-tac-toe contract_ - https://github.com/EOSIO/eos/wiki/Tutorials#4-tic-tac-toe , [See also](https://github.com/andriantolie/tic_tac_toe/blob/master/tic_tac_toe.cpp)
 * _Shop contract_ - https://github.com/michaeljyeates/eosshop/blob/master/shop.cpp
+* Contracts examples - https://github.com/EOSIO/eos/tree/contextfree/contracts
+* 
