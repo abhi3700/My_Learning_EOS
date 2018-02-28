@@ -22,3 +22,5 @@ EOS concepts and programming covered here.
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
+* Object computing Blogs- [What is Graphene](https://objectcomputing.com/resources/publications/sett/march-2017-graphene-an-open-source-blockchain/) , [EOS Smart contracts](https://objectcomputing.com/resources/publications/sett/february-2018-eos-smart-contracts/)
+
