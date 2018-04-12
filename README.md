@@ -12,6 +12,7 @@ EOS concepts and programming covered here.
 * EOS: The Next Generation Extensible Operating System - https://www.arista.com/assets/data/pdf/EOSWhitepaper.pdf
 
 ## Smart contracts
+* Getting started with contracts - https://github.com/EOSIO/eos/wiki/Tutorial-Getting-Started-With-Contracts
 * **Tutorials** - https://github.com/EOSIO/eos/wiki/Tutorials
 * **All Contracts examples** - https://github.com/EOSIO/eos/tree/master/contracts
 * _Hello world_ - https://github.com/EOSIO/eos/wiki/Tutorials#3-smart-contract-hello-world
