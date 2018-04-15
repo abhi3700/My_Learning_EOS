@@ -6,6 +6,7 @@ EOS concepts and programming covered here.
 * JavaScript API for EOS - https://github.com/EOSIO/eosjs-json
 * EOS API endpoint - https://t1api.eos.io/v1/docs/#api-_
 * Android client for EOS - https://github.com/mithrilcoin-io/EosCommander
+* Getting Started With WebAssembly - https://tutorialzine.com/2017/06/getting-started-with-web-assembly
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
