@@ -8,6 +8,7 @@ EOS concepts and programming covered here.
 * Android client for EOS - https://github.com/mithrilcoin-io/EosCommander
 * Getting Started With WebAssembly - https://tutorialzine.com/2017/06/getting-started-with-web-assembly
 * Compiling from C/C++ to WebAssembly - https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm
+* EOS IDE (browser-based) - https://tbfleming.github.io/cib/eos.html
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
