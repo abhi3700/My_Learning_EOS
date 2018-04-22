@@ -13,7 +13,6 @@ EOS concepts and programming covered here.
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
 * EOS: an Introduction - https://eos.io/documents/EOS_An_Introduction.pdf
-* EOS: The Next Generation Extensible Operating System - https://www.arista.com/assets/data/pdf/EOSWhitepaper.pdf
 * EOS Testnet - https://github.com/EOSIO/eos/blob/1972-QA/testnet.md
 
 ## Smart contracts
