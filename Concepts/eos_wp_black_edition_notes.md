@@ -9,7 +9,7 @@
   * comparison with the known system & conclusion
 * ### Consensus: 
   solving the ```Byzantine's Generals problem```. 
-  **Bitcoin** - solves the issue using PoW by SHA2 puzzle. Using energy, one who wins becomes the General. 
+  **Bitcoin** - solves the issue using PoW by SHA2 puzzle. Using energy, one who wins becomes the General and gets a fixed amount of Bitcoin. 
           Basically, anyone can become the General.
           
     > Following Generals can choose to accept that plan or block, or reject if invalid.
@@ -19,3 +19,5 @@
   E.g. **R3's Corda** established this using PoS consensus method. They say that giving everyone a chance to validate the block of transactions.
   > By allowing interchangeability of servers called notaries that can mediate the consensus by any of the above means, Corda reduces the
 network operating cost to a level comparable to today’s IT infrastructure.
+ They have attained **decentralisation** but not **distributed**.
+* 
