@@ -16,7 +16,7 @@
 * ```Permissioned ledgers``` - 
   > Permissioned ledgers (Swanson 2015) were proposed to not only block those we want to exclude from enjoying the benefits of our ledger, but also to bring us back to the computer science roots of efficient consensus - practical but centralised designs well known in database science.
   
-  E.g. **R3's Corda** established this using PoS consensus method. They say that giving everyone a chance to validate the block of transactions.
+  E.g. **R3's Corda** established this using PoS consensus method. They say that giving everyone (selected ones) a chance to validate the block of transactions.
   > By allowing interchangeability of servers called notaries that can mediate the consensus by any of the above means, Corda reduces the
 network operating cost to a level comparable to today’s IT infrastructure.
  They have attained **decentralisation** but not **distributed**.
