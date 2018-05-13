@@ -9,6 +9,7 @@ EOS concepts and programming covered here.
 * Getting Started With WebAssembly - https://tutorialzine.com/2017/06/getting-started-with-web-assembly
 * Compiling from C/C++ to WebAssembly - https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm
 * EOS IDE (browser-based) - https://tbfleming.github.io/cib/eos.html
+* EOS docs - https://www.eosdocs.io/
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
@@ -23,7 +24,6 @@ EOS concepts and programming covered here.
 * _Currency contract_ - https://github.com/EOSIO/eos/wiki/Tutorials#2-currency-contract-walkthrough
 * _Tic-tac-toe contract_ - https://github.com/EOSIO/eos/wiki/Tutorials#4-tic-tac-toe , [See also](https://github.com/andriantolie/tic_tac_toe/blob/master/tic_tac_toe.cpp)
 * _Shop contract_ - https://github.com/michaeljyeates/eosshop/blob/master/shop.cpp
-
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
