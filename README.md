@@ -17,7 +17,7 @@ EOS concepts and programming covered here.
 * EOS: an Introduction - https://eos.io/documents/EOS_An_Introduction.pdf
 * EOS Testnet - https://github.com/EOSIO/eos/blob/1972-QA/testnet.md
 
-## Smart contracts
+## Smart contracts Programming
 * Getting started with contracts - https://github.com/EOSIO/eos/wiki/Tutorial-Getting-Started-With-Contracts
 * **Tutorials** - https://github.com/EOSIO/eos/wiki/Tutorials
 * **All Contracts examples** - https://github.com/EOSIO/eos/tree/master/contracts
@@ -25,7 +25,7 @@ EOS concepts and programming covered here.
 * _Currency contract_ - https://github.com/EOSIO/eos/wiki/Tutorials#2-currency-contract-walkthrough
 * _Tic-tac-toe contract_ - https://github.com/EOSIO/eos/wiki/Tutorials#4-tic-tac-toe , [See also](https://github.com/andriantolie/tic_tac_toe/blob/master/tic_tac_toe.cpp)
 * _Shop contract_ - https://github.com/michaeljyeates/eosshop/blob/master/shop.cpp
-
+* EOSIO coding standards by Thomas Cox - https://github.com/EOSIO/eos/wiki/Coding-Standards
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
 * Object computing Blogs- [What is Graphene](https://objectcomputing.com/resources/publications/sett/march-2017-graphene-an-open-source-blockchain/) , [EOS Smart contracts](https://objectcomputing.com/resources/publications/sett/february-2018-eos-smart-contracts/)
