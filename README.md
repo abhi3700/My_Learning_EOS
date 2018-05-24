@@ -10,6 +10,7 @@ EOS concepts and programming covered here.
 * Compiling from C/C++ to WebAssembly - https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm
 * EOS IDE (browser-based) - https://tbfleming.github.io/cib/eos.html
 * EOS docs - https://www.eosdocs.io/
+* EOS setup - https://medium.com/b21official/eos-dawn-3-0-setup-instructions-for-developers-9434fcb64d2d
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
@@ -29,4 +30,5 @@ EOS concepts and programming covered here.
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
 * Object computing Blogs- [What is Graphene](https://objectcomputing.com/resources/publications/sett/march-2017-graphene-an-open-source-blockchain/) , [EOS Smart contracts](https://objectcomputing.com/resources/publications/sett/february-2018-eos-smart-contracts/)
 * Blogs, Videos, links Github Repository - https://github.com/EOS-Nation/Awesome-EOS
+* 
 
