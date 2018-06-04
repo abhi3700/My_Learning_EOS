@@ -11,6 +11,7 @@ EOS concepts and programming covered here.
 * EOS IDE (browser-based) - https://tbfleming.github.io/cib/eos.html
 * EOS docs - https://www.eosdocs.io/
 * EOS setup - https://medium.com/b21official/eos-dawn-3-0-setup-instructions-for-developers-9434fcb64d2d
+* EOS governance - https://github.com/EOS-Mainnet/governance
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
