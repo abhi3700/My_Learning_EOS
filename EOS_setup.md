@@ -1,4 +1,6 @@
 # Steps for setting up the EOS 
+**June 12, 2018**
+
 ## Pre-requisite
 This is for enabling your system to run EOS Smart contracts (SC). This is for Installation on Linux (Ubuntu). 
   
