@@ -42,6 +42,26 @@ This is for enabling your system to run EOS Smart contracts (SC). This is for In
   ```$./eosio_build.sh
   
  ![](https://github.com/abhi3700/My_Learning_EOS/blob/master/Images/eos_setup_4.png)
+ 
+  * **Boost installation** - 
+  
+    ![](https://github.com/abhi3700/My_Learning_EOS/blob/master/Images/eos_setup_5.png)
+  * **Mongodb & Mongo C++ installation** -
+  
+    ![](https://github.com/abhi3700/My_Learning_EOS/blob/master/Images/eos_setup_6.png)
+  
+  * **secp256kl installation** - 
+    ![](https://github.com/abhi3700/My_Learning_EOS/blob/master/Images/eos_setup_7.png)
+    
+  * **WASM installation** - 
+    ![](https://github.com/abhi3700/My_Learning_EOS/blob/master/Images/eos_setup_8.png)
+  
+  * **EOSIO installation** -
+    
+    ![](https://github.com/abhi3700/My_Learning_EOS/blob/master/Images/eos_setup_9.png)
+    
+  
+ 
   
 ## REFERENCE
 * EOS v1.0 setup - https://www.youtube.com/watch?v=CbczJDA6cik
