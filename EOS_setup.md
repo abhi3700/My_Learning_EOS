@@ -89,8 +89,4 @@ This is for enabling your system to run EOS Smart contracts (SC). This is for In
    ![](https://github.com/abhi3700/My_Learning_EOS/blob/master/Images/eos_setup_13.png)
   
 
-That's it.
- 
-  
-## REFERENCE
-* EOS v1.0 setup - https://www.youtube.com/watch?v=CbczJDA6cik
+#### That's it!....
