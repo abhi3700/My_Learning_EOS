@@ -81,7 +81,7 @@ This is for enabling your system to run EOS Smart contracts (SC). This is for In
   ### ```nodeos```
   For interacting with the blockchain.
   
-     ![](https://github.com/abhi3700/My_Learning_EOS/blob/master/Images/eos_setup_12.png)
+  ![](https://github.com/abhi3700/My_Learning_EOS/blob/master/Images/eos_setup_12.png)
 
   ### ```keosd```
    For accessing the wallet.
