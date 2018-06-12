@@ -1,5 +1,5 @@
 # Steps for setting up the EOS 
-## Background
+## Pre-requisite
 This is for enabling your system to run EOS Smart contracts (SC). This is for Installation on Linux (Ubuntu). 
   
   Steps:
@@ -9,7 +9,7 @@ This is for enabling your system to run EOS Smart contracts (SC). This is for In
    * ```>bash```
    * Now, you are ready with following the steps below.
   
-
+## Installation
 * ### Cloning the github repository
   Command - 
   
