@@ -1,4 +1,4 @@
-# Steps for setting up the EOS 
+# EOS Setup 
 **June 12, 2018**
 
 ## Pre-requisite
