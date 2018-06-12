@@ -39,7 +39,7 @@ This is for enabling your system to run EOS Smart contracts (SC). This is for In
 * ### Building the tools for eos-dev
   ```$./eosio_build.sh
   
-  ![](https://github.com/abhi3700/My_Learning_EOS/blob/master/Images/eos_setup_4.png)
+ ![](https://github.com/abhi3700/My_Learning_EOS/blob/master/Images/eos_setup_4.png)
   
 ## REFERENCE
 * EOS v1.0 setup - https://www.youtube.com/watch?v=CbczJDA6cik
