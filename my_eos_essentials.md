@@ -24,7 +24,9 @@
 
 6. ### EOS key terms?
     **Block** - group of transactions.
+    
     **Transaction** - record of actions.
+    
     **Action** - behavior of contracts.
 
 
