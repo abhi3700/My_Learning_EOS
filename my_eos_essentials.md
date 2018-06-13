@@ -12,4 +12,13 @@ Yes, it can be done.
 
 The default number is 21, however in the latest (in Jan 2018) development update, they confirmed it would be dynamic/configurable.﻿
 
+#### Is EOS Smart Contract (SC) upgradeable?
+Yes. Unlike Ethereum, EOS contracts are upgradeable.
+
+Hence, **Code is NOT the law.**
+
+#### Can EOS transaction be reversible like other major blockchains?
+Yes. 
+
+But, it is possible through arbitration. In future, for dApps' good functioning, one has to hire **competent arbitrators** for getting any form of transaction (money, asset, so on...) back. 
 
