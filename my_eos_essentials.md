@@ -22,3 +22,11 @@
 
     But, it is possible through arbitration. In future, for dApps' good functioning, one has to hire **competent arbitrators** for getting any form of transaction (money, asset, so on...) back. 
 
+6. ### EOS key terms?
+    **Block** - group of transactions.
+    **Transaction** - record of actions.
+    **Action** - behavior of contracts.
+
+
+
+    
