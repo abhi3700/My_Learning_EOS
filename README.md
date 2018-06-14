@@ -27,9 +27,10 @@ EOS concepts and programming covered here.
 * _Tic-tac-toe contract_ - https://github.com/EOSIO/eos/wiki/Tutorials#4-tic-tac-toe , [See also](https://github.com/andriantolie/tic_tac_toe/blob/master/tic_tac_toe.cpp)
 * _Shop contract_ - https://github.com/michaeljyeates/eosshop/blob/master/shop.cpp
 * EOSIO coding standards by Thomas Cox - https://github.com/EOSIO/eos/wiki/Coding-Standards
+
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
 * Object computing Blogs- [What is Graphene](https://objectcomputing.com/resources/publications/sett/march-2017-graphene-an-open-source-blockchain/) , [EOS Smart contracts](https://objectcomputing.com/resources/publications/sett/february-2018-eos-smart-contracts/)
 * Blogs, Videos, links Github Repository - https://github.com/EOS-Nation/Awesome-EOS
-* 
+* EOS voting stackexchange - https://eosio.stackexchange.com/questions/725/how-to-vote-using-cleos
 
