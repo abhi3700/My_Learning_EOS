@@ -12,7 +12,7 @@
 
     The default number is 21, however in the latest (in Jan 2018) development update, they confirmed it would be dynamic/configurable.﻿
 
-4. ### Is EOS Smart Contract (SC) upgradeable?
+4. ### Is EOS Smart Contracts (SCs) upgradeable?
     Yes. Unlike Ethereum, EOS contracts are upgradeable.
 
     Hence, **Code is NOT the law.**
@@ -23,11 +23,26 @@
     But, it is possible through arbitration. In future, for dApps' good functioning, one has to hire **competent arbitrators** for getting any form of transaction (money, asset, so on...) back. 
 
 6. ### EOS key terms?
-    **Block** - group of transactions.
+    **Block** - group of transactions.<br/>
+    **Transaction** - record of actions.<br/>
+    **Action** - behavior of contracts. E.g. - functions like create(), transfer(), etc.
+
+7. ### What do I lose by staking my EOS tokens?
+    Nothing in terms of ```no. of tokens```. E.g. If you stake 3 EOS, will get exactly 3 EOS after unstaking.
     
-    **Transaction** - record of actions.
+    One only makes a loss of inflation (increase, decrease, neutral) only. <br/>
+    **Explaination:** 3 cases are possible.
     
-    **Action** - behavior of contracts.
+    * **Profit:** - value of EOS during unstake > stake  
+    * **Loss:** - value of EOS during unstake < stake
+    * **Neutral:** - value of EOS during unstake = stake
+    
+    [SOURCE](https://eosio.stackexchange.com/questions/824/can-i-stake-back-my-bandwidth-without-cost)
+    
+8. ### How to vote for BP using cleos?
+   
+   [SOURCE](https://eosio.stackexchange.com/questions/725/how-to-vote-using-cleos)
+    
 
 
 
