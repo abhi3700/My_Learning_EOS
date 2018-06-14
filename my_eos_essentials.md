@@ -26,6 +26,8 @@
     **Block** - group of transactions.<br/>
     **Transaction** - record of actions.<br/>
     **Action** - behavior of contracts. E.g. - functions like create(), transfer(), etc.
+    
+    #### NOTE: A Smart Contract can have one or more action.
 
 7. ### What do I lose by staking my EOS tokens?
     Nothing in terms of ```no. of tokens```. E.g. If you stake 3 EOS, will get exactly 3 EOS after unstaking.
