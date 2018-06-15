@@ -49,7 +49,7 @@
 9. ### In EOS, why 21 BPs?
     **Reasons**: <br>
     
-    * odd no. - to have ```2/3 + 1``` i.e. ```(14+1) = 15```.
+    * odd no. - to have 66% i.e. ```2/3 + 1``` i.e. ```(14+1) = 15```. So, 15 BPs consent is required for agreement on any decision.
     * voting required to maintain irreversibility of EOS blockchain => lesser nodes, the better speed. 
       
       So, 21 is a optimized no. 
