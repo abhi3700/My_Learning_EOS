@@ -1,5 +1,6 @@
 # My EOS Essentials
 ## FAQs
+
 1. ### What if BPs pay people to vote for them?
     In EOS, the no. of votes getting count also depends on new/old votes. This is done every 6 months. That is after this period it becomes old.
     So, now the BPs shall have to raise the awareness everytime to EOS users for staying in the top 21 BPs and 100 SPs.
@@ -44,6 +45,19 @@
 8. ### How to vote for BP using cleos?
    
    [SOURCE](https://eosio.stackexchange.com/questions/725/how-to-vote-using-cleos)
+   
+9. ### In EOS, why 21 BPs?
+    **Reasons**: <br>
+    
+    * odd no. - to have ```2/3 + 1``` i.e. ```(14+1) = 15```.
+    * voting required to maintain irreversibility of EOS blockchain => lesser nodes, the better speed. 
+      
+      So, 21 is a optimized no. 
+        #### NOTE: initially, Bitshares had nearly ```100+``` BPs. So, the Block time used to be higher. Now, it is in seconds.
+    * If more nodes involved, then synchronization would be difficult i.e. ir-reversibility would be maintained with higher block time => less scalable.
+   
+        Like in Bitcoin, Ethereum (PoW-based tokens), the irreversibility is maintained using computing power. So, energy can't be recreated. But in EOS, the irreversibility is maintained using voting. For this, the above reasons has to be followed.
+     
     
 
 
