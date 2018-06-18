@@ -1,5 +1,5 @@
 # My_Learning_EOS
-EOS concepts and programming covered here.
+EOS resources available here.
 
 ## Development
 * Python API for EOS - https://github.com/Netherdrake/py-eos-api
@@ -12,11 +12,17 @@ EOS concepts and programming covered here.
 * EOS docs - https://www.eosdocs.io/
 * EOS setup - https://medium.com/b21official/eos-dawn-3-0-setup-instructions-for-developers-9434fcb64d2d
 * EOS governance - https://github.com/EOS-Mainnet/governance
+* EOS Mainnet - https://github.com/EOS-Mainnet
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
 * EOS: an Introduction - https://eos.io/documents/EOS_An_Introduction.pdf
 * EOS Testnet - https://github.com/EOSIO/eos/blob/1972-QA/testnet.md
+* EOS Developer Docs - https://developers.eos.io/
+* EOS Dawn 3.0 - https://medium.com/eosio/eosio-dawn-3-0-now-available-49a3b99242d7
+* EOS Dawn 4.0 - 
+    * Introduction - https://medium.com/eosio/introducing-eosio-dawn-4-0-f738c552879
+    * Release - https://medium.com/eosio/eosio-dawn-4-0-release-b25661a49ac2
 
 ## Smart contracts Programming
 * Getting started with contracts - https://github.com/EOSIO/eos/wiki/Tutorial-Getting-Started-With-Contracts
