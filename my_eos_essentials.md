@@ -58,8 +58,19 @@
    
         Like in Bitcoin, Ethereum (PoW-based tokens), the irreversibility is maintained using computing power. So, energy can't be recreated. But in EOS, the irreversibility is maintained using voting. For this, the above reasons has to be followed.
      
+10. ### How much time for getting back my tokens after unstake?
+    3 days.
     
-
+11. ### What would happen to my data (on EOS blockchain) if the required tokens condition not met or all the tokens are unstaked?
+    Correspondingly, the data will also be deleted.
+    
+12. ### Once BPs (Active + Standby) get selected through voting, is that list permanent?
+    Actually, No.
+    
+    Because every week the voting decays by 1%. So, if someone wants its BPs to stand in the list, then one needs to revote (in the same way as previous).
+    
+    [**Video link**](https://www.youtube.com/watch?v=v9h4u1xUASw)
+    
 
 
     
