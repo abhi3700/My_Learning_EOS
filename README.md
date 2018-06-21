@@ -33,6 +33,7 @@ EOS resources available here.
 * _Tic-tac-toe contract_ - https://github.com/EOSIO/eos/wiki/Tutorials#4-tic-tac-toe , [See also](https://github.com/andriantolie/tic_tac_toe/blob/master/tic_tac_toe.cpp)
 * _Shop contract_ - https://github.com/michaeljyeates/eosshop/blob/master/shop.cpp
 * EOSIO coding standards by Thomas Cox - https://github.com/EOSIO/eos/wiki/Coding-Standards
+* EOS account contract - https://github.com/eosiosg/account-detail-contract
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
