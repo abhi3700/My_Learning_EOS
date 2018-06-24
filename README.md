@@ -24,7 +24,7 @@ EOS resources available here.
     * Introduction - https://medium.com/eosio/introducing-eosio-dawn-4-0-f738c552879
     * Release - https://medium.com/eosio/eosio-dawn-4-0-release-b25661a49ac2
 
-## Smart contracts Programming
+## EOS SC Programming
 * Getting started with contracts - https://github.com/EOSIO/eos/wiki/Tutorial-Getting-Started-With-Contracts
 * **Tutorials** - https://github.com/EOSIO/eos/wiki/Tutorials
 * **All Contracts examples** - https://github.com/EOSIO/eos/tree/master/contracts
@@ -34,6 +34,7 @@ EOS resources available here.
 * _Shop contract_ - https://github.com/michaeljyeates/eosshop/blob/master/shop.cpp
 * EOSIO coding standards by Thomas Cox - https://github.com/EOSIO/eos/wiki/Coding-Standards
 * EOS account contract - https://github.com/eosiosg/account-detail-contract
+* EOS forum contract (voting, chat) - https://github.com/eoscanada/eosio.forum
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
