@@ -35,6 +35,7 @@ EOS resources available here.
 * EOSIO coding standards by Thomas Cox - https://github.com/EOSIO/eos/wiki/Coding-Standards
 * EOS account contract - https://github.com/eosiosg/account-detail-contract
 * EOS forum contract (voting, chat) - https://github.com/eoscanada/eosio.forum
+* EOS Relief contract - https://github.com/serganus/ReliefChain-smartcontracts
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
