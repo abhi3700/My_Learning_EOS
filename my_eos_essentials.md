@@ -70,6 +70,10 @@
     Because every week the voting decays by 1%. So, if someone wants its BPs to stand in the list, then one needs to revote (in the same way as previous).
     
     [**Video link**](https://www.youtube.com/watch?v=v9h4u1xUASw)
+
+13. ### Why 30 stake weighted voting?
+    TODO
+    [Article by Thomas Cox](https://medium.com/@thomas.cox_39839/why-30-stake-weighted-approval-votes-for-eosio-1402b994bf20)
     
 
 
