@@ -74,7 +74,11 @@
 13. ### Why 30 stake weighted voting?
     TODO
     [Article by Thomas Cox](https://medium.com/@thomas.cox_39839/why-30-stake-weighted-approval-votes-for-eosio-1402b994bf20)
-    
+
+14. ### Difference b/w Active key and Owner key?
+    **Active key** - transfer EOS, vote, stake or unstake, and purchase RAM. 
+    **Owner key** - you can change both the active key and the owner key of any account. 
+    For changing the owner key, link - https://www.youtube.com/watch?v=nyyE05qFc78
 
 
     
