@@ -77,8 +77,19 @@
 
 14. ### Difference b/w Active key and Owner key?
     **Active key** - transfer EOS, vote, stake or unstake, and purchase RAM. 
+    
     **Owner key** - you can change both the active key and the owner key of any account. 
+    
     For changing the owner key, link - https://www.youtube.com/watch?v=nyyE05qFc78
+    
+15. ### Can eos account names be < 12 letters?
+    Yes. To get a premium name, it has to be auctioned on the mainnet.
+    
+    A/c names like ```eosio```, ```b1``` (created during bios contract at boot time)
 
-
+16. NEVER use ```cleos --wallet-url```, otherwise it might get sussceptible for your private key getting leaked.
+    Basically, ```--wallet-url``` is dangerous.
+    as mentioned by @michaelyeates, @nsjames in EOS Developer Telegram channel.
+    
+    
     
