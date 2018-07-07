@@ -89,7 +89,7 @@
 
 16. ### How to import your existing EOS wallet (already created on Mainnet) into local PC/laptop?
     Follow these 2 steps: 
-    1. Edit the "config.ini" file in eosio-wallet in directory - ```"/home/abhijit/eosio-wallet"``` on Linux OS. <br/>
+    1. Edit the "config.ini" file in eosio-wallet in directory - ```"/home/pc-name/eosio-wallet"``` on Linux OS. <br/>
 		change the 
 			```http-server-address = localhost:8080```
 	2. Create the wallet locally as mentioned in the source-link <br/>
