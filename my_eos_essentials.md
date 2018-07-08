@@ -99,6 +99,8 @@
         
     [**SOURCE**](https://eosio.stackexchange.com/questions/1363/wallet-essentials-for-importing-your-existing-eos-wallet)
     
+    #### NOTE: The password generated is the encryption key for the wallet. I believe keosd makes wallets with .wallet file name. This your_wallet.wallet file name is the encrypted file that your password decrypts. 
+    
     > **Instruction:**
     >* Don't connect to an API when dealing with private keys. (RECOMMENDED)
     >* NEVER use ```cleos --wallet-url```, otherwise it might get sussceptible for your private key getting leaked.
