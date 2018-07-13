@@ -4,7 +4,7 @@ This is the next tutorial based on the Setup of EOSIO on a system.
 
 ## Commands with Screenshots 
 1. ### Cloning the repository - 
-    ```$ git clone $ git clone https://github.com/EOSIO/eos.git --recursive```
+    ```$ git clone https://github.com/EOSIO/eos.git --recursive```
 <p align="center">
   <img src="https://github.com/abhi3700/My_Learning_EOS/blob/master/Images/eos_setup_v2_1.png" width="550" height="300">
 </p>
