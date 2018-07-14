@@ -107,7 +107,9 @@
         Basically, ```--wallet-url``` is dangerous.
         as mentioned by @michaelyeates, @nsjames in EOS Developer Telegram channel.
     
-     
+17. ### What do you mean by proxy-voting?
+	It is basically delegating your voting right to someone.
+	If you do this, then you are representing that person to vote 30 BPs on your behalf. Another way - That person votes whoever will be the 30 votes for you as well.
     
     
     
