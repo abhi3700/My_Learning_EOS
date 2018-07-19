@@ -110,6 +110,14 @@
 17. ### What do you mean by proxy-voting?
 	It is basically delegating your voting right to someone.
 	If you do this, then you are representing that person to vote 30 BPs on your behalf. Another way - That person votes whoever will be the 30 votes for you as well.
+	
+18. ### Is it possible to run the REST API data onto EOS Smart contract?
+	It is not possible to directly have any communication with the C++ contracts with the HTTP API. Instead try to run through [EOSJS](https://github.com/EOSIO/eosjs) and display on web.
+	
+	#### Sources:
+	* From Telegram group **ITAM Network** (group of EOS devs)
+		> If you are asking about smart contracts, it's not possible to run outside APIs on  C++ smart contract. You can probably use outside APIs like general node projects with eosjs circumstances.
+	* By Daniel larimer - https://github.com/EOSIO/eos/issues/1483#issuecomment-391930967
     
     
     
