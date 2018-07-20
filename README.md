@@ -5,7 +5,7 @@ EOS resources available here.
 * Python API for EOS - https://github.com/Netherdrake/py-eos-api
 * JavaScript API for EOS - https://github.com/EOSIO/eosjs-json
 * EOS API endpoint - https://t1api.eos.io/v1/docs/#api-_
-* Android client for EOS - https://github.com/mithrilcoin-io/EosCommander
+* Android client for EOS - https://github.com/plactal/EosCommander
 * Getting Started With WebAssembly - https://tutorialzine.com/2017/06/getting-started-with-web-assembly
 * Compiling from C/C++ to WebAssembly - https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm
 * EOS IDE (browser-based) - https://tbfleming.github.io/cib/eos.html
