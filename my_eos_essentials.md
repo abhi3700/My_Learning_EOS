@@ -120,5 +120,6 @@
 	* By Daniel larimer - https://github.com/EOSIO/eos/issues/1483#issuecomment-391930967
 19. ### How to query the EOS database?
 	[SOURCE](https://eosio.stackexchange.com/questions/279/does-eos-db-support-text-based-queries)
-    
+20. ### Are Tables/DBs stored in RAM and held by multiple block producers?
+	[SOURCE](https://eosio.stackexchange.com/questions/6/are-tables-dbs-stored-in-ram-and-held-by-multiple-block-producers)
     
