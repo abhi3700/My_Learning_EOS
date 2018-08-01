@@ -118,6 +118,7 @@
 	* From Telegram group **ITAM Network** (group of EOS devs)
 		> If you are asking about smart contracts, it's not possible to run outside APIs on  C++ smart contract. You can probably use outside APIs like general node projects with eosjs circumstances.
 	* By Daniel larimer - https://github.com/EOSIO/eos/issues/1483#issuecomment-391930967
-    
+19. ### How to query the EOS database?
+	[SOURCE](https://eosio.stackexchange.com/questions/279/does-eos-db-support-text-based-queries)
     
     
