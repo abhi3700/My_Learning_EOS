@@ -118,11 +118,39 @@
 	* From Telegram group **ITAM Network** (group of EOS devs)
 		> If you are asking about smart contracts, it's not possible to run outside APIs on  C++ smart contract. You can probably use outside APIs like general node projects with eosjs circumstances.
 	* By Daniel larimer - https://github.com/EOSIO/eos/issues/1483#issuecomment-391930967
+	
 19. ### How to query the EOS database?
 	[SOURCE](https://eosio.stackexchange.com/questions/279/does-eos-db-support-text-based-queries)
+	
 20. ### Are Tables/DBs stored in RAM and held by multiple block producers?
 	[SOURCE](https://eosio.stackexchange.com/questions/6/are-tables-dbs-stored-in-ram-and-held-by-multiple-block-producers)
+	
 21. ### EOS.IO uses the same Graphene engine (used in Bitshares, Steemit) and it was not turing-complete. So, what exactly has been added in EOS.IO?
 	EOS.IO achieves the Turing completeness lacking in Graphene by including deferred transactions, which can be scheduled (and rescheduled) automatically by code. 
 	
-	[SOURCE](https://objectcomputing.com/resources/publications/sett/february-2018-eos-smart-contracts)    
+	[SOURCE](https://objectcomputing.com/resources/publications/sett/february-2018-eos-smart-contracts)
+	
+22. ### Difference b/w Action and Transaction?
+	**Action** - a single operation.
+	**Transaction** - one or more actions.
+	
+	[SOURCE](https://developers.eos.io/eosio-cpp/docs/communication-model#section-transactions-vs-actions)
+	
+23. ### Difference b/w Inline and Deferred Communication?
+	**Inline**:
+		* action guaranteed to execute with the current transaction.
+		* No notification about the success or failure.
+		
+	[SOURCE] (https://developers.eos.io/eosio-cpp/docs/communication-model#section-inline-communication)
+	
+	**Deferred**:
+		* action has no guarantee for execution. It gets scheduled to run at `best time`, `later time`, `producer's discretion`. 
+		* carries the authority of the contract that sends them.
+		* generates notification about the success or failure.
+		
+	[SOURCE](https://developers.eos.io/eosio-cpp/docs/communication-model#section-deferred-communication)
+
+
+
+
+
