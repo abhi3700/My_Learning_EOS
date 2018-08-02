@@ -141,7 +141,7 @@
 	* action guaranteed to execute with the current transaction.
 	* No notification about the success or failure.
 		
-	[SOURCE] (https://developers.eos.io/eosio-cpp/docs/communication-model#section-inline-communication)
+	[SOURCE](https://developers.eos.io/eosio-cpp/docs/communication-model#section-inline-communication)
 	
 	#### Deferred:
 	* action has no guarantee for execution. It gets scheduled to run at `best time`, `later time`, `producer's discretion`. 
