@@ -138,15 +138,15 @@
 	
 23. ### Difference b/w Inline and Deferred Communication?
 	#### Inline:
-		* action guaranteed to execute with the current transaction.
-		* No notification about the success or failure.
+	* action guaranteed to execute with the current transaction.
+	* No notification about the success or failure.
 		
 	[SOURCE] (https://developers.eos.io/eosio-cpp/docs/communication-model#section-inline-communication)
 	
 	#### Deferred:
-		* action has no guarantee for execution. It gets scheduled to run at `best time`, `later time`, `producer's discretion`. 
-		* carries the authority of the contract that sends them.
-		* generates notification about the success or failure.
+	* action has no guarantee for execution. It gets scheduled to run at `best time`, `later time`, `producer's discretion`. 
+	* carries the authority of the contract that sends them.
+	* generates notification about the success or failure.
 		
 	[SOURCE](https://developers.eos.io/eosio-cpp/docs/communication-model#section-deferred-communication)
 
