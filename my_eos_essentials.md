@@ -122,4 +122,8 @@
 	[SOURCE](https://eosio.stackexchange.com/questions/279/does-eos-db-support-text-based-queries)
 20. ### Are Tables/DBs stored in RAM and held by multiple block producers?
 	[SOURCE](https://eosio.stackexchange.com/questions/6/are-tables-dbs-stored-in-ram-and-held-by-multiple-block-producers)
+21. ### EOS.IO uses the Graphene engine and it was not turing-complete. So, what exactly has been added?
+	EOS.IO achieves the Turing completeness lacking in Graphene by including deferred transactions, which can be scheduled (and rescheduled) automatically by code. 
+	
+	[SOURCE](https://objectcomputing.com/resources/publications/sett/february-2018-eos-smart-contracts)
     
