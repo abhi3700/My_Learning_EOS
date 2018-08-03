@@ -64,6 +64,5 @@ It gets installed in the directory -
     }
   ```
 
-  
-
+  Now, match the output with the [Jungle-testnet network](http://jungle.cryptolions.io/) data e.g. last_irreversible_block_num.
   
