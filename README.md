@@ -9,6 +9,7 @@ EOS resources available here.
 * Getting Started With WebAssembly - https://tutorialzine.com/2017/06/getting-started-with-web-assembly
 * Compiling from C/C++ to WebAssembly - https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm
 * EOS IDE (browser-based) - https://tbfleming.github.io/cib/eos.html
+* EOS Dev tool by OracleChain - https://github.com/OracleChain/EOSDevHelper
 * EOS docs - https://www.eosdocs.io/
 * EOS setup - https://medium.com/b21official/eos-dawn-3-0-setup-instructions-for-developers-9434fcb64d2d
 * EOS governance - https://github.com/EOS-Mainnet/governance
