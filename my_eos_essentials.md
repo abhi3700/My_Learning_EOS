@@ -82,6 +82,11 @@
     
     For changing the owner key, link - https://www.youtube.com/watch?v=nyyE05qFc78
     
+<p align="center">
+  <img src="https://github.com/abhi3700/My_Learning_EOS/blob/master/Images/eos_owner_vs%20_active_key.jpg" width="300" height="290">
+</p>
+
+    
 15. ### Can eos account names be < 12 letters?
     Yes. To get a premium name, it has to be auctioned on the mainnet.
     
