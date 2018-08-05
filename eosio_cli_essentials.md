@@ -1,7 +1,7 @@
 # CLI commands for EOSIO 
 These are some of the important cli commands for an EOSIO developer:
 
-* [List of Nodes](https://github.com/greymass/eos-voter/blob/master/nodes.md)
+* ### [List of Nodes](https://github.com/greymass/eos-voter/blob/master/nodes.md)
 
 * ### `cleos` shortcut in bash-cmd
   `sudo ln -s "/usr/local/eosio/bin/cleos" /usr/local/bin/cleos`
