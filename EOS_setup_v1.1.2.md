@@ -66,3 +66,18 @@ It gets installed in the directory -
 
   Now, match the output with the [Jungle-testnet network](http://jungle.cryptolions.io/) data e.g. last_irreversible_block_num.
   
+### `eosio-cpp`
+Install it from [here](https://github.com/EOSIO/eosio.wasmsdk)
+
+Since v1.1.x eosiocpp has been discontinued from installation via [eos main repo](https://github.com/EOSIO/eos)
+
+Steps:
+* `git clone --recursive https://github.com/eosio/eosio.wasmsdk`
+* `cd eosio.wasmsdk`
+* `git checkout tags/v1.1.1`
+* `./build.sh EOS`
+* `sudo ./install.sh`
+* `eosio-cpp -help`   // check for the command
+
+The cli commands like eosio-cpp, eosio-cc, all are installed in "/usr/local/eosio.wasmsdk/bin/" location.
+
