@@ -2,7 +2,7 @@
 EOS resources available here.
 
 ## Development
-* Python API for EOS - https://github.com/Netherdrake/py-eos-api
+* Python-based Framework for EOS - https://github.com/tokenika/eosfactory
 * JavaScript API for EOS - https://github.com/EOSIO/eosjs-json
 * EOS API endpoint - https://t1api.eos.io/v1/docs/#api-_
 * Android client for EOS - https://github.com/plactal/EosCommander
