@@ -81,3 +81,19 @@ Steps:
 
 The cli commands like eosio-cpp, eosio-cc, all are installed in "/usr/local/eosio.wasmsdk/bin/" location.
 
+### Boost library installation
+**Aim:** To update the Boost library (downloaded from eos github).
+
+Get the latest library from this link - https://dl.bintray.com/boostorg/release/1.68.0/source/
+
+Then, follow the steps below: 
+* `wget -O boost_1_68_0.tar.gz https://dl.bintray.com/boostorg/release/1.68.0/source/boost_1_68_0.tar.gz`
+* `tar xzvf boost_1_68_0.tar.gz`
+* `cd boost_1_68_0/`
+* Then run "./bootstrap.sh" command it will take some time to build
+* Then run "sudo ./b2 install" to install boost.
+* The default installation location are "/usr/local/inlcude/boost" for header files and "/usr/local/lib" for compiled libraries
+* Now just move the boost include files (header files) to the "~/opt/boost/include/" using <br/>
+  `mv ~/opt/boost/boost_1_67_0/boost ~/opt/boost/include`
+
+Hence, updated!!.
