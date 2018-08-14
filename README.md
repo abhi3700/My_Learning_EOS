@@ -14,6 +14,7 @@ EOS resources available here.
 * EOS setup - https://medium.com/b21official/eos-dawn-3-0-setup-instructions-for-developers-9434fcb64d2d
 * EOS governance - https://github.com/EOS-Mainnet/governance
 * EOS Mainnet - https://github.com/EOS-Mainnet
+* File storage on EOS (Needs enough staking for CPU and NET) - https://github.com/grigio/eosfilestore
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
