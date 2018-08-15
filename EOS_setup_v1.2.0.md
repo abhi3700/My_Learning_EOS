@@ -5,4 +5,7 @@
 * `git submodule update --init --recursive`
 * `git checkout tags/v1.2.0`
 * `./eosio_build.sh`
-* `./eosio_install.sh`
+* `./eosio_install.sh`(created some error) => use <br/>
+  `cd build` & then `sudo make install`
+* 
+  
