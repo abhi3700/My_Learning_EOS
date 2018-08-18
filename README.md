@@ -38,6 +38,7 @@ EOS resources available here.
 * EOS account contract - https://github.com/eosiosg/account-detail-contract
 * EOS forum contract (voting, chat) - https://github.com/eoscanada/eosio.forum
 * EOS Relief contract - https://github.com/serganus/ReliefChain-smartcontracts
+* EOS Oraclize examples - https://github.com/oraclize/eos-examples
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
