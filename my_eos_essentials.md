@@ -156,7 +156,7 @@
 	[SOURCE](https://developers.eos.io/eosio-cpp/docs/communication-model#section-deferred-communication)
 
 24. ### How to store the big data in EOS?
-	It is not advisable to store the data in EOS blockchain. So, it can be stored in some centralized (AWS, Google,..) or decentralized storage system (IPFS, etc.) and then the link is stored on the chain.
+	It is not advisable to store the data in EOS blockchain. So, it can be stored in some centralized (AWS, Google, [Demux](https://medium.com/eosio/introducing-demux-deterministic-databases-off-chain-verified-by-the-eosio-blockchain-bd860c49b017),..) or decentralized storage system (IPFS, etc.) and then the link is stored on the chain.
 	
 	#### NOTE: The uniqueness of IPFS is it is hash-based content addressing. Unlike centralized storage system, any change in file content will generate a new link altogether.
 	
