@@ -15,6 +15,10 @@ EOS resources available here.
 * EOS governance - https://github.com/EOS-Mainnet/governance
 * EOS Mainnet - https://github.com/EOS-Mainnet
 * File storage on EOS (Needs enough staking for CPU and NET) - https://github.com/grigio/eosfilestore
+* EOS account creation -
+   * https://eos-account-creator.com/
+   * https://namevault.co/
+   * https://www.zeos.co/
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
@@ -45,4 +49,5 @@ EOS resources available here.
 * Object computing Blogs- [What is Graphene](https://objectcomputing.com/resources/publications/sett/march-2017-graphene-an-open-source-blockchain/) , [EOS Smart contracts](https://objectcomputing.com/resources/publications/sett/february-2018-eos-smart-contracts/)
 * Blogs, Videos, links Github Repository - https://github.com/EOS-Nation/Awesome-EOS
 * EOS voting stackexchange - https://eosio.stackexchange.com/questions/725/how-to-vote-using-cleos
+
 
