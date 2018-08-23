@@ -167,5 +167,7 @@
 	[SOURCE](https://eosio.stackexchange.com/questions/2096/eos-smart-contracts-and-big-data)
 	
 
+25. What is the logic behind 15% voting for the EOS chain? - TODO
+	[SOURCE](https://medium.com/@thomas.cox_39839/magic-15-unlocking-the-eosio-blockchain-91ec54f7b48d)
 
 
