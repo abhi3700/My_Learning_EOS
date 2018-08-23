@@ -19,6 +19,7 @@ EOS resources available here.
    * https://eos-account-creator.com/
    * https://namevault.co/
    * https://www.zeos.co/
+* EOS Dev Playground - https://playground.eosrio.io/register
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
