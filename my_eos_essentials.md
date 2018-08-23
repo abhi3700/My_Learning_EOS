@@ -158,6 +158,8 @@
 24. ### How to store the big data in EOS?
 	It is not advisable to store the data in EOS blockchain. So, it can be stored in some centralized (AWS, Google,..) or decentralized storage system (IPFS, etc.) and then the link is stored on the chain.
 	
+	#### NOTE: The uniqueness of IPFS is it is hash-based content addressing. Unlike centralized storage system, any change in file content will generate a new link altogether.
+	
 	2 types of data (to be stored elsewhere):<br/>
 		- Huge size <br/>
 		- Not required frequently
