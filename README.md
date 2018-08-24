@@ -19,6 +19,8 @@ EOS resources available here.
    * https://eos-account-creator.com/
    * https://namevault.co/
    * https://www.zeos.co/
+   * Using `cleos` tool - https://medium.com/@cc32d9/creating-a-new-eos-eosio-account-f88201dc1a
+      + (Refer) - https://eosio-nodeos.readme.io/docs/learn-about-wallets-keys-and-accounts-with-cleos
 * EOS Dev Playground - https://playground.eosrio.io/register
 
 ## Concepts (Official)
@@ -44,6 +46,7 @@ EOS resources available here.
 * EOS forum contract (voting, chat) - https://github.com/eoscanada/eosio.forum
 * EOS Relief contract - https://github.com/serganus/ReliefChain-smartcontracts
 * EOS Oraclize examples - https://github.com/oraclize/eos-examples
+* Create a EOS token - https://medium.com/coinmonks/how-to-create-eos-token-212696fe1aba
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
