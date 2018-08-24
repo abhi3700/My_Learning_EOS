@@ -22,6 +22,8 @@ EOS resources available here.
    * Using `cleos` tool - https://medium.com/@cc32d9/creating-a-new-eos-eosio-account-f88201dc1a
       + (Refer) - https://eosio-nodeos.readme.io/docs/learn-about-wallets-keys-and-accounts-with-cleos
 * EOS Dev Playground - https://playground.eosrio.io/register
+* `cleos` tool guide part 1 - https://www.youtube.com/watch?v=IVrwtVFRjj0
+* learn EOS wallets basics - https://www.eosdocs.io/dappdevelopment/wallets/
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
@@ -33,7 +35,7 @@ EOS resources available here.
     * Introduction - https://medium.com/eosio/introducing-eosio-dawn-4-0-f738c552879
     * Release - https://medium.com/eosio/eosio-dawn-4-0-release-b25661a49ac2
 
-## EOS SC Programming
+## EOS SC Coding
 * Getting started with contracts - https://github.com/EOSIO/eos/wiki/Tutorial-Getting-Started-With-Contracts
 * **Tutorials** - https://github.com/EOSIO/eos/wiki/Tutorials
 * **All Contracts examples** - https://github.com/EOSIO/eos/tree/master/contracts
@@ -47,6 +49,9 @@ EOS resources available here.
 * EOS Relief contract - https://github.com/serganus/ReliefChain-smartcontracts
 * EOS Oraclize examples - https://github.com/oraclize/eos-examples
 * Create a EOS token - https://medium.com/coinmonks/how-to-create-eos-token-212696fe1aba
+* How to build an EOS application - https://freestartupkits.com/articles/technology/cryptocurrency-news-and-tips/how-to-build-an-eos-application-eosio-1/
+* Project Oasis (entire game built on EOS) - https://medium.com/infinitexlabs/the-ultimate-end-to-end-eos-dapp-development-tutorial-part-1-2f99c512086c
+
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
