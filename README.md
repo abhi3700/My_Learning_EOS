@@ -51,6 +51,7 @@ EOS resources available here.
 * Create a EOS token - https://medium.com/coinmonks/how-to-create-eos-token-212696fe1aba
 * How to build an EOS application - https://freestartupkits.com/articles/technology/cryptocurrency-news-and-tips/how-to-build-an-eos-application-eosio-1/
 * Project Oasis (entire game built on EOS) - https://medium.com/infinitexlabs/the-ultimate-end-to-end-eos-dapp-development-tutorial-part-1-2f99c512086c
+* Learn EOS #tutorials - https://cmichel.io/categories/learneos
 
 
 ## Blogs, News articles
