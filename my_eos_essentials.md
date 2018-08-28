@@ -167,10 +167,10 @@
 	[SOURCE](https://eosio.stackexchange.com/questions/2096/eos-smart-contracts-and-big-data)
 	
 
-25. What is the logic behind 15% voting for the EOS chain? - TODO
+25. ### What is the logic behind 15% voting for the EOS chain? - TODO
 	[SOURCE](https://medium.com/@thomas.cox_39839/magic-15-unlocking-the-eosio-blockchain-91ec54f7b48d)
 
-26. How to know that the contract file is changed?
+26. ### How to know that the contract file is changed?
 	Contract hash is generated during each deployment onto the blockchain.
 	E.g. 
 	Contract Hash：01bd013c4f8be142b9cadf511f007c6ac201c068d529f01ed5661803c575befa
@@ -179,14 +179,14 @@
 
 	For details, click [here](https://eospark.com/MainNet/contract/eosio.token)
 	
-27. Can I view how a eos block looks like?
+27. ### Can I view how a eos block looks like?
 	Click here (https://scaneos.io/block/13252366/) to view.
 	
-28. Can I view how a eos transaction looks like?
+28. ### Can I view how a eos transaction looks like?
 	Click [here](https://scaneos.io/transaction/4edf2d81204ba6ae9c3bd90aa5ec46a613648d20bb305155e7d2fed13b845652/) to view.
 
-29. Can I view how an eos contract looks like?
+29. ### Can I view how an eos contract looks like?
 	Click [here](https://eospark.com/MainNet/contract/eosiomeetone) to view.
 	
-29. Can I view how an eos account looks like?
+30. ### Can I view how an eos account looks like?
 	Click [here](https://eospark.com/MainNet/Account/eosiomeetone) to view.
