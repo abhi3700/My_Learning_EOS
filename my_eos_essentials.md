@@ -180,7 +180,7 @@
 	For details, click [here](https://eospark.com/MainNet/contract/eosio.token)
 	
 27. ### Can I view how a eos block looks like?
-	Click here (https://scaneos.io/block/13252366/) to view.
+	Click [here](https://scaneos.io/block/13252366/) to view.
 	
 28. ### Can I view how a eos transaction looks like?
 	Click [here](https://scaneos.io/transaction/4edf2d81204ba6ae9c3bd90aa5ec46a613648d20bb305155e7d2fed13b845652/) to view.
