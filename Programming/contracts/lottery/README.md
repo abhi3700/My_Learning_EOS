@@ -1,6 +1,5 @@
-# Lottery game
+# Lottery Game
 ## About
-
 
 ## Contract structure
 
