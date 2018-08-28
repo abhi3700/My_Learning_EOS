@@ -87,10 +87,10 @@
 </p>
 
     
-15. ### Can eos account names be < 12 letters?
+15. ### Can eos account names be > 12 characters?
     Yes. To get a premium name, it has to be auctioned on the mainnet.
     
-    A/c names like ```eosio```, ```b1``` (created during bios contract at boot time)
+    A/c names like `eosio`, `b1` (created during bios contract at boot time)
 
 16. ### How to import your existing EOS wallet (already created on Mainnet) into local PC/laptop?
     Follow these 2 steps: 
