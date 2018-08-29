@@ -1,9 +1,9 @@
 ### Follow the steps below:
 * `git clone https://github.com/EOSIO/eos.git --recursive` [NOT NEEDED, Already cloned]
 * `cd eos`
-* `git pull https://github.com/EOSIO/eos.git v1.2.0`
+* `git pull https://github.com/EOSIO/eos.git v1.2.3`
 * `git submodule update --init --recursive`
-* `git checkout tags/v1.2.0`
+* `git checkout tags/v1.2.3`
 * `./eosio_build.sh`
 ```
         Checking boost library installation.
