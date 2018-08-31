@@ -50,7 +50,7 @@ NOTE: If (without any wallet name):
 * Lock wallet  
   - All wallets using `cleos wallet lock_all`
   - Lock a particular wallet using `cleos wallet lock -n test1`
-* Import account into a wallet using `$ cleos wallet import` -->
+* Import an account (already created) into a wallet - `default` (say) using `$ cleos wallet import` -->
   ```
   private key: imported private key for: EOS5SKc12RwksCWkK9e2rzNJkQfZ27BGxTFdm5v8fDrLvkrawaJK9
   ```
