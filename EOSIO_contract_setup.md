@@ -27,7 +27,11 @@ Follow these steps:
       $ eosiocpp -g hello.abi hello.cpp
       $ cleos set contract abhitest1234 ../hello -p abhitest1234@active  (ensure that the wallet is unlocked for this step)
       ```
-    - `comptract.sh` (follow [this]() how to create one)
+    - `comptract.sh` (follow [this](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#follow-this-steps--) how to create one)
+* Now, push a action `hi`(say) in this contract - 
+  ```
+  cleos push action abhitest1234 hi '["abhijit"]' -p abhitest1234@active
+  ```
  
   
   
