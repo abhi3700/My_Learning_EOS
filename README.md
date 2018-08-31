@@ -24,6 +24,13 @@ EOS resources available here.
 * EOS Dev Playground - https://playground.eosrio.io/register
 * `cleos` tool guide part 1 - https://www.youtube.com/watch?v=IVrwtVFRjj0
 * learn EOS wallets basics - https://www.eosdocs.io/dappdevelopment/wallets/
+* Mainnet API nodes - [Source](https://github.com/greymass/eos-voter/blob/master/nodes.md#eos-nodes)
+* Testnet API nodes - [Source](http://jungle.cryptolions.io/#). To get the link, click on the HTTP column values. 
+  - http://dev.cryptolions.io:38888
+  - http://52.199.125.75:8888
+  - http://jungle.cryptolions.io:18888
+  - http://52.88.191.27:8888
+
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
