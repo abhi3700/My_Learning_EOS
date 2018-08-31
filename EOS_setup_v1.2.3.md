@@ -298,8 +298,8 @@ Install the project...
 -- Installing: /usr/local/eosio/bin/eosiocpp
 ```
 * add sublink for `cleos`, `keosd`, `nodeos`, `eosiocpp` using <br/>
-        `sudo ln -s "/usr/local/eosio/bin/cleos" /usr/local/bin/cleos
+   `sudo ln -s "/usr/local/eosio/bin/cleos" /usr/local/bin/cleos`
         
-        same for others.....
+    same for others.....
 * check for compiling "hello.cpp" using `eosiocpp -o hello.wast hello.cpp`  & `eosiocpp -g hello.abi hello.cpp`
   
