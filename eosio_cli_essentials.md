@@ -27,9 +27,16 @@ These are some of the important cli commands for an EOSIO developer:
   
    #### ```rate = quote_balance/base_balance```
 * ### Push a contract 
+
+  Ensure, that the wallet is unlocked.
+  #### NOTE: It is not necessary to keep the _`contract name`_ & _`account name`_ same.
   ```
   # for testnet
   $ cleos set contract abhitest1234 ../hello -p abhitest1234@active
+  ```
+* ### Push an action to a contract
+  ```
+  $ cleos push action abhitest1234 hi '["abhijit"]' -p abhitest1234@active
   ```
 
 
