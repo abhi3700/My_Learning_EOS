@@ -60,7 +60,8 @@ EOS resources available here.
 * Project Oasis (entire game built on EOS) - https://medium.com/infinitexlabs/the-ultimate-end-to-end-eos-dapp-development-tutorial-part-1-2f99c512086c
 * Learn EOS #tutorials - https://cmichel.io/categories/learneos
 * Understanding the eosio.token contract - https://medium.com/coinmonks/understanding-the-eosio-token-contract-87466b9fdca9
-
+* Smart City on Steroids - https://github.com/serganus/scos-smartcontract
+* Blog dApp - https://github.com/TaraTritt/eos-blog-dapp
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
