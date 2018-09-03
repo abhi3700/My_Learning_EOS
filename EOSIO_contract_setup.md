@@ -1,10 +1,10 @@
 ## TESTNET (Local)
 Follow these steps:
 * [OPTIONAL] Modify the config.ini file: (/home/abhijit/.local/share/eosio/nodeos/config/config.ini
-)
+) for nodeos
   - edit using `sudo nano /home/abhijit/.local/share/eosio/nodeos/config/config.ini`
   - these parameters are (optional) - 
-    + http-server-address = 127.0.0.1:8888 (u can change the port no. to 8900)
+    + http-server-address = 127.0.0.1:8888 (& for wallet-url set http-server-address= 127.0.0.1:8900 in keosd `config.ini` )
     + genesis-json = /mnt/e/eos/tutorials/bios-boot-tutorial/genesis.json
     + enable-stale-production = true (set it to true)
     + plugins: add all
@@ -16,7 +16,10 @@ Follow these steps:
   - `rm -rf data` (delete the data folder)
   - `$ nodeos --delete-all-blocks -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin`
   - If any error still persists, repeat these 3 procedures (deleting the data & start again).
-  
+* Check if working correctly,
+  - `cleos get info`
+  - `cleos get account eosio`
+  - `cleos get account eosio -j` in JSON format.
   
 ## TESTNET (Public)
 Follow these steps: 
