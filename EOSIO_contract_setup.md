@@ -9,7 +9,9 @@ Follow these steps:
     + enable-stale-production = true (set it to true)
     + plugins: add all
 * start block auto-production in a terminal using <br/>
-  `$ nodeos --delete-all-blocks -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin`
+  `$ nodeos --delete-all-blocks -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin --contracts-console`
+  
+  NOTE: `--contracts-console` has been added in order to show the output on the console both on nodeos terminal & cleos terminal.
   
 * If any error, follow these steps:
   - `cd /home/abhijit/.local/share/eosio/nodeos/`
@@ -20,6 +22,24 @@ Follow these steps:
   - `cleos get info`
   - `cleos get account eosio`
   - `cleos get account eosio -j` in JSON format.
+* Load the bios contract
+  ```
+  cleos set contract eosio ../eosio.bios -p eosio@active
+  ```
+* Create accounts
+
+  Ensure the wallet is unlocked.
+  ```
+  cleos create account eosio user1 [user1's Owner public key] [user1's Active public key]
+  ```
+* Push contract
+  ```
+  cleos set contract user1 .../hello -p user1@active 
+  ```
+* Push action
+  ```
+  cleos push action hi '["abhijit"]' user1@active
+  ```
   
 ## TESTNET (Public)
 Follow these steps: 
