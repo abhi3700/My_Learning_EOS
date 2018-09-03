@@ -190,3 +190,11 @@
 	
 30. ### Can I view how an eos account looks like?
 	Click [here](https://eospark.com/MainNet/Account/eosiomeetone) to view.
+	
+31. ### What is an EOS wallet?
+	A wallet consists of key pair(s) - public & private. The key-pairs could be any no. e.g. - 1, 2, 3, .. (any no. of pairs)
+	E.g. key 1 - public & private.
+			 key 2 - public & private.
+			 .....
+			 ....
+			 
