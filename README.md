@@ -64,6 +64,11 @@ EOS resources available here.
 * Blog dApp - https://github.com/TaraTritt/eos-blog-dapp
 * Ping EOS contract - https://steemit.com/devs/@eos-asia/eos-smart-contracts-part-1-getting-started-ping-equivalent-in-eos
 * Todo list contract - https://steemit.com/eos/@eos-asia/part-2-building-a-to-do-list-with-eos-or-working-with-persistent-data-in-eos
+* Oraclize EOS:
+  - [eos-api](https://github.com/oraclize/eos-api)
+  - [Oraclize Documentation](http://docs.oraclize.it/#eos)
+  - []()
+  
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
