@@ -30,6 +30,8 @@ These are some of the important cli commands for an EOSIO developer:
 * #### Create account 
   - on Testnet/Mainnet `cleos create account drifeoneteam dev111111111 EOS6aD1hj7hcqktskyMtFKLti62MSaQV4vgb1GMES5cvLmj8s8Jip EOS5auLgLhM3uYWaDEeESKUMfqYsnNcUj2G9xSDuLbmEj4PGfBupL`
   - on local node `cleos create account eosio user1 EOS6aD1hj7hcqktskyMtFKLti62MSaQV4vgb1GMES5cvLmj8s8Jip EOS5auLgLhM3uYWaDEeESKUMfqYsnNcUj2G9xSDuLbmEj4PGfBupL`
+  - using shell script: click [here](https://github.com/EOS-Nation/create-accounts/blob/master/create-account.sh)
+  
     
     #### NOTE: For local node,
     + key-pair of `eosio` has to imported into the wallet being used.
