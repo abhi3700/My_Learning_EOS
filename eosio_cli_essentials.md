@@ -23,7 +23,7 @@ These are some of the important cli commands for an EOSIO developer:
 
 * #### Unlock wallet using `cleos wallet unlock -n test1`
 
-* #### List wallets using `cleos wallet list`. One with asterisk * means that the wallet is unlocked.
+* #### List wallets using `cleos wallet list`. Wallets with asterisk * means that it is unlocked.
 
 * #### Import keys into the wallet using `cleos wallet import -n test1`
 
