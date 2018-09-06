@@ -68,6 +68,8 @@ EOS resources available here.
   - [eos-api](https://github.com/oraclize/eos-api)
   - [Oraclize Documentation](http://docs.oraclize.it/#eos)
   - []()
+* EOS contract examples (Table, Transfer-award, etc.) -  https://github.com/itleaks/eos-contract
+* 
   
 
 ## Blogs, News articles
