@@ -32,6 +32,9 @@ EOS resources available here.
   - http://52.88.191.27:8888
 * EOS block explorer -
   - https://eostracker.io
+  - https://bloks.io/
+  - https://scaneos.io/
+  - https://eospark.com/
 
 
 ## Concepts (Official)
