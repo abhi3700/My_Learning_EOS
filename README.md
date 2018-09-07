@@ -61,7 +61,9 @@ EOS resources available here.
 * Learn EOS #tutorials - https://cmichel.io/categories/learneos
 * Understanding the eosio.token contract - https://medium.com/coinmonks/understanding-the-eosio-token-contract-87466b9fdca9
 * Smart City on Steroids - https://github.com/serganus/scos-smartcontract
-* Blog dApp - https://github.com/TaraTritt/eos-blog-dapp
+* Blog dApp - 
+  - https://github.com/TaraTritt/eos-blog-dapp
+  - https://github.com/EOSIO/eosio-project-demux-example/tree/master/eosio_docker/contracts/blog
 * Ping EOS contract - https://steemit.com/devs/@eos-asia/eos-smart-contracts-part-1-getting-started-ping-equivalent-in-eos
 * Todo list contract - https://steemit.com/eos/@eos-asia/part-2-building-a-to-do-list-with-eos-or-working-with-persistent-data-in-eos
 * Oraclize EOS:
