@@ -30,6 +30,8 @@ EOS resources available here.
   - http://52.199.125.75:8888
   - http://jungle.cryptolions.io:18888
   - http://52.88.191.27:8888
+* EOS block explorer -
+  - https://eostracker.io
 
 
 ## Concepts (Official)
