@@ -48,18 +48,13 @@ EOS resources available here.
     * Release - https://medium.com/eosio/eosio-dawn-4-0-release-b25661a49ac2
 
 ## EOS SC Coding
-* Getting started with contracts - https://github.com/EOSIO/eos/wiki/Tutorial-Getting-Started-With-Contracts
-* **Tutorials** - https://github.com/EOSIO/eos/wiki/Tutorials
-* **All Contracts examples** - https://github.com/EOSIO/eos/tree/master/contracts
-* _Hello world_ - https://github.com/EOSIO/eos/wiki/Tutorials#3-smart-contract-hello-world
-* _Currency contract_ - https://github.com/EOSIO/eos/wiki/Tutorials#2-currency-contract-walkthrough
-* _Tic-tac-toe contract_ - https://github.com/EOSIO/eos/wiki/Tutorials#4-tic-tac-toe , [See also](https://github.com/andriantolie/tic_tac_toe/blob/master/tic_tac_toe.cpp)
-* _Shop contract_ - https://github.com/michaeljyeates/eosshop/blob/master/shop.cpp
+* EOS Contract Development tool (replaced the old code libraries along with eosio-cpp, etc. tools) - https://github.com/EOSIO/eosio.cdt 
+* Shop contract - https://github.com/michaeljyeates/eosshop/blob/master/shop.cpp
 * EOSIO coding standards by Thomas Cox - https://github.com/EOSIO/eos/wiki/Coding-Standards
-* EOS account contract - https://github.com/eosiosg/account-detail-contract
-* EOS forum contract (voting, chat) - https://github.com/eoscanada/eosio.forum
-* EOS Relief contract - https://github.com/serganus/ReliefChain-smartcontracts
-* EOS Oraclize examples - https://github.com/oraclize/eos-examples
+* Account contract - https://github.com/eosiosg/account-detail-contract
+* forum contract (voting, chat) - https://github.com/eoscanada/eosio.forum
+* Relief contract - https://github.com/serganus/ReliefChain-smartcontracts
+* Oraclize examples - https://github.com/oraclize/eos-examples
 * Create a EOS token - https://medium.com/coinmonks/how-to-create-eos-token-212696fe1aba
 * How to build an EOS application - https://freestartupkits.com/articles/technology/cryptocurrency-news-and-tips/how-to-build-an-eos-application-eosio-1/
 * Project Oasis (entire game built on EOS) - https://medium.com/infinitexlabs/the-ultimate-end-to-end-eos-dapp-development-tutorial-part-1-2f99c512086c
