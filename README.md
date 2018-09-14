@@ -71,7 +71,7 @@ EOS resources available here.
   - [Oraclize Documentation](http://docs.oraclize.it/#eos)
   - []()
 * EOS contract examples (Table, Transfer-award, etc.) -  https://github.com/itleaks/eos-contract
-* 
+* incoming transfer rules for transaction in memo - https://github.com/eosauthority/incoming-transfer-rules
   
 
 ## Blogs, News articles
