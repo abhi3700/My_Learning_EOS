@@ -48,6 +48,7 @@ EOS resources available here.
     * Release - https://medium.com/eosio/eosio-dawn-4-0-release-b25661a49ac2
 
 ## EOS SC Coding
+* [my_eosio_essentials](https://github.com/abhi3700/My_Learning_EOS/blob/master/my_eosio_essentials.md)
 * EOS Contract Development tool (replaced the old code libraries along with eosio-cpp, etc. tools) - https://github.com/EOSIO/eosio.cdt 
 * Shop contract - https://github.com/michaeljyeates/eosshop/blob/master/shop.cpp
 * EOSIO coding standards by Thomas Cox - https://github.com/EOSIO/eos/wiki/Coding-Standards
@@ -72,6 +73,8 @@ EOS resources available here.
   - []()
 * EOS contract examples (Table, Transfer-award, etc.) -  https://github.com/itleaks/eos-contract
 * incoming transfer rules for transaction in memo - https://github.com/eosauthority/incoming-transfer-rules
+* EOS Pixels contract - https://github.com/eosasia/eospixels
+* EOS Smart contract bugs (Be careful, for dev reference) - https://github.com/EOSArgentina/eos_known_attacks
   
 
 ## Blogs, News articles
