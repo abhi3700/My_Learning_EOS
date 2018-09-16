@@ -75,6 +75,7 @@ EOS resources available here.
 * incoming transfer rules for transaction in memo - https://github.com/eosauthority/incoming-transfer-rules
 * EOS Pixels contract - https://github.com/eosasia/eospixels
 * EOS Smart contract bugs (Be careful, for dev reference) - https://github.com/EOSArgentina/eos_known_attacks
+* Pet Smart contract - https://gist.github.com/leordev/c927cd919f3a84be368b2bc5e2aee883
   
 
 ## Blogs, News articles
