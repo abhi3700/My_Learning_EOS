@@ -76,6 +76,8 @@ EOS resources available here.
 * EOS Pixels contract - https://github.com/eosasia/eospixels
 * EOS Smart contract bugs (Be careful, for dev reference) - https://github.com/EOSArgentina/eos_known_attacks
 * Pet Smart contract - https://gist.github.com/leordev/c927cd919f3a84be368b2bc5e2aee883
+* Shop Smart contract - https://github.com/michaeljyeates/eosshop
+* EOS timelock contract - https://github.com/michaeljyeates/eos-timelock
   
 
 ## Blogs, News articles
