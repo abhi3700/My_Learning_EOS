@@ -50,8 +50,8 @@ EOS resources available here.
 ## EOS SC Coding
 * [my_eosio_essentials](https://github.com/abhi3700/My_Learning_EOS/blob/master/my_eosio_essentials.md)
 * EOS Contract Development tool (replaced the old code libraries along with eosio-cpp, etc. tools) - https://github.com/EOSIO/eosio.cdt 
-* Shop contract - https://github.com/michaeljyeates/eosshop/blob/master/shop.cpp
-* EOSIO coding standards by Thomas Cox - https://github.com/EOSIO/eos/wiki/Coding-Standards
+* Shop contract - https://github.com/michaeljyeates/eosshop/
+* EOSIO coding standards by Thomas Cox - https://developers.eos.io/eosio-home/docs/coding-standards
 * Account contract - https://github.com/eosiosg/account-detail-contract
 * forum contract (voting, chat) - https://github.com/eoscanada/eosio.forum
 * Relief contract - https://github.com/serganus/ReliefChain-smartcontracts
@@ -76,7 +76,6 @@ EOS resources available here.
 * EOS Pixels contract - https://github.com/eosasia/eospixels
 * EOS Smart contract bugs (Be careful, for dev reference) - https://github.com/EOSArgentina/eos_known_attacks
 * Pet Smart contract - https://gist.github.com/leordev/c927cd919f3a84be368b2bc5e2aee883
-* Shop Smart contract - https://github.com/michaeljyeates/eosshop
 * EOS timelock contract - https://github.com/michaeljyeates/eos-timelock
   
 
