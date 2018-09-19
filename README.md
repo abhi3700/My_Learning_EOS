@@ -83,6 +83,13 @@ EOS resources available here.
 * EOS security essentials - https://github.com/slowmist/eos-smart-contract-security-best-practices
 * ITE DAPP contract code - https://github.com/itecreator/eos-ite
 * EOS Hack Crypto exchange payment channel [README](https://github.com/DucaturFw/EOSHack_06_2018_smart_contract_eos/blob/master/README.md)-  https://github.com/DucaturFw/EOSHack_06_2018_smart_contract_eos/blob/master/src/hello.cpp
+* ducor EOS contracts - https://github.com/DucaturFw/ducor-eos/tree/master/contracts
+* A random number generator smart contract - https://github.com/OracleChain/EOSDACRandom
+* Poll eos contract - https://github.com/sim31/polleos
+* Lottery contract - https://github.com/jsonsnow/lottery
+* Referendum voting contract (A Smart Contract to allow staked users to vote upon a change of the Constitution.) - https://github.com/eos42/eos-referendum
+
+[#continue](https://github.com/search?p=3&q=eos+contract&type=Repositories)
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
