@@ -77,7 +77,12 @@ EOS resources available here.
 * EOS Smart contract bugs (Be careful, for dev reference) - https://github.com/EOSArgentina/eos_known_attacks
 * Pet Smart contract - https://gist.github.com/leordev/c927cd919f3a84be368b2bc5e2aee883
 * EOS timelock contract - https://github.com/michaeljyeates/eos-timelock
-  
+* EOS button contract - https://github.com/eosbutton/eosbutton-contract
+* EOS voting contract - https://github.com/EOSMore/eos-contracts/tree/dev/more.voting [Read first](https://github.com/EOSMore/eos-contracts/blob/dev/README.md)
+* EOS moment contract - https://github.com/EOSMore/eos-contracts/tree/dev/more.moment [Read first](https://github.com/EOSMore/eos-contracts/blob/dev/README.md)
+* EOS security essentials - https://github.com/slowmist/eos-smart-contract-security-best-practices
+* ITE DAPP contract code - https://github.com/itecreator/eos-ite
+* EOS Hack Crypto exchange payment channel [README](https://github.com/DucaturFw/EOSHack_06_2018_smart_contract_eos/blob/master/README.md)-  https://github.com/DucaturFw/EOSHack_06_2018_smart_contract_eos/blob/master/src/hello.cpp
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
