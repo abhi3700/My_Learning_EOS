@@ -88,8 +88,16 @@ EOS resources available here.
 * Poll eos contract - https://github.com/sim31/polleos
 * Lottery contract - https://github.com/jsonsnow/lottery
 * Referendum voting contract (A Smart Contract to allow staked users to vote upon a change of the Constitution.) - https://github.com/eos42/eos-referendum
+* Contract for CPU & NET lease on EOS - https://github.com/EOSLaoMao/BankofStaked-CE
+* Contract for making immutable w/o losing mutability - https://github.com/xJonathanLEI/eosyield
+* Advanced EOS examples - https://github.com/MitchPierias/Advanced-EOS-Examples
+* Custom Token tracking smart contract for EOS - https://github.com/greymass/customtokens
+* EOS Spore mini game - https://github.com/MNLBlockDevs/eos-simplepacman-contract
+* EOS dev contracts - https://github.com/decentrawise/eos-dev
+* Ping contract - https://github.com/DmsChrisPena/eos-smart-contract-info
+* EOS b-mail SmartContracts - https://github.com/elmato/SmartContracts
 
-[#continue](https://github.com/search?p=3&q=eos+contract&type=Repositories)
+[#continue](https://github.com/search?p=5&q=eos+contract&type=Repositories)
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
