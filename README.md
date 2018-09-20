@@ -97,7 +97,20 @@ EOS resources available here.
 * Ping contract - https://github.com/DmsChrisPena/eos-smart-contract-info
 * EOS b-mail SmartContracts - https://github.com/elmato/SmartContracts
 
-[#continue](https://github.com/search?p=5&q=eos+contract&type=Repositories)
+* eos-play (by someone) contains some basics, utility codebase - https://github.com/leordev/eos-play
+* Stake for me - https://github.com/xJonathanLEI/stakeforme
+* EOS payout (**EOS tokens** to partners) division contract - https://github.com/raphaelgodro/eospartners/blob/master/contracts/eoscomm/
+* unionramgame contract - https://github.com/unionramgame/contract
+* Recruit contract - https://github.com/liusong00621/contract
+* Resource exchange (lease, rent, income-generate) for EOS - https://github.com/alepacheco/resource_exchange
+* unknown game - https://github.com/waterhkzhong/doudizhu-eos-contract
+* Model tolls gates for vehicles, ride - https://github.com/gravitt8460/eos_tolls
+* Burning RAM - https://github.com/EOSeco-team/BurningRam
+* EOS nameswaps - https://github.com/StarryJapanNight/eosnameswaps
+* DEX contract - https://github.com/waksana/exchange
+* CMS (content management system) contract - https://github.com/netkiller/eos
+* Social contract - https://github.com/EOS-Phos/contracts
+[#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
