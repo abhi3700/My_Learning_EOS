@@ -118,4 +118,9 @@ EOS resources available here.
 * Blogs, Videos, links Github Repository - https://github.com/EOS-Nation/Awesome-EOS
 * EOS voting stackexchange - https://eosio.stackexchange.com/questions/725/how-to-vote-using-cleos
 
-
+## TO_READ
+* https://eosio.stackexchange.com/questions/2247/what-is-the-best-way-of-storing-data-on-eos-blockchain
+* https://eosio.stackexchange.com/questions/tagged/database?sort=frequent&pageSize=15
+* https://eosio.stackexchange.com/questions/2047/what-is-the-chainbase-database-used-for/2060
+* https://eosio.stackexchange.com/questions/6/are-tables-dbs-stored-in-ram-and-held-by-multiple-block-producers?rq=1
+* https://eosio.stackexchange.com/questions/233/how-do-you-define-who-pays-and-who-stores-on-your-smart-contract-tables?rq=1
