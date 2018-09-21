@@ -124,3 +124,4 @@ EOS resources available here.
 * https://eosio.stackexchange.com/questions/2047/what-is-the-chainbase-database-used-for/2060
 * https://eosio.stackexchange.com/questions/6/are-tables-dbs-stored-in-ram-and-held-by-multiple-block-producers?rq=1
 * https://eosio.stackexchange.com/questions/233/how-do-you-define-who-pays-and-who-stores-on-your-smart-contract-tables?rq=1
+* https://eosio.stackexchange.com/questions/2389/the-relationship-between-the-multi-index-db-and-block-chain
