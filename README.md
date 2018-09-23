@@ -87,6 +87,8 @@ EOS resources available here.
 * A random number generator smart contract - https://github.com/OracleChain/EOSDACRandom
 * Poll eos contract - https://github.com/sim31/polleos
 * Lottery contract - https://github.com/jsonsnow/lottery
+* Lottery contract - https://github.com/trentlotteryteam/trentLotteryContract
+* Lottery contract - https://github.com/lottery100/lottery100/
 * Referendum voting contract (A Smart Contract to allow staked users to vote upon a change of the Constitution.) - https://github.com/eos42/eos-referendum
 * Contract for CPU & NET lease on EOS - https://github.com/EOSLaoMao/BankofStaked-CE
 * Contract for making immutable w/o losing mutability - https://github.com/xJonathanLEI/eosyield
@@ -96,7 +98,14 @@ EOS resources available here.
 * EOS dev contracts - https://github.com/decentrawise/eos-dev
 * Ping contract - https://github.com/DmsChrisPena/eos-smart-contract-info
 * EOS b-mail SmartContracts - https://github.com/elmato/SmartContracts
-
+* exchange cpp file - https://github.com/Dylan-Phoon/Eostrex-Smart-Contract/blob/master/exchange.cpp
+* Understanding Bancor contract - https://github.com/HorusPay/eos-smart-contracts/tree/master/bancor
+* dummy txn without sending tokens - https://github.com/cc32d9/eos.watchdoggiee
+* Simple MMO game - https://github.com/alerdenisov/eos-tank-demo
+* Charity contract - https://github.com/ofo/charity
+* CRUD - https://github.com/eostea/eos-contracts/tree/master/test_da
+* say love - https://github.com/eostea/eos-contracts/tree/master/lover
+* PandaFun game -  https://github.com/pandafunx/pandafun
 * eos-play (by someone) contains some basics, utility codebase - https://github.com/leordev/eos-play
 * Stake for me - https://github.com/xJonathanLEI/stakeforme
 * EOS payout (**EOS tokens** to partners) division contract - https://github.com/raphaelgodro/eospartners/blob/master/contracts/eoscomm/
