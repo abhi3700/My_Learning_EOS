@@ -1,4 +1,27 @@
-## TESTNET (Local)
+# IDE
+## Sublime Text - Editor
+Install all the packages (ticked ones) in the ST3 following [this](https://github.com/abhi3700/my_coding_toolkit/blob/master/sublime_all.md).
+
+Now, follow this steps:
+* And now, open a workspace inside which all the libs, other example contracts are available. 
+* Import any ext. files using this - 
+  - All folder suggestions appear. 
+  ```cpp
+  #include <../>
+  ```
+  - Goto the folder say eosiolib and now again files inside appear as suggestions.
+  ```cpp
+  #include <../eosiolib/>
+  ```
+  - Goto the desired file.
+  ```cpp
+  #include <../eosiolib/eosio.hpp>
+  ```
+  - DONE!
+ * Now, carry on with the eosio_coding_essentials, following [this](https://github.com/abhi3700/My_Learning_EOS/blob/master/my_eosio_essentials.md)
+
+## Debugger, Compiler
+### TESTNET (Local)
 Follow these steps:
 * [OPTIONAL] Modify the config.ini file: (/home/abhijit/.local/share/eosio/nodeos/config/config.ini
 ) for nodeos
@@ -41,7 +64,7 @@ Follow these steps:
   cleos push action hi '["abhijit"]' user1@active
   ```
   
-## TESTNET (Public)
+### TESTNET (Public)
 Follow these steps: 
 * Join the testnet - http://jungle.cryptolions.io/#home
 * Create account - http://jungle.cryptolions.io/#account
@@ -78,11 +101,11 @@ Follow these steps:
  
   
   
-## MAINNET
-## Wallet
+### MAINNET
+### Wallet
 The wallet-url is the same as http-server-address i.e. set in the "/home/abhijit/eosio-wallet/config.ini" file.
 Also time-out (the wallet remains unlocked without any activity) is 900 sec i.e. 15 mins.
-### on Local node
+#### on Local node
 NOTE: If (without any wallet name):
         this means that it is a `default` wallet
         
@@ -99,7 +122,7 @@ NOTE: If (without any wallet name):
   ```
 
 
-### on Mainnet
+#### on Mainnet
 Like greymass wallet, where the private key is protected using a password.
 
 
