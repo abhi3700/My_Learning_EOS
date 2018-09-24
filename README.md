@@ -119,6 +119,8 @@ EOS resources available here.
 * DEX contract - https://github.com/waksana/exchange
 * CMS (content management system) contract - https://github.com/netkiller/eos
 * Social contract - https://github.com/EOS-Phos/contracts
+* Social platform by Golos (for different contracts, view the branches)- https://github.com/GolosChain/golos-smart
+
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
 ## Blogs, News articles
