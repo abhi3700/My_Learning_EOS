@@ -50,6 +50,7 @@ EOS resources available here.
 ## EOS SC Coding
 * [my_eosio_essentials](https://github.com/abhi3700/My_Learning_EOS/blob/master/my_eosio_essentials.md)
 * EOS Contract Development tool (replaced the old code libraries along with eosio-cpp, etc. tools) - https://github.com/EOSIO/eosio.cdt 
+* Tutorial on writing smart contracts on EOS - https://github.com/itleaks/eos-contract
 * Shop contract - https://github.com/michaeljyeates/eosshop/
 * EOSIO coding standards by Thomas Cox - https://developers.eos.io/eosio-home/docs/coding-standards
 * Account contract - https://github.com/eosiosg/account-detail-contract
