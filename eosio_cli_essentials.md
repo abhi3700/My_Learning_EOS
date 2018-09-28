@@ -66,6 +66,12 @@ These are some of the important cli commands for an EOSIO developer:
   
    #### ```rate = quote_balance/base_balance```
 
+* set contract
+ `$ cleos set contract eosio build/contracts/eosio.bios -p eosio` is equivalent to 
+	```
+	$ cleos push action eosio setcode '[eosio.bios.wasm]' -p eosio
+	$ cleos push action eosio setabi eosio '[eosio.bios.abi] -p eosio
+	```
 
 
 
