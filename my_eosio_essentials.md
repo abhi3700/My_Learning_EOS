@@ -81,7 +81,7 @@
 
 
 ## References
-* EOSIO Smart Contract Database Walkthrough - https://blog.csdn.net/yunqishequ1/article/details/80362507
+* [EOSIO Smart Contract Database Walkthrough](https://blog.csdn.net/yunqishequ1/article/details/80362507)
 
 
 
