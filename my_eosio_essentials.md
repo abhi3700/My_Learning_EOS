@@ -66,5 +66,22 @@
 	- 
 
 	[Source](https://blog.csdn.net/itleaks/article/details/80743836)
-* 
+* #### Understanding EOS multi-index table
+	- data can be modified while stored on the RAM.
+	- New content often uses `emplace` constructors to add database objects.
+	- Define the database object, where 
+		+ the first parameter is the owner of the contract `_self`, 
+		+ the second variable is the database `payer`, that is, who the database is, and under which account the database is stored.
+	- The `emplace function` takes two arguments: 
+		+ one payer, and 
+		+ one lamada expression. 
+		
+	This structure is fixed.
+	- 
+
+
+## References
+* EOSIO Smart Contract Database Walkthrough - https://blog.csdn.net/yunqishequ1/article/details/80362507
+
+
 
