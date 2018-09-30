@@ -1,26 +1,33 @@
 * ### ABI comments
-	Write above the method `/// @abi action method_name`
+	**Action** - Write above the method `/// @abi action [method_name]` <br/>
+	**Table** - Write above the struct `/// @abi table [primary_key_type]`
+	
 
 * ### Code comments
-	// @param balance - the quantity to be sent to a person.
+	- Use the [DoxyDoc](https://packagecontrol.io/packages/DoxyDoc) package in ST3 for multi-line comments. // @param balance - the quantity to be sent to a person.
 
 	E.g.
-
-	```
-	/**
-       * Subtraction operator
-       *
-       * @brief Subtraction operator
-       * @param a - The asset to be subtracted
-       * @param b - The asset used to subtract
-       * @return asset - New asset as the result of subtraction of a with b
-       */
-      inline friend asset operator-( const asset& a, const asset& b ) {
-         asset result = a;
-         result -= b;
-         return result;
-      }
-	```
+		```cpp
+		/**
+				 * Subtraction operator
+				 *
+				 * @brief Subtraction operator
+				 * @param a - The asset to be subtracted
+				 * @param b - The asset used to subtract
+				 * @return asset - New asset as the result of subtraction of a with b
+				 */
+				inline friend asset operator-( const asset& a, const asset& b ) {
+					 asset result = a;
+					 result -= b;
+					 return result;
+				}
+		```
+		- In the `.hpp` file, add this comment `namespace eosio` in the end:
+		```cpp
+		namespace eosio {
+			// class body
+		} /// namespace eosio
+		```
 
 * ### Action vs Transaction
 	**Transaction** - record of actions.<br/>
@@ -57,3 +64,5 @@
 	- 
 
 	[Source](https://blog.csdn.net/itleaks/article/details/80743836)
+* 
+
