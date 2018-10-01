@@ -82,7 +82,7 @@ These are some of the important cli commands for an EOSIO developer:
 	- set contract - 
 		+ move out of the contract folder: `$ cd ..`
 		+ upload contract: `$ cleos set contract testdauser11 testdauser11`. Account: testdauser11, Folder: testdauser11.
-	- test contract - 
+	- test contract with same account - 
 		+ push action: `$ cleos push action testdauser11 create '{"user":"testdauser11","title":"first","content":"create a first one"}' -p testdauser11`. Contract account: testdauser11, Action: create, user: testdauser11 (the content creator & also for permission during auth)
 		
 		+ check the table: `$ cleos get table testdauser11 testdauser11 data`. Contract: testdauser11, Scope: testdauser11, Table name: data (written in `N(data)`). 
@@ -99,4 +99,20 @@ These are some of the important cli commands for an EOSIO developer:
 			"more": false
 		}
 		```
+	- test contract with same account - 
+		+ push action: `$ cleos push action testdauser11 create '{"user":"drifeusr1eos","title":"first","content":"create a first one"}' -p drifeusr1eos`. Contract account: testdauser11, Action: create, user: testdauser11 (the content creator & also for permission during auth)
 		
+		+ check the table: `$ cleos get table testdauser11 drifeusr1eos data`. Contract: testdauser11, Scope (user/content_creator): drifeusr1eos, Table name: data (written in `N(data)`). 
+		<br/> **Output:**
+		```json
+		{
+			"rows": [{
+					"post_id": 0,
+					"poster": "drifeusr1eos",
+					"title": "first",
+					"content": "create a first one"
+				}
+			],
+			"more": false
+		}
+		```
