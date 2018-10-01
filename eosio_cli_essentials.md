@@ -72,6 +72,8 @@ These are some of the important cli commands for an EOSIO developer:
 	$ cleos push action eosio setcode '[eosio.bios.wasm]' -p eosio
 	$ cleos push action eosio setabi eosio '[eosio.bios.abi] -p eosio
 	```
+* Buy ram
+	`$ cleos system buyram testdauser11 testdauser11 --kbytes 100` Sender: testdauser11, Receiver: testdauser11.
 
 
 
