@@ -75,5 +75,28 @@ These are some of the important cli commands for an EOSIO developer:
 * Buy ram
 	`$ cleos system buyram testdauser11 testdauser11 --kbytes 100` Sender: testdauser11, Receiver: testdauser11.
 
-
-
+* Compile, Deploy, test contract
+	-	compile - 
+		+ wasm: `$ eosiocpp -o testdauser11.wast testdauser11.cpp`
+		+ abi: `$ eosiocpp -g testdauser11.abi testdauser11.cpp`
+	- set contract - 
+		+ move out of the contract folder: `$ cd ..`
+		+ upload contract: `$ cleos set contract testdauser11 testdauser11`. Account: testdauser11, Folder: testdauser11.
+	- test contract - 
+		+ push action: `$ cleos push action testdauser11 create '{"user":"testdauser11","title":"first","content":"create a first one"}' -p testdauser11`. Contract account: testdauser11, Action: create, user: testdauser11 (the content creator & also for permission during auth)
+		
+		+ check the table: `$ cleos get table testdauser11 testdauser11 data`. Contract: testdauser11, Scope: testdauser11, Table name: data (written in `N(data)`). 
+		<br/> **Output:**
+		```json
+		{
+			"rows": [{
+					"post_id": 0,
+					"poster": "testdauser11",
+					"title": "first",
+					"content": "create a first one"
+				}
+			],
+			"more": false
+		}
+		```
+		
