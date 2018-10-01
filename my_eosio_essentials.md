@@ -118,6 +118,10 @@
 	- `typedef`: a multi_index container definition. Here, we define a database object with a primary key and secondary key.
 	- ABI file is imp and the wrong one will cause the contract to fail.
 
+* #### `str()`
+	`str()` (exclusively defined for C++ only) function is not acceptable in eos contract programming because not defined. So, use as `title.c_str()`, `content.c_str()`. Otherwise, it willl give compilation error.
+	
+	
 ## References
 * [EOSIO Smart Contract Database Walkthrough](https://blog.csdn.net/yunqishequ1/article/details/80362507)
 
