@@ -72,13 +72,51 @@
 	- Define the database object, where 
 		+ the first parameter is the owner of the contract `_self`, 
 		+ the second variable is the database `payer`, that is, who the database is, and under which account the database is stored.
+	<br/>**Code snippet:**
+	```cpp
+	void test_da::create(account_name user, string title, string content) {
+			require_auth( user ); // Verify permissions
+			das datable( _self, user);　// Defining database objects
+			datable.emplace(user, [&]( da & d){
+					d.title = title;
+					d.content = content;
+					d.post_id = datable.primary_key();
+					d.poster = user;
+			});　//Database content creation
+	}
+	```
 	- The `emplace function` takes two arguments: 
 		+ one payer, and 
-		+ one lamada expression. 
-		
-	This structure is fixed.
-	- 
+		+ one lamada expression. <br/>
+		This structure is fixed.
+	- All smart contracts are inherited from `contract` file added in the `eosio.hpp`.
+	```cpp
+	.....
+		/// @abi table data i64
+		struct da
+		{
+			uint64_t post_id;
+			account_name poster;
+			string title;
+			string content;	
 
+			uint64_t primary_key() const { return post_id; }
+			account_name get_poster() const { return poster; }	
+
+			EOSLIB_SERIALIZE( da, (post_id) (poster) (title) (content));
+		};	
+
+		typedef multi_index<N(data), da, indexed_by<N(byposter), const_mem_fun<da, account_name, &da::get_poster>>> das;	
+	.....
+	```
+	- Here, we define the data structure `da`
+	- `primary_key()` defines the primary key.
+	- Next, we define the auxiliary primary key - poster.
+	- `EOSLIB_SERIALIZE`: A macro
+		+ 1st param - data structure.
+		+ other params - data members.
+	- `typedef`: a multi_index container definition. Here, we define a database object with a primary key and secondary key.
+	- ABI file is imp and the wrong one will cause the contract to fail.
 
 ## References
 * [EOSIO Smart Contract Database Walkthrough](https://blog.csdn.net/yunqishequ1/article/details/80362507)
