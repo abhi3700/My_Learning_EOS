@@ -116,3 +116,8 @@ These are some of the important cli commands for an EOSIO developer:
 			"more": false
 		}
 		```
+* #### Set code: 
+	`abhijit@Abhijit:/mnt/f/contracts/testdauser11$ cleos set code testdauser11 testdauser11.wasm`
+	
+* #### Set abi: 
+	`abhijit@Abhijit:/mnt/f/contracts/testdauser11$ cleos set abi testdauser11 testdauser11.abi`
