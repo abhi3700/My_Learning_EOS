@@ -1,6 +1,14 @@
 # My_Learning_EOS
 EOS resources available here.
 
+## Official Repo (by EOSIO)
+* The platform (dependency libraries, cleos, nodeos, keosd) - https://github.com/EOSIO/eos
+* EOS Contract Development Toolkit (CDT) - https://github.com/EOSIO/eosio.cdt
+* EOS contract basic functions -  https://github.com/EOSIO/eosio.contracts
+* Library for talking to an EOSIO RPC API - https://github.com/EOSIO/eosjs
+* Elliptic curve Cryptographic Functions - https://github.com/EOSIO/eosjs-ecc
+* EOSIO Demux Example (A Blog DApp) - https://github.com/EOSIO/eosio-project-demux-example
+
 ## Development
 * Python-based Framework for EOS - https://github.com/tokenika/eosfactory
 * JavaScript API for EOS - https://github.com/EOSIO/eosjs-json
@@ -35,6 +43,12 @@ EOS resources available here.
   - https://bloks.io/
   - https://scaneos.io/
   - https://eospark.com/
+* Demux (infrastructure for interating with databases (speed & flexibility) - [MongoDB](https://www.mongodb.com/), [PostgreSQL](https://www.postgresql.org/) along with Blockchain (immutability)):
+  - [MongoDB and MySQL Compared](https://www.mongodb.com/compare/mongodb-mysql)
+  - [PostgreSQL with Python](http://www.postgresqltutorial.com/postgresql-python/) <br/>
+    install using pip - `pip install psycopg2`
+  - https://www.talentica.com/blogs/eos-demux-using-postgresql/
+  - https://medium.com/eosio/introducing-demux-deterministic-databases-off-chain-verified-by-the-eosio-blockchain-bd860c49b017
 
 
 ## Concepts (Official)
@@ -121,6 +135,7 @@ EOS resources available here.
 * CMS (content management system) contract - https://github.com/netkiller/eos
 * Social contract - https://github.com/EOS-Phos/contracts
 * Social platform by Golos (for different contracts, view the branches)- https://github.com/GolosChain/golos-smart
+* EOS Encrypt - https://github.com/EOS-Nation/eos-encrypt
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
