@@ -120,6 +120,9 @@
 
 * #### `str()`
 	`str()` (exclusively defined for C++ only) function is not acceptable in eos contract programming because not defined. So, use as `title.c_str()`, `content.c_str()`. Otherwise, it willl give compilation error.
+
+* #### action name
+	It cannot be like this - `create_com` rather, `createcom`. Basically, don't use underscore (_) symbol.
 	
 	
 ## References
