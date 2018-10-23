@@ -136,6 +136,7 @@ EOS resources available here.
 * Social contract - https://github.com/EOS-Phos/contracts
 * Social platform by Golos (for different contracts, view the branches)- https://github.com/GolosChain/golos-smart
 * EOS Encrypt - https://github.com/EOS-Nation/eos-encrypt
+* EOS Advanced Examples (miscellaneous) - https://github.com/MitchPierias/Advanced-EOS-Examples
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
