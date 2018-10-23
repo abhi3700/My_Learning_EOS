@@ -124,6 +124,28 @@
 * #### action name
 	It cannot be like this - `create_com` rather, `createcom`. Basically, don't use underscore (_) symbol.
 	
+* ### sending an instruction to other contract
+	Use this 
+	```
+	action(
+		permission_level{_self,N(active)},
+		N(eosio.token),N(transfer),
+		std::make_tuple(_self,which->player,price,"payment from buyer")
+	).send();
+	```
+	instead of
+
+	```
+	action(
+		permission_level{_self,N(active)},
+		N(eosio.token),N(transfer),
+		std::make_tuple(_self,which->player,price,std::string("payment from buyer"))
+	).send();
+	```
+	
+	**REASON:** This is not a bug per se, it is a limitation of make_tuple. The types const char* and std::string are not the same, so make_tuple will treat the const char* as a pointer and will send over that (which is garbage), and the type of the memo field is expecting an std::string, so explicit construction of std::string is needed to make std::make_tuple do the right thing.
+	
+	[Source](https://github.com/EOSIO/eos/issues/4394)
 	
 ## References
 * [EOSIO Smart Contract Database Walkthrough](https://blog.csdn.net/yunqishequ1/article/details/80362507)
