@@ -137,6 +137,7 @@ EOS resources available here.
 * Social platform by Golos (for different contracts, view the branches)- https://github.com/GolosChain/golos-smart
 * EOS Encrypt - https://github.com/EOS-Nation/eos-encrypt
 * EOS Advanced Examples (miscellaneous) - https://github.com/MitchPierias/Advanced-EOS-Examples
+* EOS RAM Token - https://github.com/ChainRift/RAMtoken
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
