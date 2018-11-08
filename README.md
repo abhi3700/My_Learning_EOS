@@ -49,7 +49,8 @@ EOS resources available here.
     install using pip - `pip install psycopg2`
   - https://www.talentica.com/blogs/eos-demux-using-postgresql/
   - https://medium.com/eosio/introducing-demux-deterministic-databases-off-chain-verified-by-the-eosio-blockchain-bd860c49b017
-
+* API docs for dev - 
+  - EOS Park - https://developer.eospark.com/api-doc
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
@@ -138,6 +139,8 @@ EOS resources available here.
 * EOS Encrypt - https://github.com/EOS-Nation/eos-encrypt
 * EOS Advanced Examples (miscellaneous) - https://github.com/MitchPierias/Advanced-EOS-Examples
 * EOS RAM Token - https://github.com/ChainRift/RAMtoken
+* EOS Dice - https://github.com/loveblockchain/eosdice
+* 
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
