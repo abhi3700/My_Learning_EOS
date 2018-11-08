@@ -9,6 +9,7 @@
   --Setting up Eosio Wasm Toolchain 1.4.0 at /mnt/e/eosio.cdt/build
 * `sudo ./install.sh`
 
+```
 -- Installing: /usr/local/eosio.cdt/bin/eosio-cc
 -- Installing: /usr/local/eosio.cdt/bin/eosio-cpp
 -- Installing: /usr/local/eosio.cdt/bin/eosio-ld
@@ -37,3 +38,5 @@
 -- Installing: /usr/local/eosio.cdt/include/libc/byteswap.h
 -- Installing: /usr/local/eosio.cdt/include/libc/crypt.h
 -- Installing: /usr/local/eosio.cdt/include/libc/ctype.h
+
+```
