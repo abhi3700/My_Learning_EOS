@@ -8,6 +8,7 @@ EOS resources available here.
 * Library for talking to an EOSIO RPC API - https://github.com/EOSIO/eosjs
 * Elliptic curve Cryptographic Functions - https://github.com/EOSIO/eosjs-ecc
 * EOSIO Demux Example (A Blog DApp) - https://github.com/EOSIO/eosio-project-demux-example
+* EOS hackathon howto-guide - https://github.com/EOSIO/hackathon-howto-guide
 
 ## Development
 * Python-based Framework for EOS - https://github.com/tokenika/eosfactory
@@ -39,10 +40,10 @@ EOS resources available here.
   - http://jungle.cryptolions.io:18888
   - http://52.88.191.27:8888
 * EOS block explorer -
-  - https://eostracker.io
   - https://bloks.io/
   - https://scaneos.io/
   - https://eospark.com/
+  - https://eostracker.io
 * Demux (infrastructure for interating with databases (speed & flexibility) - [MongoDB](https://www.mongodb.com/), [PostgreSQL](https://www.postgresql.org/) along with Blockchain (immutability)):
   - [MongoDB and MySQL Compared](https://www.mongodb.com/compare/mongodb-mysql)
   - [PostgreSQL with Python](http://www.postgresqltutorial.com/postgresql-python/) <br/>
