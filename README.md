@@ -34,6 +34,25 @@ EOS resources available here.
 * `cleos` tool guide part 1 - https://www.youtube.com/watch?v=IVrwtVFRjj0
 * learn EOS wallets basics - https://www.eosdocs.io/dappdevelopment/wallets/
 * Mainnet API nodes - [Source](https://github.com/greymass/eos-voter/blob/master/nodes.md#eos-nodes)
+  - https://eos.greymass.com - operated by [greymass](https://greymass.com)
+  - https://mainnet.eoscalgary.io - operated by [EOS Cafe](https://eoscafecalgary.com/)
+  - https://api.eosnewyork.io - operated by [EOS New York](https://www.eosnewyork.io/)
+  - https://api.eosdetroit.io - operated by [EOS Detroit](http://eosdetroit.io/)
+  - http://api.hkeos.com - operated by [HK EOS](https://www.hkeos.com/)
+  - https://bp.cryptolions.io - operated by [CryptoLions](http://CryptoLions.io/)
+  - http://dc1.eosemerge.io:8888 - operated by [EOS Emerge Poland](http://eosemerge.io/)
+  - https://dc1.eosemerge.io:5443 - operated by [EOS Emerge Poland](http://eosemerge.io/)
+  - https://api1.eosdublin.io - operated by [EOS Dublin](https://eosdublin.io)
+  - https://api2.eosdublin.io - operated by [EOS Dublin](https://eosdublin.io)
+  - https://mainnet.eoscannon.io - operated by [EOS Cannon](https://eoscannon.io)
+  - https://eos-api.privex.io - operated by [Privex (privexinceos)](http://eosportal.io/chain/12/producers/privexinceos) (HTTP and HTTPS)
+  - https://eosapi.blockmatrix.network - operated by [Block Matrix](https://blockmatrix.network)
+  - https://user-api.eoseoul.io - operated by [EOSeoul](https://portal.eoseoul.io/)
+  - https://api.eos.bitspace.no - operated by [Bitspace](https://eos.bitspace.no/)
+  - https://node.eosflare.io - operated by [EOS Flare](https://eosflare.io/)
+  - https://api-eos.blckchnd.com - operated by [BLCKCHND](https://eos.blckchnd.com/)
+  - https://mainnet.eosimpera.com - operated by [EOS IMPERA](https://www.eosimpera.io/)
+  - https://api.franceos.fr - operated by [franceos](https://www.franceos.fr/)
 * Testnet API nodes - [Source](http://jungle.cryptolions.io/#). To get the link, click on the HTTP column values. 
   - http://dev.cryptolions.io:38888
   - http://52.199.125.75:8888
