@@ -94,7 +94,8 @@ EOS resources available here.
 * Oraclize examples - https://github.com/oraclize/eos-examples
 * Create a EOS token - https://medium.com/coinmonks/how-to-create-eos-token-212696fe1aba
 * How to build an EOS application - https://freestartupkits.com/articles/technology/cryptocurrency-news-and-tips/how-to-build-an-eos-application-eosio-1/
-* Project Oasis (entire game built on EOS) - https://medium.com/infinitexlabs/the-ultimate-end-to-end-eos-dapp-development-tutorial-part-1-2f99c512086c
+* InfinitexLabs Project Oasis (entire game built on EOS) - [Part 1 & 2 Github](https://github.com/infiniteXLabs/Oasis), [Part 1 Article](https://infinitexlabs.com/eos-development-tutorial-part-1/), [Part 2 Article](https://infinitexlabs.com/eos-development-tutorial-part-2/) 
+* InfinitexLabs Project Robot factory - [Version 1 Github](https://github.com/infiniteXLabs/RobotFactory), [Version 1 Article](https://infinitexlabs.com/eos-communication-model/), [Version 2 Github](https://github.com/infiniteXLabs/RobotFactory-02)
 * Learn EOS #tutorials - https://cmichel.io/categories/learneos
 * Understanding the eosio.token contract - https://medium.com/coinmonks/understanding-the-eosio-token-contract-87466b9fdca9
 * Smart City on Steroids - https://github.com/serganus/scos-smartcontract
