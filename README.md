@@ -161,7 +161,7 @@ EOS resources available here.
 * EOS Advanced Examples (miscellaneous) - https://github.com/MitchPierias/Advanced-EOS-Examples
 * EOS RAM Token - https://github.com/ChainRift/RAMtoken
 * EOS Dice - https://github.com/loveblockchain/eosdice
-* 
+* EOS Smart Contract for Block Producer Information - https://github.com/greymass/producerjson
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
