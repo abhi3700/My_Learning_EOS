@@ -162,6 +162,8 @@ EOS resources available here.
 * EOS RAM Token - https://github.com/ChainRift/RAMtoken
 * EOS Dice - https://github.com/loveblockchain/eosdice
 * EOS Smart Contract for Block Producer Information - https://github.com/greymass/producerjson
+* Shared contracts - https://github.com/JackDiSalvatore/shared_contracts
+* EOSHackathon contracts, tutorials - https://github.com/eoshackathon/eos_dapp_development_cn/
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
