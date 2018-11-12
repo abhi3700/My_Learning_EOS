@@ -211,8 +211,14 @@
 	* It is best practice to give both the account and contract the same (lowercase) name.
 	* E.g. for eosio.token contract,
 		+ Before you can interact with the eosio.token contract you will need to make an account with the same name and deploy the contract onto that account.
-	
-	
+
+33. ### What are the 2 main parts of DPoS?
+	1. Selecting the Producers
+	2. Reaching Consensus
+
+34. ### On what basis the chain of DPoS goes ahead to attain finality?
+	1. Currently uses the longest chain.
+	2. No Block producer can sign on 2 chains simultaneously i.e. at a time.
 	
 	
 	
