@@ -9,6 +9,7 @@ EOS resources available here.
 * Elliptic curve Cryptographic Functions - https://github.com/EOSIO/eosjs-ecc
 * EOSIO Demux Example (A Blog DApp) - https://github.com/EOSIO/eosio-project-demux-example
 * EOS hackathon howto-guide - https://github.com/EOSIO/hackathon-howto-guide
+* EOSIO Project boilerplate simple - https://github.com/EOSIO/eosio-project-boilerplate-simple
 
 ## Development
 * Python-based Framework for EOS - https://github.com/tokenika/eosfactory
