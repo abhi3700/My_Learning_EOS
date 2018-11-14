@@ -25,7 +25,9 @@ Now, follow this steps:
  * Now, carry on with the eosio_coding_essentials, following [this](https://github.com/abhi3700/My_Learning_EOS/blob/master/my_eosio_essentials.md)
  * After the code is written, `right-click` on the folder and click `Open terminal here`.
 ## Compiler, Debugger
-* In the terminal - `bash` on Ubuntu, type `$eoscc` (EOS Contract Compiler). [Click here to install](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#follow-this-steps--)
+* In the terminal - `bash` on Ubuntu, type 
+  1. ``
+  2. `$eoscc` (EOS Contract Compiler). [Click here to install](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#follow-this-steps--)
 
 ## Deploy
 ### TESTNET (Local)
