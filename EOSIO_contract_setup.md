@@ -135,6 +135,12 @@ NOTE: If (without any wallet name):
 #### on Mainnet
 Like greymass wallet, where the private key is protected using a password.
 
+## Summary
+Follow these steps:
+1. **Sublime Text:** as Editor
+2. **eoscc**: as Compiler and deploy
+3. **Testnet** or **Mainnet**: choose accordingly, `alias cleos='cleos -u https://api.eosnewyork.io'` & `alias cleos='cleos -u http://jungle.cryptolions.io:18888'` respectively define in `~/.profile` beforehand.
+
 ## References
 * #### Follow this steps - 
   - `$ cd ~`
