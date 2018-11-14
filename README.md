@@ -1,7 +1,7 @@
 # My_Learning_EOS
 EOS resources available here.
 
-## Official Repo (by EOSIO)
+## Official Repo (by Block.one EOS)
 * The platform (dependency libraries, cleos, nodeos, keosd) - https://github.com/EOSIO/eos
 * EOS Contract Development Toolkit (CDT) - https://github.com/EOSIO/eosio.cdt
 * EOS contract basic functions -  https://github.com/EOSIO/eosio.contracts
@@ -84,8 +84,8 @@ EOS resources available here.
     * Release - https://medium.com/eosio/eosio-dawn-4-0-release-b25661a49ac2
 
 ## EOS SC Coding
+* My contract [Setup](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#summary)
 * [my_eosio_essentials](https://github.com/abhi3700/My_Learning_EOS/blob/master/my_eosio_essentials.md)
-* EOS Contract Development tool (replaced the old code libraries along with eosio-cpp, etc. tools) - https://github.com/EOSIO/eosio.cdt 
 * Tutorial on writing smart contracts on EOS - https://github.com/itleaks/eos-contract
 * Shop contract - https://github.com/michaeljyeates/eosshop/
 * EOSIO coding standards by Thomas Cox - https://developers.eos.io/eosio-home/docs/coding-standards
@@ -108,7 +108,6 @@ EOS resources available here.
 * Oraclize EOS:
   - [eos-api](https://github.com/oraclize/eos-api)
   - [Oraclize Documentation](http://docs.oraclize.it/#eos)
-  - []()
 * EOS contract examples (Table, Transfer-award, etc.) -  https://github.com/itleaks/eos-contract
 * incoming transfer rules for transaction in memo - https://github.com/eosauthority/incoming-transfer-rules
 * EOS Pixels contract - https://github.com/eosasia/eospixels
