@@ -26,7 +26,7 @@ Now, follow this steps:
  * After the code is written, `right-click` on the folder and click `Open terminal here`.
 ## Compiler, Debugger
 * In the terminal - `bash` on Ubuntu, type 
-  1. ``
+  1. `alias cleos='cleos -u http://jungle.cryptolions.io:18888'`
   2. `$eoscc` (EOS Contract Compiler). [Click here to install](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#follow-this-steps--)
 
 ## Deploy
