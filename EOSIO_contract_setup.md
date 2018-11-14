@@ -17,10 +17,17 @@ Now, follow this steps:
   ```cpp
   #include <../eosiolib/eosio.hpp>
   ```
+  ```cpp
+  #include "eosiolib/"
+  ```
   - DONE!
+ 
  * Now, carry on with the eosio_coding_essentials, following [this](https://github.com/abhi3700/My_Learning_EOS/blob/master/my_eosio_essentials.md)
+ * After the code is written, `right-click` on the folder and click `Open terminal here`.
+## Compiler, Debugger
+* In the terminal - `bash` on Ubuntu, type `$eoscc` (EOS Contract Compiler). [Click here to install](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#follow-this-steps--)
 
-## Debugger, Compiler
+## Deploy
 ### TESTNET (Local)
 Follow these steps:
 * [OPTIONAL] Modify the config.ini file: (/home/abhijit/.local/share/eosio/nodeos/config/config.ini
@@ -75,6 +82,7 @@ Follow these steps:
   Now, you can use cleos and easy going while adding other commands 
   
   NOTE: valid for that session only. When closed, it will have to be recreated.
+  
 * To check if cleos is connected with a testnet node -
   ```
   $ cleos get info
@@ -93,7 +101,7 @@ Follow these steps:
       $ eosiocpp -g hello.abi hello.cpp
       $ cleos set contract abhitest1234 ../hello -p abhitest1234@active  (ensure that the wallet is unlocked for this step)
       ```
-    - `comptract.sh` (follow [this](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#follow-this-steps--) how to create one)
+    - `eoscc.sh` (follow [this](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#follow-this-steps--) how to create one)
 * Now, push a action `hi`(say) in this contract - 
   ```
   cleos push action abhitest1234 hi '["abhijit"]' -p abhitest1234@active
@@ -125,20 +133,18 @@ NOTE: If (without any wallet name):
 #### on Mainnet
 Like greymass wallet, where the private key is protected using a password.
 
-
-
 ## References
 * #### Follow this steps - 
   - `$ cd ~`
   - `$ mkdir scripts`
   - `$ cd scripts`
-  - `$ nano comptract.sh`
+  - `$ nano eoscc.sh`
   - copy and paste the content below:
     ```
     #!/bin/bash
 
     if [[ $# -ne 2 ]]; then
-        echo "USAGE: comptract.sh <ACCOUNT NAME> <Contract Name> from within the directory"
+        echo "USAGE: eoscc.sh <ACCOUNT NAME> <Contract Name> from within the directory"
         exit 1
     fi
 
@@ -149,7 +155,7 @@ Like greymass wallet, where the private key is protected using a password.
     eosiocpp -g ${CONTRACT}.abi ${CONTRACT}.cpp && 
     cleos -u http://dev.cryptolions.io:38888/ set contract ${ACCOUNT} ../${CONTRACT}
     ```
-  - `$ chmod +x comptract.sh` (making a file executable, chmod- change mode)
+  - `$ chmod +x eoscc.sh` (making a file executable, chmod- change mode)
   - Add `export PATH=$PATH:~/scripts` to the end of your `~/.profile` file
   - `export PATH=$PATH:~/scripts`
 
