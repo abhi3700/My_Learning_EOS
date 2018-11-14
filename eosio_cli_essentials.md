@@ -121,3 +121,11 @@ These are some of the important cli commands for an EOSIO developer:
 	
 * #### Set abi: 
 	`abhijit@Abhijit:/mnt/f/contracts/testdauser11$ cleos set abi testdauser11 testdauser11.abi`
+* #### Get code:
+* #### Get transaction details
+	1. M-1: via cmd - 
+		`cleos get transaction 6b982d30d33077aefaf531ed31bba10f158e1f968cfcbae23193d06684894311`
+	2. M-2: Block explorer	- 
+		See at the [block explorer](https://www.bloks.io/transaction/6b982d30d33077aefaf531ed31bba10f158e1f968cfcbae23193d06684894311)
+	
+	
