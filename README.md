@@ -10,7 +10,7 @@ EOS resources available here.
 * EOSIO Demux Example (A Blog DApp) - https://github.com/EOSIO/eosio-project-demux-example
 * EOS hackathon howto-guide - https://github.com/EOSIO/hackathon-howto-guide
 * EOSIO Project boilerplate simple - https://github.com/EOSIO/eosio-project-boilerplate-simple
-
+* Differences b/w EOSIO Old vs New in contract programming - [official link](https://github.com/EOSIO/eosio.cdt/blob/master/README.md#differences-between-version-12x-and-version-13x), [backup link](https://github.com/abhi3700/My_Learning_EOS/blob/master/eosio.cdt_OldvsNew.md)
 ## Development
 * Python-based Framework for EOS - https://github.com/tokenika/eosfactory
 * JavaScript API for EOS - https://github.com/EOSIO/eosjs-json
