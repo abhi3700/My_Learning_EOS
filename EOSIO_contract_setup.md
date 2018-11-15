@@ -27,13 +27,13 @@ Now, follow this steps:
 ## Compiler, Debugger
 ### Summary
 * In the terminal - `bash` on Ubuntu, type 
-  `$eoscc` (EOS Contract Compiler). [Click here to install](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#follow-this-steps--)
+  `$eoscc` (EOS Contract Compiler). [Click here to install](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#follow-this-steps-for-eoscc--)
 
 ## Deploy
 ### Summary
 1. `alias cleos='cleos -u http://jungle.cryptolions.io:18888'` (NOT required, if added in [~/.profile file](https://github.com/abhi3700/My_Learning_Linux_essentials/blob/master/commands_all.md#bash-profile))
 2. [OPTIONAL] Ensure the wallet is unlocked. If not, use this - `cleos wallet unlock` with password to unlock the default wallet.
-3. `$eoscd` (EOS Contract Compiler). [Click here to install](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#follow-this-steps--)
+3. `$eoscd` (EOS Contract Compiler). [Click here to install](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#follow-this-steps-for-eoscd--)
 
 **NOTE: 
 - By default, my bash terminal is set for Testnet with API = `http://jungle.cryptolions.io:18888`.
