@@ -25,11 +25,20 @@ Now, follow this steps:
  * Now, carry on with the eosio_coding_essentials, following [this](https://github.com/abhi3700/My_Learning_EOS/blob/master/my_eosio_essentials.md)
  * After the code is written, `right-click` on the folder and click `Open terminal here`.
 ## Compiler, Debugger
+### Summary
 * In the terminal - `bash` on Ubuntu, type 
-  1. `alias cleos='cleos -u http://jungle.cryptolions.io:18888'` (NOT required, if added in [~/.profile file](https://github.com/abhi3700/My_Learning_Linux_essentials/blob/master/commands_all.md#bash-profile))
-  2. `$eoscc` (EOS Contract Compiler). [Click here to install](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#follow-this-steps--)
+  `$eoscc` (EOS Contract Compiler). [Click here to install](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#follow-this-steps--)
 
 ## Deploy
+### Summary
+1. `alias cleos='cleos -u http://jungle.cryptolions.io:18888'` (NOT required, if added in [~/.profile file](https://github.com/abhi3700/My_Learning_Linux_essentials/blob/master/commands_all.md#bash-profile))
+2. [OPTIONAL] Ensure the wallet is unlocked. If not, use this - `cleos wallet unlock` with password to unlock the default wallet.
+3. `$eoscd` (EOS Contract Compiler). [Click here to install](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#follow-this-steps--)
+
+**NOTE: 
+- By default, my bash terminal is set for Testnet with API = `http://jungle.cryptolions.io:18888`.
+- But for mainnet, set the terminal profile accordingly with API.**
+
 ### TESTNET (Local)
 Follow these steps:
 * [OPTIONAL] Modify the config.ini file: (/home/abhijit/.local/share/eosio/nodeos/config/config.ini
@@ -138,32 +147,61 @@ Like greymass wallet, where the private key is protected using a password.
 ## Summary
 Follow these steps:
 1. **Sublime Text:** as Editor
-2. **eoscc**: as Compiler and deploy
+2. **eoscc**: as Compiler
 3. **Testnet** or **Mainnet**: choose accordingly, `alias cleos='cleos -u https://api.eosnewyork.io'` & `alias cleos='cleos -u http://jungle.cryptolions.io:18888'` respectively define in `~/.profile` beforehand.
+4. [OPTIONAL] Ensure the wallet is unlocked. If not, use this - `cleos wallet unlock` with password to unlock the default wallet.
+5. **eoscd**: as Deploy
 
 ## References
-* #### Follow this steps - 
+* #### Follow this steps for `eoscc` - 
   - `$ cd ~`
   - `$ mkdir scripts`
   - `$ cd scripts`
   - `$ nano eoscc.sh`
   - copy and paste the content below:
-    ```
-    #!/bin/bash
+  ```
+  #!/bin/bash
 
-    if [[ $# -ne 2 ]]; then
-        echo "USAGE: eoscc.sh <ACCOUNT NAME> <Contract Name> from within the directory"
-        exit 1
-    fi
+  if [[ $# -ne 1 ]]; then
+    echo "USAGE: eoscc.sh <CONTRACT_NAME> from within the directory"
+    exit 1
+  fi
 
-    ACCOUNT=$1
-    CONTRACT=$2
+  CONTRACT=$1
 
-    eosiocpp -o ${CONTRACT}.wast ${CONTRACT}.cpp && 
-    eosiocpp -g ${CONTRACT}.abi ${CONTRACT}.cpp && 
-    cleos -u http://dev.cryptolions.io:38888/ set contract ${ACCOUNT} ../${CONTRACT}
-    ```
+  eosiocpp -o ${CONTRACT}.wast ${CONTRACT}.cpp &&
+  eosiocpp -g ${CONTRACT}.abi ${CONTRACT}.cpp
+  ```
   - `$ chmod +x eoscc.sh` (making a file executable, chmod- change mode)
+  - Now, open `~/.profile` file using `nano ~/.profile` from any directory in terminal.
   - Add `export PATH=$PATH:~/scripts` to the end of your `~/.profile` file
-  - `export PATH=$PATH:~/scripts`
+  - Add symbolic link using `sudo ln -s ~/scripts/eoscc.sh /usr/local/bin/eoscc`
+  - DONE! Now, access `eoscc` from any directory in the terminal.
+  
+* #### Follow this steps for `eoscd` - 
+  - `$ cd ~`
+  - `$ mkdir scripts`
+  - `$ cd scripts`
+  - `$ nano eoscd.sh`
+  - copy and paste the content below:
+  ```
+  #!/bin/bash
 
+  if [[ $# -ne 2 ]]; then
+      echo "USAGE: eoscc.sh <ACCOUNT_NAME> <CONTRACT_NAME> from within the directory"
+      exit 1
+  fi
+
+  ACCOUNT=$1
+  CONTRACT=$2
+
+  cleos set contract ${ACCOUNT} ../${CONTRACT}
+  ```
+  - `$ chmod +x eoscd.sh` (making a file executable, chmod- change mode)
+  - [NOT Required, if done before] Now, open `~/.profile` file using `nano ~/.profile` from any directory in terminal.
+  - [NOT Required, if done before] Add `export PATH=$PATH:~/scripts` to the end of your `~/.profile` file.
+  - Add symbolic link using `sudo ln -s ~/scripts/eoscd.sh /usr/local/bin/eoscd`
+  - DONE! Now, access `eoscd` from any directory in the terminal.
+  
+  
+  
