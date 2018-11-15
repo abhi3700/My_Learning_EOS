@@ -164,6 +164,10 @@ EOS resources available here.
 * EOS Smart Contract for Block Producer Information - https://github.com/greymass/producerjson
 * Shared contracts - https://github.com/JackDiSalvatore/shared_contracts
 * EOSHackathon contracts, tutorials - https://github.com/eoshackathon/eos_dapp_development_cn/
+* EOS stable coin contract - https://github.com/newbdez33/stablecoooin
+* EOS signup contract (self login) - https://github.com/Dappub/signupeoseos
+* EOSIO card game - https://github.com/EOSIO/eosio-card-game-repo
+* Everipedia contract - https://github.com/EveripediaNetwork/Everipedia
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
