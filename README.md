@@ -82,6 +82,7 @@ EOS resources available here.
 * EOS Dawn 4.0 - 
     * Introduction - https://medium.com/eosio/introducing-eosio-dawn-4-0-f738c552879
     * Release - https://medium.com/eosio/eosio-dawn-4-0-release-b25661a49ac2
+* Multi-Sig wallet - https://steemit.com/eos/@genereos/eos-multisig-tutorial
 
 ## EOS SC Coding
 * My contract [Setup](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#summary)
