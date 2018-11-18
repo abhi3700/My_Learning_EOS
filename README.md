@@ -90,7 +90,7 @@ EOS resources available here.
 * Shop contract - https://github.com/michaeljyeates/eosshop/
 * EOSIO coding standards by Thomas Cox - https://developers.eos.io/eosio-home/docs/coding-standards
 * Account contract - https://github.com/eosiosg/account-detail-contract
-* forum contract (voting, chat) - https://github.com/eoscanada/eosio.forum
+* Referendum contract (voting, chat) - https://github.com/eoscanada/eosio.forum
 * Relief contract - https://github.com/serganus/ReliefChain-smartcontracts
 * Oraclize examples - https://github.com/oraclize/eos-examples
 * Create a EOS token - https://medium.com/coinmonks/how-to-create-eos-token-212696fe1aba
