@@ -168,6 +168,7 @@ EOS resources available here.
 * EOS signup contract (self login) - https://github.com/Dappub/signupeoseos
 * EOSIO card game - https://github.com/EOSIO/eosio-card-game-repo
 * Everipedia contract - https://github.com/EveripediaNetwork/Everipedia
+* Timestamping services on EOS - https://github.com/sim31/timeos
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
