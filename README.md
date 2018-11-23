@@ -11,6 +11,7 @@ EOS resources available here.
 * EOS hackathon howto-guide - https://github.com/EOSIO/hackathon-howto-guide
 * EOSIO Project boilerplate simple - https://github.com/EOSIO/eosio-project-boilerplate-simple
 * Differences b/w EOSIO Old vs New in contract programming - [official link](https://github.com/EOSIO/eosio.cdt/blob/master/README.md#differences-between-version-12x-and-version-13x), [backup link](https://github.com/abhi3700/My_Learning_EOS/blob/master/eosio.cdt_OldvsNew.md)
+
 ## Development
 * Python-based Framework for EOS - https://github.com/tokenika/eosfactory
 * JavaScript API for EOS - https://github.com/EOSIO/eosjs-json
@@ -31,7 +32,6 @@ EOS resources available here.
    * https://www.zeos.co/
    * Using `cleos` tool - https://medium.com/@cc32d9/creating-a-new-eos-eosio-account-f88201dc1a
       + (Refer) - https://eosio-nodeos.readme.io/docs/learn-about-wallets-keys-and-accounts-with-cleos
-* EOS Dev Playground - https://playground.eosrio.io/register
 * `cleos` tool guide part 1 - https://www.youtube.com/watch?v=IVrwtVFRjj0
 * learn EOS wallets basics - https://www.eosdocs.io/dappdevelopment/wallets/
 * Mainnet API nodes - [Source](https://github.com/greymass/eos-voter/blob/master/nodes.md#eos-nodes)
@@ -72,6 +72,8 @@ EOS resources available here.
   - https://medium.com/eosio/introducing-demux-deterministic-databases-off-chain-verified-by-the-eosio-blockchain-bd860c49b017
 * API docs for dev - 
   - EOS Park - https://developer.eospark.com/api-doc
+* Smart Contract development tool: 
+  - https://dev4eos.com/#/
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
