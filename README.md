@@ -59,6 +59,24 @@ EOS resources available here.
   - http://52.199.125.75:8888
   - http://jungle.cryptolions.io:18888
   - http://52.88.191.27:8888
+ 	- http://jungle2.cryptolions.io:80
+ 	- https://jungle2.cryptolions.io:443
+ 	- https://jungle.eosio.cr:443
+ 	- https://api.jungle.alohaeos.com:443
+ 	- http://145.239.133.201:8888
+ 	- http://35.237.40.93:8888
+ 	- http://jungle.eosgen.io:80
+ 	- http://51.15.224.168:8888
+ 	- http://jungle2.eosdac.io:8882
+ 	- http://eos.eosza.io:8888
+ 	- http://5.9.19.86:28888
+ 	- https://testnet.blockgenesys.com:443
+ 	- http://jm1234.ddns.net:8888
+ 	- http://172.93.54.194:8888
+ 	- http://173.255.195.20:8888
+ 	- http://ubeos.astrsk.org:7779
+ 	- http://jungle.eosbcn.com:8080
+ 	   
 * EOS block explorer -
   - https://bloks.io/
   - https://scaneos.io/
