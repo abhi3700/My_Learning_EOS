@@ -82,6 +82,8 @@ EOS resources available here.
   - https://scaneos.io/
   - https://eospark.com/
   - https://eostracker.io
+  - https://www.cypherblock.io/
+  - https://eosq.app/
 * Demux (infrastructure for interating with databases (speed & flexibility) - [MongoDB](https://www.mongodb.com/), [PostgreSQL](https://www.postgresql.org/) along with Blockchain (immutability)):
   - [MongoDB and MySQL Compared](https://www.mongodb.com/compare/mongodb-mysql)
   - [PostgreSQL with Python](http://www.postgresqltutorial.com/postgresql-python/) <br/>
