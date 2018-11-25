@@ -84,6 +84,9 @@ EOS resources available here.
   - https://eostracker.io
   - https://www.cypherblock.io/
   - https://eosq.app/
+  - https://explorer.eosvibes.io/
+  - https://eosflare.io/
+  
 * Demux (infrastructure for interating with databases (speed & flexibility) - [MongoDB](https://www.mongodb.com/), [PostgreSQL](https://www.postgresql.org/) along with Blockchain (immutability)):
   - [MongoDB and MySQL Compared](https://www.mongodb.com/compare/mongodb-mysql)
   - [PostgreSQL with Python](http://www.postgresqltutorial.com/postgresql-python/) <br/>
@@ -92,8 +95,14 @@ EOS resources available here.
   - https://medium.com/eosio/introducing-demux-deterministic-databases-off-chain-verified-by-the-eosio-blockchain-bd860c49b017
 * API docs for dev - 
   - EOS Park - https://developer.eospark.com/api-doc
+  - EOS Canada - https://www.dfuse.io/en
 * Smart Contract development tool: 
   - https://dev4eos.com/#/
+* RAM Tools:
+  - https://www.eosrp.io/#calc
+  - https://eosweb.net/ram
+  - https://eos.feexplorer.io/
+  - https://www.myeoskit.com/tools/ram/buy
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
