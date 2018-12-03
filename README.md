@@ -120,7 +120,7 @@ EOS resources available here.
 * EOSIO coding standards by Thomas Cox - https://developers.eos.io/eosio-home/docs/coding-standards
 * Account contract - https://github.com/eosiosg/account-detail-contract
 * Referendum contract (voting, chat) - https://github.com/eoscanada/eosio.forum
-* Relief contract - https://github.com/serganus/ReliefChain-smartcontracts
+* Reliefchain contract - https://github.com/serganus/ReliefChain-smartcontracts
 * Oraclize examples - https://github.com/oraclize/eos-examples
 * Create a EOS token - https://medium.com/coinmonks/how-to-create-eos-token-212696fe1aba
 * How to build an EOS application - https://freestartupkits.com/articles/technology/cryptocurrency-news-and-tips/how-to-build-an-eos-application-eosio-1/
@@ -202,7 +202,8 @@ EOS resources available here.
 * EOS Uber - https://github.com/mrbid/EOSIO-UBER
 * EOS Auctions - https://github.com/mrbid/EOSIO-AUCTIONS
 * Twitter Bot for tip in EOS - https://github.com/kesar/twitbot
-
+* EOSIO Token With Time Lock - https://github.com/yashbhavsar007/tokentime
+* EOS bank - https://github.com/eosonic/EOSBank/blob/master/README.md
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
