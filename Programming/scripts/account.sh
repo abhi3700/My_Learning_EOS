@@ -3,7 +3,9 @@
 # Creates a new account with self delegated resources
 
 if [ "$#" -ne 2 ]; then
-    echo "Usage: account.sh <EXIST_ACCOUNT_NAME> <ACCOUNT_NAME> <STAKE_NET> <STAKE_CPU> <RAM_KB> <OWNER_PUBLIC_KEY> <ACTIVE_PUBLIC_KEY>\n
+    echo "Usage: account.sh <EXIST_ACCOUNT_NAME> <ACCOUNT_NAME> <STAKE_NET> <STAKE_CPU> <RAM_KB> <OWNER_PUBLIC_KEY> <ACTIVE_PUBLIC_KEY>
+    
+    Subcommands:
     EXIST_ACCOUNT_NAME      Existing EOS account name
     ACCOUNT_NAME            New EOS account name
     STAKE_NET               NET Stake amount e.g. "0.2 EOS"
