@@ -82,6 +82,7 @@ EOS resources available here.
   - https://eosq.app/
   - https://explorer.eosvibes.io/
   - https://eosflare.io/
+  - https://eostree.io/ (Search any account with creator names)
   
 * Demux (infrastructure for interating with databases (speed & flexibility) - [MongoDB](https://www.mongodb.com/), [PostgreSQL](https://www.postgresql.org/) along with Blockchain (immutability)):
   - [MongoDB and MySQL Compared](https://www.mongodb.com/compare/mongodb-mysql)
@@ -198,6 +199,10 @@ EOS resources available here.
 * Everipedia contract - https://github.com/EveripediaNetwork/Everipedia
 * Timestamping services on EOS - https://github.com/sim31/timeos
 * EOS Non Fungible Tokens (NFT) - https://github.com/unicoeos/eosio.nft
+* EOS Uber - https://github.com/mrbid/EOSIO-UBER
+* EOS Auctions - https://github.com/mrbid/EOSIO-AUCTIONS
+* Twitter Bot for tip in EOS - https://github.com/kesar/twitbot
+
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
