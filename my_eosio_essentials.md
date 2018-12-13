@@ -1,6 +1,10 @@
 * ### ABI comments
-	**Action** - Write above the method `/// @abi action [method_name]` <br/>
-	**Table** - Write above the struct `/// @abi table [primary_key_type]`
+|Types | v1.1.x or less | v1.2.x | v1.3.x or more |
+|:----:|:--------------:|:------:|:--------------:|
+| Contract | `class` | `class [[eosio::contract]]` | `CONTRACT` |
+| Action | `//@abi action` | `[[eosio::action]] void` | `ACTION` |
+| Table | `//@abi table` | `struct [[eosio::table]]` | `TABLE` |
+| Dispatch | `EOSIO_ABI()` | `EOSIO_ABI()` | `EOSIO_DISPATCH()` |	
 	
 
 * ### Code comments
@@ -153,7 +157,7 @@
 	
 ## References
 * [EOSIO Smart Contract Database Walkthrough](https://blog.csdn.net/yunqishequ1/article/details/80362507)
-* [Utility](https://github.com/abhi3700/My_Learning_EOS/tree/master/Programming/utillity)
+* [Utility](https://github.com/abhi3700/My_Learning_EOS/blob/master/Programming/utillity/README.md)
 
 
 
