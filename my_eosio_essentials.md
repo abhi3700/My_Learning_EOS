@@ -146,9 +146,14 @@
 	**REASON:** This is not a bug per se, it is a limitation of make_tuple. The types const char* and std::string are not the same, so make_tuple will treat the const char* as a pointer and will send over that (which is garbage), and the type of the memo field is expecting an std::string, so explicit construction of std::string is needed to make std::make_tuple do the right thing.
 	
 	[Source](https://github.com/EOSIO/eos/issues/4394)
+
+* ### name
+	`"foo"_n` is a shortcut for `name{"foo"}` since eosio.cdt 1.3.x
+	
 	
 ## References
 * [EOSIO Smart Contract Database Walkthrough](https://blog.csdn.net/yunqishequ1/article/details/80362507)
+* [Utility](https://github.com/abhi3700/My_Learning_EOS/tree/master/Programming/utillity)
 
 
 
