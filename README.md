@@ -194,7 +194,7 @@ EOS resources available here.
 * Shared contracts - https://github.com/JackDiSalvatore/shared_contracts
 * EOSHackathon contracts, tutorials - https://github.com/eoshackathon/eos_dapp_development_cn/
 * EOS stable coin contract - https://github.com/newbdez33/stablecoooin
-* EOS signup contract (self login) - https://github.com/Dappub/signupeoseos
+* EOS account creation - https://github.com/Dappub/signupeoseos
 * EOSIO card game - https://github.com/EOSIO/eosio-card-game-repo
 * Everipedia contract - https://github.com/EveripediaNetwork/Everipedia
 * Timestamping services on EOS - https://github.com/sim31/timeos
