@@ -101,6 +101,7 @@ EOS resources available here.
   - https://eosweb.net/ram
   - https://eos.feexplorer.io/
   - https://www.myeoskit.com/tools/ram/buy
+* List of dApps using Scatter Login - https://get-scatter.com/Apps
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
