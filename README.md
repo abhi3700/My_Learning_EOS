@@ -206,6 +206,7 @@ EOS resources available here.
 * Twitter Bot for tip in EOS - https://github.com/kesar/twitbot
 * EOSIO Token With Time Lock - https://github.com/yashbhavsar007/tokentime
 * EOS bank - https://github.com/eosonic/EOSBank/blob/master/README.md
+* Bancor contracts - https://github.com/bancorprotocol/contracts_eos
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
