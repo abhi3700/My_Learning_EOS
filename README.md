@@ -207,6 +207,7 @@ EOS resources available here.
 * EOSIO Token With Time Lock - https://github.com/yashbhavsar007/tokentime
 * EOS bank - https://github.com/eosonic/EOSBank/blob/master/README.md
 * Bancor contracts - https://github.com/bancorprotocol/contracts_eos
+* Smart contract audit - https://github.com/EveripediaNetwork/smart-contract-audits/blob/master/everipediaiq-audit.md
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
