@@ -94,6 +94,7 @@ EOS resources available here.
 * API docs for dev - 
   - EOS Park - https://developer.eospark.com/api-doc
   - EOS Canada - https://www.dfuse.io/en
+  - EOS Infra - https://www.eosinfra.io/
 * Smart Contract development tool: 
   - https://dev4eos.com/#/
 * RAM Tools:
