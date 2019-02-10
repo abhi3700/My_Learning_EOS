@@ -220,7 +220,11 @@
 	1. Currently uses the longest chain.
 	2. No Block producer can sign on 2 chains simultaneously i.e. at a time.
 	
-	
+35. ### RAM size of a smart contract
+  Normally, it can be of KBs to MBs.
+  [Source](https://eosio.stackexchange.com/a/1724/167)
+
+
 	
 	
 	
