@@ -224,6 +224,13 @@
   Normally, it can be of KBs to MBs.
   [Source](https://eosio.stackexchange.com/a/1724/167)
 
+36. ### Length of Private-Public keypair?
+  Private: start with 5 and contain 51 characters
+  Public: start with "EOS" and contain 53 characters
+
+37. ### What is max-transaction-time in mainnet now?
+    3.6 sec <br/>
+    [Source](https://github.com/CryptoLions/EOS-MainNet/blob/master/genesis.json)
 
 	
 	
