@@ -84,6 +84,7 @@ EOS resources available here.
   - https://eosflare.io/
   - https://eostree.io/ (Search any account with creator names)
   - https://www.eosx.io
+  - View personal Account info. - https://eosinbox.io
   
 * Demux (infrastructure for interating with databases (speed & flexibility) - [MongoDB](https://www.mongodb.com/), [PostgreSQL](https://www.postgresql.org/) along with Blockchain (immutability)):
   - [MongoDB and MySQL Compared](https://www.mongodb.com/compare/mongodb-mysql)
