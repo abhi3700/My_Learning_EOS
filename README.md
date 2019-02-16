@@ -210,6 +210,8 @@ EOS resources available here.
 * EOS bank - https://github.com/eosonic/EOSBank/blob/master/README.md
 * Bancor contracts - https://github.com/bancorprotocol/contracts_eos
 * Smart contract audit - https://github.com/EveripediaNetwork/smart-contract-audits/blob/master/everipediaiq-audit.md
+* Smart contract template - https://github.com/bnbjin/smartcont/
+
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
