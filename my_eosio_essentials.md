@@ -153,8 +153,15 @@
 
 * ### name
 	`"foo"_n` is a shortcut for `name{"foo"}` since eosio.cdt 1.3.x
-	
-	
+
+* ### What does `require_auth (_self)` do in EOS?
+
+  Contracts inherit from eosio::contract, and, if we look in eosiolib/contract.hpp for the base class, we see that the constructor for eosio::contract is as follows:
+
+  `contract( account_name n ):_self(n){}`
+  
+  Therefore, the account that creates the contract and calls the constructor becomes `_self`. Thus, `require_auth(_self)` ensures that the account executing the function has the authority of the account that created the contract.
+  
 ## References
 * [EOSIO Smart Contract Database Walkthrough](https://blog.csdn.net/yunqishequ1/article/details/80362507)
 * [Utility](https://github.com/abhi3700/My_Learning_EOS/blob/master/Programming/utillity/README.md)
