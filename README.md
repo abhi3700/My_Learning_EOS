@@ -11,6 +11,7 @@ EOS resources available here.
 * EOS hackathon howto-guide - https://github.com/EOSIO/hackathon-howto-guide
 * EOSIO Project boilerplate simple - https://github.com/EOSIO/eosio-project-boilerplate-simple
 * Differences b/w EOSIO Old vs New in contract programming - [official link](https://github.com/EOSIO/eosio.cdt/blob/master/README.md#differences-between-version-12x-and-version-13x), [backup link](https://github.com/abhi3700/My_Learning_EOS/blob/master/eosio.cdt_OldvsNew.md)
+* Contract documentation (version-wise) - http://eosio.github.io/eosio.cdt
 
 ## Development
 * Python-based Framework for EOS - https://github.com/tokenika/eosfactory
@@ -211,7 +212,9 @@ EOS resources available here.
 * Bancor contracts - https://github.com/bancorprotocol/contracts_eos
 * Smart contract audit - https://github.com/EveripediaNetwork/smart-contract-audits/blob/master/everipediaiq-audit.md
 * Smart contract template - https://github.com/bnbjin/smartcont/
-
+* EOS SC template - https://github.com/digital-scarcity/eostemplate
+* Equipment Rental (like Olx) - https://github.com/digital-scarcity/equiprental, [YouTube Video](https://www.youtube.com/watch?v=J0SYv-GC3R0)
+* EOS dApp tutorial (3 parts) - [Part 1](https://trybe.one/how-to-develop-your-first-eos-dapp-setup-step-by-step-part-1-of-3-eosio-setup/), [Part 2](https://trybe.one/how-to-develop-your-first-eos-dapp-setup-step-by-step-part-2-smart-contract/), [Part 3](https://trybe.one/how-to-develop-your-first-eos-dapp-step-by-step-part-3-of-3-web-dapp/)
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
