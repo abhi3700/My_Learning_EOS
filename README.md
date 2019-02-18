@@ -215,6 +215,8 @@ EOS resources available here.
 * EOS SC template - https://github.com/digital-scarcity/eostemplate
 * Equipment Rental (like Olx) - https://github.com/digital-scarcity/equiprental, [YouTube Video](https://www.youtube.com/watch?v=J0SYv-GC3R0)
 * EOS dApp tutorial (3 parts) - [Part 1](https://trybe.one/how-to-develop-your-first-eos-dapp-setup-step-by-step-part-1-of-3-eosio-setup/), [Part 2](https://trybe.one/how-to-develop-your-first-eos-dapp-setup-step-by-step-part-2-smart-contract/), [Part 3](https://trybe.one/how-to-develop-your-first-eos-dapp-step-by-step-part-3-of-3-web-dapp/)
+* EOS Lost key contract - https://github.com/eosdac/eosio.lost
+
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
