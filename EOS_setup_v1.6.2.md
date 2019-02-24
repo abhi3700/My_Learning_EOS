@@ -1,10 +1,10 @@
 ### Follow the steps below:
 * `git clone https://github.com/EOSIO/eos.git --recursive` [NOT NEEDED, Already cloned]
 * `cd eos`
-* `git pull https://github.com/EOSIO/eos.git v1.2.3`
+* `git pull https://github.com/EOSIO/eos.git v1.6.2`
 * `git submodule update --init --recursive`
-* `git checkout tags/v1.2.3`
-* `./eosio_build.sh`
+* `git checkout tags/v1.6.2`
+* EOSIO has been successfully built using `./eosio_build.sh`
 ```
         Checking boost library installation.
         Boost found at /home/abhijit/opt/boost.
@@ -27,7 +27,9 @@
 ......
 .....
 ```
-* `./eosio_install.sh`(created some error) => use <br/>
+
+* Installing EOSIO Binary Symlinks <br/>
+`sudo ./eosio_install.sh`(if, creates error) => use <br/>
   `cd build` & then `sudo make install`
 ```
 Install the project...
@@ -297,9 +299,12 @@ Install the project...
 -- Installing: /usr/local/eosio/bin/eosio-abigen
 -- Installing: /usr/local/eosio/bin/eosiocpp
 ```
-* add sublink for `cleos`, `keosd`, `nodeos`, `eosiocpp` using <br/>
+
+* add sublink (if not created in the above step) for `cleos`, `keosd`, `nodeos`, `eosiocpp` using <br/>
    `sudo ln -s "/usr/local/eosio/bin/cleos" /usr/local/bin/cleos`
         
     same for others.....
-* check for compiling "hello.cpp" using `eosiocpp -o hello.wast hello.cpp`  & `eosiocpp -g hello.abi hello.cpp`
+* `cleos`, `keosd` has been installed.
+* `eosio-cpp` and other contract compilation tools has been moved to [`eosio.cdt`](https://github.com/EOSIO/eosio.cdt) repo.
+* EOSIO contracts has been moved to [`eosio.contracts`](https://github.com/EOSIO/eosio.contracts) repo.  
   
