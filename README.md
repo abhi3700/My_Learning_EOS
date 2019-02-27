@@ -217,6 +217,8 @@ EOS resources available here.
 * EOS dApp tutorial (3 parts) - [Part 1](https://trybe.one/how-to-develop-your-first-eos-dapp-setup-step-by-step-part-1-of-3-eosio-setup/), [Part 2](https://trybe.one/how-to-develop-your-first-eos-dapp-setup-step-by-step-part-2-smart-contract/), [Part 3](https://trybe.one/how-to-develop-your-first-eos-dapp-step-by-step-part-3-of-3-web-dapp/)
 * EOS Lost key contract - https://github.com/eosdac/eosio.lost
 * Ricardian contract bond, claim, and arbitration management system - https://github.com/EOSMetal/tungsten
+* Infiniverse (AR based company) contracts - https://github.com/InfiniverseAR/infiniverse-eos
+* Load many deferred transactions (Performance Testing) - https://github.com/michaeljyeates/eos-blaster
 
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
