@@ -219,7 +219,9 @@ EOS resources available here.
 * Ricardian contract bond, claim, and arbitration management system - https://github.com/EOSMetal/tungsten
 * Infiniverse (AR based company) contracts - https://github.com/InfiniverseAR/infiniverse-eos
 * Load many deferred transactions (Performance Testing) - https://github.com/michaeljyeates/eos-blaster
-
+* EOS contract examples - https://github.com/clockknock/eos-contract-example
+* Custom tokens - https://github.com/greymass/customtokens
+* EOS atm - https://github.com/xJonathanLEI/eosatm
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
