@@ -116,6 +116,11 @@ EOS resources available here.
     * Introduction - https://medium.com/eosio/introducing-eosio-dawn-4-0-f738c552879
     * Release - https://medium.com/eosio/eosio-dawn-4-0-release-b25661a49ac2
 * Multi-Sig wallet - https://steemit.com/eos/@genereos/eos-multisig-tutorial
+* BTS DPoS Consensus Code Implementation Overview - https://blog.csdn.net/ggq89/article/details/80068306
+* [EOS: Explanation of DPoS+BFT w/ Daniel Larimer - Part 1 of 2](https://steemit.com/eos/@eosgo/eos-explanation-of-dpos-bft-w-daniel-larimer-part-1-of-2): This explanation is by Dan himself - part 1.
+* [EOS: Explanation of New BFT+DPoS w/ Daniel Larimer - Part 2 of 2](https://steemit.com/eos/@eosgo/4izmr903): This explanation is by Dan himself - part 2.
+* [DPOS Consensus Algorithm - The Missing White Paper](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper)
+* [Last irreversible Block discussion in Github](https://github.com/EOSIO/eos/issues/2718)
 
 ## EOS SC Coding
 * My contract [Setup](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#summary)
