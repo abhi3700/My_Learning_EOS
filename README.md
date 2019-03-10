@@ -227,6 +227,7 @@ EOS resources available here.
 * EOS contract examples - https://github.com/clockknock/eos-contract-example
 * Custom tokens - https://github.com/greymass/customtokens
 * EOS atm - https://github.com/xJonathanLEI/eosatm
+* ClashBet EOS Hackathon - https://github.com/gulbinas/EOSHackathon_ClashBet
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
