@@ -231,6 +231,7 @@ EOS resources available here.
 * Custom tokens - https://github.com/greymass/customtokens
 * EOS atm - https://github.com/xJonathanLEI/eosatm
 * ClashBet EOS Hackathon - https://github.com/gulbinas/EOSHackathon_ClashBet
+* Universal Escrow Service on EOS - https://github.com/eos-geneva/escrowescrow
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
