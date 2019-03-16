@@ -105,6 +105,9 @@ EOS resources available here.
   - https://eos.feexplorer.io/
   - https://www.myeoskit.com/tools/ram/buy
 * List of dApps using Scatter Login - https://get-scatter.com/Apps
+* EOS Studio (IDE for SC Development)
+  - Linux/Mac: https://download.eosstudio.io/
+  - Windows: https://download.eosstudio.io/win
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
