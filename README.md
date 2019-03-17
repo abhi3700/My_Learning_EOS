@@ -110,6 +110,7 @@ EOS resources available here.
   - Windows: https://download.eosstudio.io/win
 ## EOS DApps
 * EOS Filestore - https://eosfilestore.now.sh/download
+* EOS dMail - [YouTube demo](https://www.youtube.com/watch?v=BVa24dSCFOw)
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
