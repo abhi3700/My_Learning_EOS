@@ -108,6 +108,8 @@ EOS resources available here.
 * EOS Studio (IDE for SC Development)
   - Linux/Mac: https://download.eosstudio.io/
   - Windows: https://download.eosstudio.io/win
+## EOS DApps
+* EOS Filestore - https://eosfilestore.now.sh/download
 
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
@@ -126,6 +128,7 @@ EOS resources available here.
 * [Last irreversible Block discussion in Github](https://github.com/EOSIO/eos/issues/2718)
 
 ## EOS SC Coding
+* [EOSIO Boilerplate](https://github.com/abhi3700/eosio-boilerplate)
 * My contract [Setup](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#summary)
 * [my_eosio_essentials](https://github.com/abhi3700/My_Learning_EOS/blob/master/my_eosio_essentials.md)
 * Tutorial on writing smart contracts on EOS - https://github.com/itleaks/eos-contract
