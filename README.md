@@ -236,6 +236,7 @@ EOS resources available here.
 * EOS atm - https://github.com/xJonathanLEI/eosatm
 * ClashBet EOS Hackathon - https://github.com/gulbinas/EOSHackathon_ClashBet
 * Universal Escrow Service on EOS - https://github.com/eos-geneva/escrowescrow
+* EOS Bank - https://github.com/hrzp/eosbank
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
