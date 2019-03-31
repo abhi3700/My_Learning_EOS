@@ -237,6 +237,7 @@ EOS resources available here.
 * ClashBet EOS Hackathon - https://github.com/gulbinas/EOSHackathon_ClashBet
 * Universal Escrow Service on EOS - https://github.com/eos-geneva/escrowescrow
 * EOS Bank - https://github.com/hrzp/eosbank
+* eos contracts best practices - https://github.com/liquidapps-io/eos-contracts-best-practices
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
