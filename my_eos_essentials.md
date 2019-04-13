@@ -232,6 +232,11 @@
     3.6 sec <br/>
     [Source](https://github.com/CryptoLions/EOS-MainNet/blob/master/genesis.json)
 
+38. ### What are the sources of income generation for REX users?
+		- RAM Trading fees
+		- Namebids
+		- Lending CPU, BW
+
 	
 	
 	
