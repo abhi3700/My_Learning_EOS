@@ -238,6 +238,7 @@ EOS resources available here.
 * Universal Escrow Service on EOS - https://github.com/eos-geneva/escrowescrow
 * EOS Bank - https://github.com/hrzp/eosbank
 * eos contracts best practices - https://github.com/liquidapps-io/eos-contracts-best-practices
+* IBC contracts - https://github.com/boscore/ibc_contracts
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
