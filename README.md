@@ -240,6 +240,7 @@ EOS resources available here.
 * eos contracts best practices - https://github.com/liquidapps-io/eos-contracts-best-practices
 * IBC contracts - https://github.com/boscore/ibc_contracts
 * Pegged Token Exchange Smart Cotnract (by @bytemaster) - https://github.com/bytemaster/pex
+* List of EOS tokens - https://github.com/BlockABC/eos-tokens
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
