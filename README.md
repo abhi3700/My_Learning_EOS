@@ -243,6 +243,9 @@ EOS resources available here.
 * List of EOS tokens - https://github.com/BlockABC/eos-tokens
 * RFID Contract - https://github.com/EOSIoT/rfid-contract/blob/master/rfidapp.hpp
 * RFID scanner device software for Raspberry Pi and EOS blockchain - https://github.com/EOSIoT/rfid-scanner-node
+* ICO on EOS - https://github.com/shuklaashish057/eos-ico
+* Effect.AI network contracts - https://github.com/effectai/effect-network-eos
+* EOS Resource Telegram Bot - https://github.com/oboluscrypto/eos-dapp-resource-alert 
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
