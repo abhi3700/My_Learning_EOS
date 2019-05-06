@@ -241,6 +241,8 @@ EOS resources available here.
 * IBC contracts - https://github.com/boscore/ibc_contracts
 * Pegged Token Exchange Smart Cotnract (by @bytemaster) - https://github.com/bytemaster/pex
 * List of EOS tokens - https://github.com/BlockABC/eos-tokens
+* RFID Contract - https://github.com/EOSIoT/rfid-contract/blob/master/rfidapp.hpp
+* RFID scanner device software for Raspberry Pi and EOS blockchain - https://github.com/EOSIoT/rfid-scanner-node
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
