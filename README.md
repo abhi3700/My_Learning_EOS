@@ -158,7 +158,9 @@ EOS resources available here.
 * incoming transfer rules for transaction in memo - https://github.com/eosauthority/incoming-transfer-rules
 * EOS Pixels contract - https://github.com/eosasia/eospixels
 * EOS Smart contract bugs (Be careful, for dev reference) - https://github.com/EOSArgentina/eos_known_attacks
-* Pet Smart contract - https://gist.github.com/leordev/c927cd919f3a84be368b2bc5e2aee883
+* Pet Smart contract 
+  - https://gist.github.com/leordev/c927cd919f3a84be368b2bc5e2aee883
+  - https://github.com/eun2ce/eosio.pet
 * EOS timelock contract - https://github.com/michaeljyeates/eos-timelock
 * EOS button contract - https://github.com/eosbutton/eosbutton-contract
 * EOS voting contract - https://github.com/EOSMore/eos-contracts/tree/dev/more.voting [Read first](https://github.com/EOSMore/eos-contracts/blob/dev/README.md)
@@ -245,7 +247,8 @@ EOS resources available here.
 * RFID scanner device software for Raspberry Pi and EOS blockchain - https://github.com/EOSIoT/rfid-scanner-node
 * ICO on EOS - https://github.com/shuklaashish057/eos-ico
 * Effect.AI network contracts - https://github.com/effectai/effect-network-eos
-* EOS Resource Telegram Bot - https://github.com/oboluscrypto/eos-dapp-resource-alert 
+* EOS Resource Telegram Bot - https://github.com/oboluscrypto/eos-dapp-resource-alert
+* Python EOS Utilities (push transactions, cal RAM, create account, etc.) - https://github.com/jin10086/eos-bonus-getting
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
