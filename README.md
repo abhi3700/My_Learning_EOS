@@ -177,7 +177,6 @@ EOS resources available here.
 * Referendum voting contract (A Smart Contract to allow staked users to vote upon a change of the Constitution.) - https://github.com/eos42/eos-referendum
 * Contract for CPU & NET lease on EOS - https://github.com/EOSLaoMao/BankofStaked-CE
 * Contract for making immutable w/o losing mutability - https://github.com/xJonathanLEI/eosyield
-* Advanced EOS examples - https://github.com/MitchPierias/Advanced-EOS-Examples
 * Custom Token tracking smart contract for EOS - https://github.com/greymass/customtokens
 * EOS Spore mini game - https://github.com/MNLBlockDevs/eos-simplepacman-contract
 * EOS dev contracts - https://github.com/decentrawise/eos-dev
@@ -249,6 +248,8 @@ EOS resources available here.
 * Effect.AI network contracts - https://github.com/effectai/effect-network-eos
 * EOS Resource Telegram Bot - https://github.com/oboluscrypto/eos-dapp-resource-alert
 * Python EOS Utilities (push transactions, cal RAM, create account, etc.) - https://github.com/jin10086/eos-bonus-getting
+* Sales contract - https://github.com/simonschmoll/eos_sales_contract
+* Gift EOS by automatically creating an EOS account - https://github.com/slyon/signup
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
