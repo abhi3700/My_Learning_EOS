@@ -251,6 +251,7 @@ EOS resources available here.
 * Sales contract - https://github.com/simonschmoll/eos_sales_contract
 * Gift EOS by automatically creating an EOS account - https://github.com/slyon/signup
 * Decentralized Bounty system - https://github.com/Blockchain-zju/zjubca.bounty
+* EOSUSD (Stable token) - https://github.com/eosusd/eosusd
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
