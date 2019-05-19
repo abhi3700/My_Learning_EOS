@@ -252,6 +252,8 @@ EOS resources available here.
 * Gift EOS by automatically creating an EOS account - https://github.com/slyon/signup
 * Decentralized Bounty system - https://github.com/Blockchain-zju/zjubca.bounty
 * EOSUSD (Stable token) - https://github.com/eosusd/eosusd
+* EOS token (with extra features- add-blacklist, rm-blacklist, refund, auto-refund etc.) - https://github.com/mykeylab/eos-stake-token
+* DGoods (A token standard for digital goods) - https://github.com/MythicalGames/dgoods
 
 [#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
