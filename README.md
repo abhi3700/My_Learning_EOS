@@ -262,6 +262,8 @@ EOS resources available here.
 * Object computing Blogs- [What is Graphene](https://objectcomputing.com/resources/publications/sett/march-2017-graphene-an-open-source-blockchain/) , [EOS Smart contracts](https://objectcomputing.com/resources/publications/sett/february-2018-eos-smart-contracts/)
 * Blogs, Videos, links Github Repository - https://github.com/EOS-Nation/Awesome-EOS
 * EOS voting stackexchange - https://eosio.stackexchange.com/questions/725/how-to-vote-using-cleos
+* How To Secure Messages On EOS - https://medium.com/@darchnetwork0/how-to-secure-messages-on-eos-a9c4e86c3cf7
+* EOS CPU issue | Remove artificial REX lower limit - https://github.com/EOSIO/eosio.contracts/pull/369
 
 ## TO_READ
 * https://eosio.stackexchange.com/questions/2247/what-is-the-best-way-of-storing-data-on-eos-blockchain
