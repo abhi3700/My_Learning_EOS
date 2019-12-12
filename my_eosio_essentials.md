@@ -161,7 +161,41 @@
   `contract( account_name n ):_self(n){}`
   
   Therefore, the account that creates the contract and calls the constructor becomes `_self`. Thus, `require_auth(_self)` ensures that the account executing the function has the authority of the account that created the contract.
-  
+
+* List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
+```cpp
+bool
+int8
+uint8
+int16
+uint16
+int32
+uint32
+int64
+uint64
+int128
+uint128
+varuint32
+varint32
+float32
+float64
+float128
+time_point
+time_point_sec
+block_timestamp_type
+name
+bytes
+string
+checksum160
+checksum256
+checksum512
+public_key
+private_key
+signature
+symbol
+symbol_code
+asset
+```
 ## References
 * [EOSIO Smart Contract Database Walkthrough](https://blog.csdn.net/yunqishequ1/article/details/80362507)
 * [Utility](https://github.com/abhi3700/My_Learning_EOS/blob/master/Programming/utillity/README.md)
