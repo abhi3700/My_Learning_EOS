@@ -127,6 +127,12 @@ EOS resources available here.
 * [EOS: Explanation of New BFT+DPoS w/ Daniel Larimer - Part 2 of 2](https://steemit.com/eos/@eosgo/4izmr903): This explanation is by Dan himself - part 2.
 * [DPOS Consensus Algorithm - The Missing White Paper](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper)
 * [Last irreversible Block discussion in Github](https://github.com/EOSIO/eos/issues/2718)
+* [History and notification in EOS blockchain](https://medium.com/@cc32d9/history-and-notifications-in-eosio-blockchain-8255194af93)
+
+## Education, Academics, Course
+* EOSIO Dev Course at Geneva University (November 8-16th 2019)- https://github.com/Europechain/eosio-dev-introduction-course
+* EOS smart contract programming tutorials - https://github.com/cc32d9/eosio.tutorials
+
 
 ## EOS SC Coding
 * [EOSIO Boilerplate](https://github.com/abhi3700/eosio-boilerplate)
@@ -236,7 +242,7 @@ EOS resources available here.
 * Custom tokens - https://github.com/greymass/customtokens
 * EOS atm - https://github.com/xJonathanLEI/eosatm
 * ClashBet EOS Hackathon - https://github.com/gulbinas/EOSHackathon_ClashBet
-* Universal Escrow Service on EOS - https://github.com/eos-geneva/escrowescrow
+* Universal Escrow Service on EOS (You can create a smart contract that accepts transfers and locks them up, and releases at a certain condition) - https://github.com/eos-geneva/escrowescrow
 * EOS Bank - https://github.com/hrzp/eosbank
 * eos contracts best practices - https://github.com/liquidapps-io/eos-contracts-best-practices
 * IBC contracts - https://github.com/boscore/ibc_contracts
