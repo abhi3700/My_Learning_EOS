@@ -12,6 +12,8 @@ EOS resources available here.
 * EOSIO Project boilerplate simple - https://github.com/EOSIO/eosio-project-boilerplate-simple
 * Differences b/w EOSIO Old vs New in contract programming - [official link](https://github.com/EOSIO/eosio.cdt/blob/master/README.md#differences-between-version-12x-and-version-13x), [backup link](https://github.com/abhi3700/My_Learning_EOS/blob/master/eosio.cdt_OldvsNew.md)
 * Contract documentation (version-wise) - http://eosio.github.io/eosio.cdt
+* EOS Developer Portal - https://developers.eos.io/
+* EOSIO Specifications Repository - https://github.com/EOSIO/spec-repo
 
 ## Development
 * Python-based Framework for EOS - https://github.com/tokenika/eosfactory
@@ -128,6 +130,7 @@ EOS resources available here.
 * [DPOS Consensus Algorithm - The Missing White Paper](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper)
 * [Last irreversible Block discussion in Github](https://github.com/EOSIO/eos/issues/2718)
 * [History and notification in EOS blockchain](https://medium.com/@cc32d9/history-and-notifications-in-eosio-blockchain-8255194af93)
+* [Understanding EOS by Blockgeeks](https://blockgeeks.com/guides/eos-blockchain/)
 
 ## Education, Academics, Course
 * EOSIO Dev Course at Geneva University (November 8-16th 2019)- https://github.com/Europechain/eosio-dev-introduction-course
@@ -260,8 +263,6 @@ EOS resources available here.
 * EOSUSD (Stable token) - https://github.com/eosusd/eosusd
 * EOS token (with extra features- add-blacklist, rm-blacklist, refund, auto-refund etc.) - https://github.com/mykeylab/eos-stake-token
 * DGoods (A token standard for digital goods) - https://github.com/MythicalGames/dgoods
-
-[#continue](https://github.com/search?p=11&q=eos+contract&type=Repositories)
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
