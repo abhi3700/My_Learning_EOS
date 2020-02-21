@@ -135,6 +135,7 @@ EOS resources available here.
 ## Education, Academics, Course
 * EOSIO Dev Course at Geneva University (November 8-16th 2019)- https://github.com/Europechain/eosio-dev-introduction-course
 * EOS smart contract programming tutorials - https://github.com/cc32d9/eosio.tutorials
+* Block.one EOSIO Webinar - https://eos.io/webinars/ 
 
 
 ## EOS SC Coding
