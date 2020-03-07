@@ -1,0 +1,6 @@
+Wallet
+======
+name: "mywallet"
+password: "PW5JLLM8EJVdMDj85XcUAmuaY3c35w47pQEDszQpbiKeDWvQUb96Q"
+Private key: 5JQoJQizgxC2qrtWy8CCgoAp8zJhbZmE2pzFdBGa5Ab2MKjW3qs                                                        
+Public key: EOS6sdskMiMTPmZja7TGLQ6iEcJKNMzPYaLkJnePSkwnTYkWUrgvz 
