@@ -265,6 +265,7 @@ EOS resources available here.
 * EOS token (with extra features- add-blacklist, rm-blacklist, refund, auto-refund etc.) - https://github.com/mykeylab/eos-stake-token
 * DGoods (A token standard for digital goods) - https://github.com/MythicalGames/dgoods
 * Smart contract that allows to create completely decentralized trading pairs - https://github.com/EOSArgentina/evolutiondex
+* My EOS makes writing EOS dApps easy! - https://github.com/eosrapid/my-eos
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
