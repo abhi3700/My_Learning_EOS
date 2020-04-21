@@ -138,7 +138,7 @@ EOS resources available here.
 * Block.one EOSIO Webinar - https://eos.io/webinars/ 
 
 
-## EOS SC Coding
+## Repositories
 * [EOSIO Boilerplate](https://github.com/abhi3700/eosio-boilerplate)
 * My contract [Setup](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#summary)
 * [my_eosio_essentials](https://github.com/abhi3700/My_Learning_EOS/blob/master/my_eosio_essentials.md)
@@ -266,6 +266,8 @@ EOS resources available here.
 * DGoods (A token standard for digital goods) - https://github.com/MythicalGames/dgoods
 * Smart contract that allows to create completely decentralized trading pairs - https://github.com/EOSArgentina/evolutiondex
 * My EOS makes writing EOS dApps easy! - https://github.com/eosrapid/my-eos
+* EOSIO smart contracts collection - https://github.com/blockmatic/eosio-contracts-list
+* RobotFactory-02 (is the extended RobotFactory project used for the live demo at the second EOS Developers Meetup) - https://github.com/infiniteXLabs/RobotFactory-02
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
