@@ -196,9 +196,59 @@ symbol
 symbol_code
 asset
 ```
+
+## since [eosio.contracts v1.9.1](https://github.com/EOSIO/eosio.contracts/releases/tag/v1.9.1) | [eosio.cdt v1.7.x](https://github.com/EOSIO/eosio.cdt/releases/tag/v1.7.0) | [eosio v2.0.x](https://github.com/EOSIO/eos/releases/tag/v2.0.1)
+
+### NOTES
+#### EOSIO Basics
+* EOSIO is an emerging smart contract architecture that allows application developers to create and deploy decentralized applications that record and manipulate application data using a blockchain, a distributed, immutable, append-only ledger.
+* URLs
+	- [current guide](https://developers.eos.io/eosio-home/docs)
+	- [SmartContract API](https://eosio.github.io/eosio.cdt/latest/modules)
+	- [Developer Portal](https://developers.eos.io/)
+
+#### Execution Model
+* A C++ class with an annotation `[[eosio::contract("contractname")]]` represents a smart contract with the name `contractname`. 
+* Smart contracts execute in bursts called transactions, which are triggered when actions are sent to a smart contract by a client. A transaction may include one or more actions.
+* A transaction begins by creating a (transient) instance of a smart contract C++ class, which involves execution of its constructor. The initial dispatched action is then matched to an annotated method of the smart contract class (using an [[eosio::action]] annotation), which is then invoked with the client's arguments.
+* Each smart contract has an ABI description that describes the names of the actions it exports along with, for each action, the number and types of the arguments the corresponding method expects.
+
+* EOSIO transactions share 2 of the 4 so-called [ACID](https://en.wikipedia.org/wiki/ACID) properties of traditional transactions: __Atomicity__ and __Isolation__. __Atomicity__ means that any changes to persistent state either occur in their entirety or not at all. __Isolation__ means that multiple transactions cannot interfere with each other even if they refer to the same state. EOSIO transactions do not guarantee __Consistency__ or __Durability__. Providing consistency is the responsibility of the smart contract developer, and durability will be achieved indirectly when a transaction's results are eventually confirmed by the multiple nodes on the blockchain that have replicated the action and have arrived at a distributed consensus regarding its outcome.
+	
+	> Summary:
+
+	> - __Atomicity__: Execute all or none. Basically, if one of the actions (in a txn) fails, it will not execute. <br/>
+			E.g. T1 transfers 10 from A to B: (1. subtracts 10 from A; 2. adds 10 from B ), So, 2 actions, 1 txn.
+
+	> - __Isolation__: No interference b/w txns. Basically, Out of 2 txns (T1, T2), T2 will not interfere in T1. <br/>
+			E.g. Consider two transactions: T1 transfers 10 from A to B. T2 transfers 20 from B to A. <br/>
+			Combined, there are four actions: <br/>
+			- T1 subtracts 10 from A. <br/>
+			- T1 adds 10 to B. <br/>
+			- T2 subtracts 20 from B. <br/>
+			- T2 adds 20 to A. <br/>
+			For more, refer to "Isolation failure" section from [here](https://en.wikipedia.org/wiki/ACID)
+
+	> __Consistency__: responsibility of a SC developer.
+
+	> __Durability__: responsibility of Blockchain nodes (mutual agreement i.e. achieving consensus)
+
+* Actions may trigger another actions
+	- inline actions are synchronous & become part of the current transaction.
+	- deferred actions are asynchronous & may be executed in a later transaction.
+* Between transactions, no state is kept other than what is stored in dedicated, persistent tables (multi-index tables).
+
+#### Storage Model - Multi-Index Tables
+* Since instances of smart contract classes are transiently instantiated only for the duration of one transaction, EOSIO's blockchain-backed database must be used to store any data that is to persist across transactions. In terms of programming model, it's not possible to store data in instance fields or static fields or even other global variables.
+* EOS uses Boost's multi-index container data type.
+* A multi-index table stores serializable objects whose struct definition is annotated with `[[eosio::table]]`.
+* For efficient lookup, and to ensure uniqueness, each object is required to provide:
+	- a primary key (which must be unique),
+	- and may provide up to 16 secondary keys which must be ordered, but don't have to be necessarily unique.
+* 
+
+
 ## References
 * [EOSIO Smart Contract Database Walkthrough](https://blog.csdn.net/yunqishequ1/article/details/80362507)
 * [Utility](https://github.com/abhi3700/My_Learning_EOS/blob/master/Programming/utillity/README.md)
-
-
-
+* [EOSIO notes by University](https://cpp.cs.cloud.vt.edu/docs-blockchain-eosio-eosio)
