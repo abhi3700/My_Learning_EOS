@@ -269,6 +269,23 @@ EOS resources available here.
 * My EOS makes writing EOS dApps easy! - https://github.com/eosrapid/my-eos
 * EOSIO smart contracts collection - https://github.com/blockmatic/eosio-contracts-list
 * RobotFactory-02 (is the extended RobotFactory project used for the live demo at the second EOS Developers Meetup) - https://github.com/infiniteXLabs/RobotFactory-02
+* EOS-tutorial - https://github.com/clockknock/EOS-Tutorial
+* EOS Faucet contract - https://github.com/clockknock/eosfaucet
+* Some examples for EOS contract - https://github.com/clockknock/eos-contract-example
+* EOS Football lottery - https://github.com/ishotoli/eos-football-lottery
+* A Smart Contract to allow staked users to vote upon a change of the Constitution - https://github.com/eos42/eos-referendum
+* Contract to allow genesis account holders on EOS to reset a lost key - https://github.com/eosdac/eosio.lost
+* EOSIO contracts references, examples and best-practices - https://github.com/liquidapps-io/eos-contracts-best-practices
+* My personal sandbox to play with EOS Smart Contracts - https://github.com/leordev/eos-play
+* Integer library with unlimited precision for EOS.IO Smart Contract - https://github.com/playerone-id/biginteger-for-eosio
+* Crazy town EOS contract - https://github.com/yukiexe/crazytown-eos-contract
+* safer fund management - https://github.com/EOSLaoMao/EOSGuardian
+* All the EOSDAC smart contracts - https://github.com/eosdac/eosdac-contracts
+* Provable API for EOS contracts - https://github.com/provable-things/eos-api
+* Code examples showing how to use the Provable API on EOSIO - https://github.com/provable-things/eos-examples
+* Kerosene Lamp powered by SimpleAssets - https://github.com/CryptoLions/KeroseneLamp
+* A simple standard for digital assets (both fungible and NFTs - non-fungible tokens) for EOSIO blockchains - https://github.com/CryptoLions/SimpleAssets
+* EOSIO contract for collecting BPs peers latency - https://github.com/CryptoLions/PeerPingData
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
