@@ -138,6 +138,8 @@ EOS resources available here.
 * EOS smart contract programming tutorials - https://github.com/cc32d9/eosio.tutorials
 * Block.one EOSIO Webinar - https://eos.io/webinars/ 
 
+## Hackathons
+* EOSIO Ethereum Virtual Machine (EVM) - https://github.com/jafri/eosio.evm
 
 ## Repositories
 * [EOSIO Boilerplate](https://github.com/abhi3700/eosio-boilerplate)
