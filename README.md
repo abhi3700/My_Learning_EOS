@@ -15,6 +15,9 @@ EOS resources available here.
 * EOS Developer Portal - https://developers.eos.io/
 * EOSIO Specifications Repository - https://github.com/EOSIO/spec-repo
 * EOSIO Welcome (EOSIO Overview, Getting Started and Protocol documents) - https://github.com/EOSIO/welcome
+* EOSIO Modules - https://developers.eos.io/manuals/eosio.cdt/v1.7/modules
+* EOSIO.CDT (from v1.2 to v1.3) - https://developers.eos.io/manuals/eosio.cdt/latest/upgrading/1.2-to-1.3
+* EOSIO.CDT (from v1.5 to v1.6) - https://developers.eos.io/manuals/eosio.cdt/latest/upgrading/1.5-to-1.6
 
 ## Development
 * Python-based Framework for EOS - https://github.com/tokenika/eosfactory
