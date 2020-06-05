@@ -114,6 +114,7 @@ EOS resources available here.
 * EOS Studio (IDE for SC Development)
   - Linux/Mac: https://download.eosstudio.io/
   - Windows: https://download.eosstudio.io/win
+
 ## EOS DApps
 * EOS Filestore - https://eosfilestore.now.sh/download
 * EOS dMail - [YouTube demo](https://www.youtube.com/watch?v=BVa24dSCFOw)
@@ -142,7 +143,15 @@ EOS resources available here.
 * Block.one EOSIO Webinar - https://eos.io/webinars/ 
 
 ## Hackathons
-* EOSIO Ethereum Virtual Machine (EVM) - https://github.com/jafri/eosio.evm
+* EOSIO Ethereum Virtual Machine (EVM) 
+	- About: Essentially, eosio.evm gives you a fully featured Ethereum virtual machine on EOS. As a developer, you can write your code in Solidity, compile it and deploy it directly on the eosio.evm contract. I like to think of it like the program Wine, which allows applications coded for Windows to run on MacOS and Linux. eosio.evm takes programs written for Ethereum and runs them with enchanced TPS on EOS.
+	- Github repo: https://github.com/jafri/eosio.evm
+	- Blog: https://www.eoswriter.io/170545_syed-jafri-talks-blockhain-ethereum-and-the-eosio-challenge-interview.eos
+	- Video:
+		+ [eosio.evm: Short Introduction](https://www.youtube.com/watch?v=Gi_4lx4pc60)
+		+ [eosio.evm: Ethereum Virtual Machine on EOSIO - Comprehensive Tutorial](https://www.youtube.com/watch?v=-ZDNFegzLCs)
+		+ [eosio.evm: Using Metamask and Remix with EOSIO nodes](https://www.youtube.com/watch?v=9y6Gjw4TiDk)
+	- prize money by Block.one - `200,000 USD`
 
 ## Repositories
 * [EOSIO Boilerplate](https://github.com/abhi3700/eosio-boilerplate)
@@ -291,6 +300,7 @@ EOS resources available here.
 * Kerosene Lamp powered by SimpleAssets - https://github.com/CryptoLions/KeroseneLamp
 * A simple standard for digital assets (both fungible and NFTs - non-fungible tokens) for EOSIO blockchains - https://github.com/CryptoLions/SimpleAssets
 * EOSIO contract for collecting BPs peers latency - https://github.com/CryptoLions/PeerPingData
+* AtomicAssets (NFT by pink.network)- https://github.com/pinknetworkx/atomicassets-contract
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
