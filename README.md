@@ -140,7 +140,16 @@ EOS resources available here.
 ## Education, Academics, Course
 * EOSIO Dev Course at Geneva University (November 8-16th 2019)- https://github.com/Europechain/eosio-dev-introduction-course
 * EOS smart contract programming tutorials - https://github.com/cc32d9/eosio.tutorials
-* Block.one EOSIO Webinar - https://eos.io/webinars/ 
+* Block.one EOSIO Webinar - https://eos.io/webinars/
+* Read Medium articles by Mitcher:
+  - [Github repo](https://github.com/MitchPierias/advanced-eos-examples)
+  - [Advanced EOS Series — Part 1 — Cryptographic Hashes](https://medium.com/coinmonks/advanced-eos-series-part-1-cryptographic-hashes-a251a8d371b8)
+  - [Advanced EOS Series — Part 2 — Singletons](https://medium.com/coinmonks/advanced-eos-series-part-2-singletons-9e903772f71c)
+  - [Advanced EOS Series — Part 3 — Secondary Indexes](https://medium.com/coinmonks/advanced-eos-series-part-3-secondary-indexes-1798f339cbb8)
+  - [Advanced EOS Series — Part 4 — Table Uniqueness](https://medium.com/coinmonks/advanced-eos-series-part-4-table-uniqueness-835843a207fc)
+  - [Advanced EOS Series — Part 5 — One-to-many Relationships](https://medium.com/coinmonks/advanced-eos-series-part-5-one-to-many-relationships-42d2e075e05d)
+  - [Advanced EOS Series — Part 6 —Contract-to-Contract Communication](https://medium.com/coinmonks/advanced-eos-series-part-6-contract-to-contract-communication-ab352a8b60aa)
+  - [Advanced EOS Series — Part 9 — Payable Actions](https://medium.com/coinmonks/advanced-eos-series-part-9-payable-actions-42bf878bee36)
 
 ## Hackathons
 * EOSIO Ethereum Virtual Machine (EVM) 
