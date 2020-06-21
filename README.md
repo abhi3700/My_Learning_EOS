@@ -92,7 +92,14 @@ EOS resources available here.
   - https://eostree.io/ (Search any account with creator names)
   - https://www.eosx.io
   - View personal Account info. - https://eosinbox.io
-  
+
+* History Tools
+  - History API
+    + https://eos.hyperion.eosrio.io/v2/docs/index.html
+    + Dfuse API
+  - History tools by Block.one
+    + https://github.com/EOSIO/history-tools
+ 
 * Demux (infrastructure for interating with databases (speed & flexibility) - [MongoDB](https://www.mongodb.com/), [PostgreSQL](https://www.postgresql.org/) along with Blockchain (immutability)):
   - [MongoDB and MySQL Compared](https://www.mongodb.com/compare/mongodb-mysql)
   - [PostgreSQL with Python](http://www.postgresqltutorial.com/postgresql-python/) <br/>
@@ -114,6 +121,10 @@ EOS resources available here.
 * EOS Studio (IDE for SC Development)
   - Linux/Mac: https://download.eosstudio.io/
   - Windows: https://download.eosstudio.io/win
+* Local blocks.io
+  - enter Mainnet API url (copy from above)
+  - History API (optional): "https://eos.hyperion.eosrio.io/"
+
 
 ## EOS DApps
 * EOS Filestore - https://eosfilestore.now.sh/download
@@ -136,6 +147,7 @@ EOS resources available here.
 * [Last irreversible Block discussion in Github](https://github.com/EOSIO/eos/issues/2718)
 * [History and notification in EOS blockchain](https://medium.com/@cc32d9/history-and-notifications-in-eosio-blockchain-8255194af93)
 * [Understanding EOS by Blockgeeks](https://blockgeeks.com/guides/eos-blockchain/)
+* [Nodeos Server setup](https://github.com/EOSChronicleProject/chronicle-tutorial/blob/master/01_nodeos_server_setup.md)
 
 ## Education, Academics, Course
 * EOSIO Dev Course at Geneva University (November 8-16th 2019)- https://github.com/Europechain/eosio-dev-introduction-course
@@ -150,6 +162,7 @@ EOS resources available here.
   - [Advanced EOS Series — Part 5 — One-to-many Relationships](https://medium.com/coinmonks/advanced-eos-series-part-5-one-to-many-relationships-42d2e075e05d)
   - [Advanced EOS Series — Part 6 —Contract-to-Contract Communication](https://medium.com/coinmonks/advanced-eos-series-part-6-contract-to-contract-communication-ab352a8b60aa)
   - [Advanced EOS Series — Part 9 — Payable Actions](https://medium.com/coinmonks/advanced-eos-series-part-9-payable-actions-42bf878bee36)
+
 
 ## Hackathons
 * EOSIO Ethereum Virtual Machine (EVM) 
