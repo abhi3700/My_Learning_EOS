@@ -9,7 +9,7 @@
     They can volunteerly educate the people about EOS or decentralisation. This will make them more competent in the EOS producer candidate list.
 
 3. ### Will the EOS BPs number be 21 for lifetime? Can't we configure in the future if required?
-    Yes, it can be done.
+    Yes, it can be done. But min. 5 nodes needed for any entity wanting to use EOSIO software for creating their own Blockchain.
 
     The default number is 21, however in the latest (in Jan 2018) development update, they confirmed it would be dynamic/configurable.﻿
 
@@ -237,7 +237,8 @@
 		- Namebids
 		- Lending CPU, BW
 
-	
+39. ### How public key is calculated from a base58 encoded private key?
+		- [Source](https://bitcoin.stackexchange.com/a/83398)
 	
 	
 	
