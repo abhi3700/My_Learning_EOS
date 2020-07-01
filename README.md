@@ -99,6 +99,8 @@ EOS resources available here.
     + Dfuse API
   - History tools by Block.one
     + https://github.com/EOSIO/history-tools
+	- History API Endpoint List
+		+ https://hyperion.docs.eosrio.io/endpoint/
  
 * Demux (infrastructure for interating with databases (speed & flexibility) - [MongoDB](https://www.mongodb.com/), [PostgreSQL](https://www.postgresql.org/) along with Blockchain (immutability)):
   - [MongoDB and MySQL Compared](https://www.mongodb.com/compare/mongodb-mysql)
