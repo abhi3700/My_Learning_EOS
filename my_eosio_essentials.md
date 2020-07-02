@@ -151,16 +151,72 @@
 	
 	[Source](https://github.com/EOSIO/eos/issues/4394)
 
-* ### name
-	`"foo"_n` is a shortcut for `name{"foo"}` since eosio.cdt 1.3.x
+* #### EOSIO Transaction
+	* it can have multiple actions like, `create` & `notify` happening sequentially.
+	* Possibly one action, and for most of the cleos commands this will be only one, but N actions can comprise a transaction.
+	* The transaction also contains the set of authorizations that authorized it.
 
-* ### What does `require_auth (_self)` do in EOS?
+
+* #### EOSIO name
+	- `"foo"_n` is a shortcut for `name{"foo"}` since eosio.cdt 1.3.x
+	- a `string` with 64 bit i.e. `uint64_t` variable,
+	- max. allowed size = 12
+	- chars: `abcdefghijlmnopqrstuvxyz.12345`
+	- These are used for 
+		+ account names, 
+		+ permission names, 
+		+ action names, 
+		+ table names,
+		+ notification handler names, and 
+		+ secondary index names.
+	- valid names examples: `eosio`, `name`, `bob`, `alice`, `bob15`, `b.ob34` , `cabeos1user1`
+	- invalid names examples: `Eosio`, `nAme`, `0bob`, `alicealicealic`
+	- construct a `name` variable
+```cpp
+// M-1
+eosio::name account(“bob”);
+
+// M-2
+auto account = "bob"_n;
+```
+
+* #### EOSIO symbol
+	- a `string` as an input & an explicit `precision`
+	- construct a `symbol` variable
+```cpp
+eosio::symbol usd("USD", 2);
+eosio::symbol vt("VT", 5);
+```
+
+* #### EOSIO asset
+	- reperesents amount with symbol
+	- construct a `asset` variable
+```cpp
+eosio::symbol usd("USD", 2);
+eosio::asset my_money(40, usd);
+eosio::asset your_money(1000, {"VT", 2});
+my_money += your_money		// FAIL
+```
+
+* #### EOSIO check
+	- The eosio::check functions allow you to check whether a predicate is true and assert and halt if it is false. 
+	- These are given the predicate and an assertion message if the failure occurs.
+	- construct a `check` variable
+```cpp
+eosio::check("1==1", "unequal no.");
+bool definitely_true = false;
+eosio::check(definitely_true, "Something bad happened!");
+```
+
+* ### What does `require_auth (get_self())` do in EOS?
 
   Contracts inherit from eosio::contract, and, if we look in eosiolib/contract.hpp for the base class, we see that the constructor for eosio::contract is as follows:
 
-  `contract( account_name n ):_self(n){}`
-  
-  Therefore, the account that creates the contract and calls the constructor becomes `_self`. Thus, `require_auth(_self)` ensures that the account executing the function has the authority of the account that created the contract.
+```cpp
+contract( name self, name first_receiver, datastream<const char*> ds ):_self(self),_first_receiver(first_receiver),_ds(ds) {}
+```
+
+  Therefore, the account that creates the contract and calls the constructor becomes `get_self()`. Thus, `require_auth(get_self())` ensures that the account executing the function has the authority of the account that created the contract.
 
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
@@ -196,6 +252,12 @@ symbol
 symbol_code
 asset
 ```
+
+* WASM
+	- WebAssembly is a platform agnostic assembly language that emphasizes determinism, simplicity and security. 
+	- `nodeos` uses WASM as the smart contract language that is executed. 
+	- The developer does not need to implement smart contracts in WebAssembly, a toolchain is provided to compile smart contract written in C++ to this binary format.
+
 
 ## since [eosio.contracts v1.9.1](https://github.com/EOSIO/eosio.contracts/releases/tag/v1.9.1) | [eosio.cdt v1.7.x](https://github.com/EOSIO/eosio.cdt/releases/tag/v1.7.0) | [eosio v2.0.x](https://github.com/EOSIO/eos/releases/tag/v2.0.1)
 
