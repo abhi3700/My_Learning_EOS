@@ -181,7 +181,7 @@ auto account = "bob"_n;
 ```
 
 * #### EOSIO symbol
-	- a `string` as an input & an explicit `precision`
+	- a `string` as an input & an [optional] explicit `precision`
 	- construct a `symbol` variable
 ```cpp
 eosio::symbol usd("USD", 2);
@@ -189,13 +189,19 @@ eosio::symbol vt("VT", 5);
 ```
 
 * #### EOSIO asset
-	- reperesents amount with symbol
+	- represents `amount` with `symbol`
+	- So this would be used to create “tokens” and the like, and ensure that calculations and modifications on the asset are done with either scalar values or the same type of symbol.
 	- construct a `asset` variable
 ```cpp
 eosio::symbol usd("USD", 2);
 eosio::asset my_money(40, usd);
 eosio::asset your_money(1000, {"VT", 2});
 my_money += your_money		// FAIL
+eosio::asset new_token(1000000000, "EOS");
+eosio::asset amount1(1000, "EOS");
+eosio::asset amount2(500, "EOS");
+amount1 += amount2;
+print("amount1: ", amount1.amount);			// 1500
 ```
 
 * #### EOSIO check
@@ -207,6 +213,15 @@ eosio::check("1==1", "unequal no.");
 bool definitely_true = false;
 eosio::check(definitely_true, "Something bad happened!");
 ```
+
+* #### EOSIO action
+	- This houses our abstractions for an eosio action.
+	- Something like this:
+```cpp
+using transfer_act = eosio::action_wrapper<"transfer"_n, &cabeostoken::transfer>;
+transfer_act transfer("cabeostoken"_n, {get_self(), "active"_n});
+transfer.send("cabeos1user1"_n, "cabeos1user2"_n, 400);
+``` 
 
 * ### What does `require_auth (get_self())` do in EOS?
 
