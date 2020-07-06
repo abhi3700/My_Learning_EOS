@@ -327,6 +327,7 @@ EOS resources available here.
 * A simple standard for digital assets (both fungible and NFTs - non-fungible tokens) for EOSIO blockchains - https://github.com/CryptoLions/SimpleAssets
 * EOSIO contract for collecting BPs peers latency - https://github.com/CryptoLions/PeerPingData
 * AtomicAssets (NFT by pink.network)- https://github.com/pinknetworkx/atomicassets-contract
+* Encrypt Message over Multi-index table - https://github.com/cc32d9/pobox/tree/master/contract
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
