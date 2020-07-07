@@ -233,6 +233,10 @@ contract( name self, name first_receiver, datastream<const char*> ds ):_self(sel
 
   Therefore, the account that creates the contract and calls the constructor becomes `get_self()`. Thus, `require_auth(get_self())` ensures that the account executing the function has the authority of the account that created the contract.
 
+* ### Does `[[eosio::on_notify("")]]` attribute only meant for payable actions?
+	- no, anything which has require_recipient [Source](https://t.me/c/1139062279/228653)
+	- but it is not recommended, better to use inline actions [Source](https://t.me/c/1139062279/228654)
+
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
 bool
