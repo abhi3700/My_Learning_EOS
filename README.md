@@ -328,6 +328,7 @@ EOS resources available here.
 * EOSIO contract for collecting BPs peers latency - https://github.com/CryptoLions/PeerPingData
 * AtomicAssets (NFT by pink.network)- https://github.com/pinknetworkx/atomicassets-contract
 * Encrypt Message over Multi-index table - https://github.com/cc32d9/pobox/tree/master/contract
+* Bancor Protocol Contracts - https://github.com/bancorprotocol/contracts_eos
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
