@@ -223,7 +223,7 @@ transfer_act transfer("cabeostoken"_n, {get_self(), "active"_n});
 transfer.send("cabeos1user1"_n, "cabeos1user2"_n, 400);
 ``` 
 
-* ### What does `require_auth (get_self())` do in EOS?
+* #### What does `require_auth (get_self())` do in EOS?
 
   Contracts inherit from eosio::contract, and, if we look in eosiolib/contract.hpp for the base class, we see that the constructor for eosio::contract is as follows:
 
@@ -233,9 +233,34 @@ contract( name self, name first_receiver, datastream<const char*> ds ):_self(sel
 
   Therefore, the account that creates the contract and calls the constructor becomes `get_self()`. Thus, `require_auth(get_self())` ensures that the account executing the function has the authority of the account that created the contract.
 
-* ### Does `[[eosio::on_notify("")]]` attribute only meant for payable actions?
+* #### Does `[[eosio::on_notify("")]]` attribute only meant for payable actions?
 	- no, anything which has require_recipient [Source](https://t.me/c/1139062279/228653)
 	- but it is not recommended, better to use inline actions [Source](https://t.me/c/1139062279/228654)
+
+* #### Can a table be instantiated with different scope & ram_payer in different action?
+	- [x] `scope` [Source](https://t.me/c/1139062279/228749)
+	- [ ] `ram_payer` #todo
+
+* #### How to take the permission of the contract offchain in case of DApp (Android/ios), especially for inline actions, where `get_self()` needs contract's permission.
+
+```cpp
+void send_summary(name user, string memo) {
+	action(
+	    permission_level{get_self(), "active"_n},
+	   get_self(),
+	   "notify"_n,
+	    std::make_tuple(user, memo)
+	).send();
+}
+```
+	- Soln: Just add `eosio.code` permission to the contract. [Source](https://t.me/c/1139062279/228752)
+	- The same also works for setting `inline` action as well. [Source](https://t.me/c/1139062279/228754)
+
+* #### What about RAM, CPU, NET consumption if the there are contract -to-contract communication when compared to communications within a contract?
+	- Similar [Source](https://t.me/c/1139062279/228767)
+
+* #### Can an inline action be fired from within a [["eosio::on_notify()"]] annotated function?
+	- Yes [Source](https://t.me/c/1139062279/228771)
 
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
