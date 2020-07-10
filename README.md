@@ -156,7 +156,10 @@ EOS resources available here.
 ## Education, Academics, Course
 * EOSIO Dev Course at Geneva University (November 8-16th 2019)- https://github.com/Europechain/eosio-dev-introduction-course
 * EOS smart contract programming tutorials - https://github.com/cc32d9/eosio.tutorials
-* Block.one EOSIO Webinar - https://eos.io/webinars/
+* Webinars:
+  - Block.one EOSIO Webinar - https://eos.io/webinars/
+  - [EOSIO Swiss Workshop | Webinar | April 23rd 2020](https://youtu.be/VHqtAuC8nvQ)
+  - [EOSIO Swiss Workshop | Webinar | June 23rd 2020](https://youtu.be/LhKh8FpSB2s)
 * Read Medium articles by Mitcher:
   - [Github repo](https://github.com/MitchPierias/advanced-eos-examples)
   - [Advanced EOS Series — Part 1 — Cryptographic Hashes](https://medium.com/coinmonks/advanced-eos-series-part-1-cryptographic-hashes-a251a8d371b8)
