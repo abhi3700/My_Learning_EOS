@@ -259,8 +259,15 @@ void send_summary(name user, string memo) {
 * #### What about RAM, CPU, NET consumption if the there are contract -to-contract communication when compared to communications within a contract?
 	- Similar [Source](https://t.me/c/1139062279/228767)
 
-* #### Can an inline action be fired from within a [["eosio::on_notify()"]] annotated function?
+* #### Can an inline action be fired from within a `[[eosio::on_notify("")]]` annotated function?
 	- Yes [Source](https://t.me/c/1139062279/228771)
+
+* #### Can i call a `[[eosio::on_notify("")]]` annotated function from within an action defined in the same contract?
+	- Yes, ofcourse it is just a class function [Source](https://t.me/c/1139062279/228987). But not needed especially in case of payable actions.
+
+* Does [this](https://hacken.io/research/education/3-ways-how-you-can-make-your-smart-contract-more-secure/) still hold for current version (eosio.cdt @v1.7.0) of EOSIO in `EOSIO_DISPATCH()`??
+	- Yes, but not needed.
+	- rather use `eosio::on_notify` annoted function for payable action. [Source](https://t.me/c/1139062279/228184)
 
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
