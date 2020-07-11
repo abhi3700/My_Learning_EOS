@@ -141,8 +141,8 @@ EOS resources available here.
 * EOS Developer Docs - https://developers.eos.io/
 * EOS Dawn 3.0 - https://medium.com/eosio/eosio-dawn-3-0-now-available-49a3b99242d7
 * EOS Dawn 4.0 - 
-    * Introduction - https://medium.com/eosio/introducing-eosio-dawn-4-0-f738c552879
-    * Release - https://medium.com/eosio/eosio-dawn-4-0-release-b25661a49ac2
+  - Introduction - https://medium.com/eosio/introducing-eosio-dawn-4-0-f738c552879
+  - Release - https://medium.com/eosio/eosio-dawn-4-0-release-b25661a49ac2
 * Multi-Sig wallet - https://steemit.com/eos/@genereos/eos-multisig-tutorial
 * BTS DPoS Consensus Code Implementation Overview - https://blog.csdn.net/ggq89/article/details/80068306
 * [EOS: Explanation of DPoS+BFT w/ Daniel Larimer - Part 1 of 2](https://steemit.com/eos/@eosgo/eos-explanation-of-dpos-bft-w-daniel-larimer-part-1-of-2): This explanation is by Dan himself - part 1.
@@ -158,6 +158,8 @@ EOS resources available here.
 * EOS smart contract programming tutorials - https://github.com/cc32d9/eosio.tutorials
 * Webinars:
   - Block.one EOSIO Webinar - https://eos.io/webinars/
+  - [Getting Started with EOSIO DApp Development](https://www.youtube.com/watch?v=IWsPHZn29K4)
+  - [Introduction to EOSIO Smart Contracts by Phil Mesnier](https://www.youtube.com/watch?v=E3Tx2DseLGE)
   - [EOSIO Swiss Workshop | Webinar | April 23rd 2020](https://youtu.be/VHqtAuC8nvQ)
   - [EOSIO Swiss Workshop | Webinar | June 23rd 2020](https://youtu.be/LhKh8FpSB2s)
 * Read Medium articles by Mitcher:
