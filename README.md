@@ -334,6 +334,7 @@ EOS resources available here.
 * AtomicAssets (NFT by pink.network)- https://github.com/pinknetworkx/atomicassets-contract
 * Encrypt Message over Multi-index table - https://github.com/cc32d9/pobox/tree/master/contract
 * Bancor Protocol Contracts - https://github.com/bancorprotocol/contracts_eos
+* EOS smart contract for a catalog of dapps - https://github.com/cc32d9/dappscatalog
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
