@@ -269,6 +269,16 @@ void send_summary(name user, string memo) {
 	- Yes, but not needed.
 	- rather use `eosio::on_notify` annoted function for payable action. [Source](https://t.me/c/1139062279/228184)
 
+* How to use `string` type as secondary index in multi-index table?
+	- Yes, can be encoded as a `eosio::name` and store it in a `uint64_t`, but this limits you to the 12 character-style names for eosio accounts. [Source](https://eosio.stackexchange.com/a/3816/167)
+
+* How to read table, defined in another contract?
+	- define a table defined in `contracta` in `contractb`, but without `[[eosio::table]]` attribute
+	- put the exact items.
+	- instantiate the code, scope (same as defined) in table like this:
+`table_index table("contracta"_n, "contracta"_n)`
+	- [Source](https://eosio.stackexchange.com/a/70/167)
+
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
 bool
