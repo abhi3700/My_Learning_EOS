@@ -279,6 +279,21 @@ void send_summary(name user, string memo) {
 `table_index table("contracta"_n, "contracta"_n)`
 	- [Source](https://eosio.stackexchange.com/a/70/167)
 
+* I know how to read a contract_b's table data from within a contract_a's action. But in order to write to that called table, can i then modify after instantiating the contract_b table?	
+	- only by sending an inline action to `contract b` and letting it modify its own table [Source](https://t.me/c/1139062279/228836)
+	- Basically i have to create a action there & then a action_wrapper & call that action_wrapper in contract_a's action. [Source](https://t.me/c/1139062279/228840)
+
+* How to ensure single auth?
+	- `require_auth()`
+
+* How to ensure multiple auth?
+	- `has_auth()` All or Either
+	- example
+```cpp
+check(has_auth(accounta) || has_auth(accountb), "missing required authority of accounta or accountb");
+check(has_auth(accounta) && has_auth(accountb), "missing required authority of accounta & accountb");
+```
+
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
 bool
