@@ -171,6 +171,8 @@ EOS resources available here.
   - [Advanced EOS Series — Part 5 — One-to-many Relationships](https://medium.com/coinmonks/advanced-eos-series-part-5-one-to-many-relationships-42d2e075e05d)
   - [Advanced EOS Series — Part 6 —Contract-to-Contract Communication](https://medium.com/coinmonks/advanced-eos-series-part-6-contract-to-contract-communication-ab352a8b60aa)
   - [Advanced EOS Series — Part 9 — Payable Actions](https://medium.com/coinmonks/advanced-eos-series-part-9-payable-actions-42bf878bee36)
+* Coinbase EOS Basics:
+  - [YouTube playlist](https://www.youtube.com/playlist?list=PLCUj29wM0gddsSvbqAkYiSsAD-UFzLBpa)
 
 
 ## Hackathons
