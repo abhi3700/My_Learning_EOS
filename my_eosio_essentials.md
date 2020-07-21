@@ -181,7 +181,8 @@ auto account = "bob"_n;
 ```
 
 * #### EOSIO symbol
-	- a `string` as an input & an [optional] explicit `precision`
+	- a `string` (of 56 bits i.e. a name upto 7 characters) as an input & an [optional] explicit `precision` (of 8 bits i.e. indicate the no. of decimal places.)
+	- The symbol field has the symbol (name, precision) form. Its first 56 bits are reserved for the symbol name (name), which allows you to come up with a name of up to 7 characters. The last 8 bits describe the precision (precision) and indicate the number of decimal places. Example: the asset “123.1235 SYS” has symbol (SYS, 4). [Source](https://medium.com/@genesix/exchange-on-eosio-36e43a360398)
 	- construct a `symbol` variable
 ```cpp
 eosio::symbol usd("USD", 2);
@@ -190,6 +191,7 @@ eosio::symbol vt("VT", 5);
 
 * #### EOSIO asset
 	- represents `amount` with `symbol`
+	- This data structure has the form of asset (amount, symbol), where both fields are uint64_t type. Let’s focus on each of them and start with the symbol. [Source](https://medium.com/@genesix/exchange-on-eosio-36e43a360398)
 	- So this would be used to create “tokens” and the like, and ensure that calculations and modifications on the asset are done with either scalar values or the same type of symbol.
 	- construct a `asset` variable
 ```cpp
@@ -203,6 +205,11 @@ eosio::asset amount2(500, "EOS");
 amount1 += amount2;
 print("amount1: ", amount1.amount);			// 1500
 ```
+	- The amount field contains the number of assets, but no comma. For example, the number “123.1235” will be stored as “1231235”.
+	- E.g. - “123.1235 SYS” will be stored as “1231235 (SYS, 4)” [Source](https://medium.com/@genesix/exchange-on-eosio-36e43a360398)
+	
+	- When multiplying, we have the risk of overflowing uint64_t, but the asset data structure has an overloaded `*=` operator that automatically performs an overflow check, freeing us from manual work.
+	- When dividing a by b, if a < b, for example, a = 3.0, b = 30.0, the result will be 0.1, but since amount is an integer type, the answer will be 0. Therefore, we first explicitly convert amount to double and then bring it to the desired form. It is also necessary to remember that the result always depends on the symbol of the first argument, so for 3.0/30 the result will be 0.1, and for 3/30.0 will be 0.
 
 * #### EOSIO check
 	- The eosio::check functions allow you to check whether a predicate is true and assert and halt if it is false. 
@@ -293,6 +300,9 @@ void send_summary(name user, string memo) {
 check(has_auth(accounta) || has_auth(accountb), "missing required authority of accounta or accountb");
 check(has_auth(accounta) && has_auth(accountb), "missing required authority of accounta & accountb");
 ```
+
+* In a practical dApp, If I want to intimate the user of the action failure, shall I use inline action like send_receipt() for this case, or should I use print()?
+	- Print is only a debugging tool. Not recommended for anything else [Source](https://t.me/c/1139062279/229828)
 
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
