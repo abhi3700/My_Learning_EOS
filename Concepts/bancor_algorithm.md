@@ -49,6 +49,7 @@ n = RAM needed (in KB)
 * [Bancor Help Center: What is RAM, CPU and NET on EOS](https://support.bancor.network/hc/en-us/articles/360018325291-What-is-RAM-CPU-and-NET-on-EOS)
 * [The Mechanics Behind EOSIO RAM Allocation](https://blog.springrole.com/the-mechanics-behind-eosio-ram-allocation-940204bc5b7e)
 * [How we Calculate EOS Resource Usage](https://medium.com/shyft-network-media/eos-resource-usage-f0a8098827d7)
+* [How to Find Ram Market Bancor Connector Weight (CRR)](https://eosio.stackexchange.com/questions/1324/how-to-find-ram-market-bancor-connector-weight-crr)
 * Code Help
 	- [exchange_state.hpp](https://github.com/abhi3700/eosio-playground/blob/master/libs/contracts/eosio.system/include/eosio.system/exchange_state.hpp)
 	- [exchange_state.cpp](https://github.com/abhi3700/eosio-playground/blob/master/libs/contracts/eosio.system/src/exchange_state.cpp)
