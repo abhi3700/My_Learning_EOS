@@ -320,6 +320,21 @@ eosio.msig (#505)](https://github.com/EOSIO/eosio.contracts/releases/tag/v1.8.3-
 	- __total supply:__ total number of tokens that have been created.
 	- __max supply:__ total number of tokens that can ever be created.
 	- circulating supply is the hard one. you can’t get it via an API and the very method of figuring it out is subjective and prone to errors. however circulating supply is the most common method for calculating cryptocurrency marketcap.
+	- Example: here, __total_supply:__ `"1021502832.0568 EOS"`, __max_supply:__ `"10000000000.0000 EOS"`
+```console
+$ cleosm get table eosio.token EOS stat
+{
+  "rows": [{
+      "supply": "1021502832.0568 EOS",
+      "max_supply": "10000000000.0000 EOS",
+      "issuer": "eosio"
+    }
+  ],
+  "more": false,
+  "next_key": ""
+}
+```
+	- [Source](https://medium.com/@marketcapone/eos-token-supply-explained-whats-the-difference-between-circulating-supply-total-supply-and-max-e97d4931e7d4)
 
 * What will happen after the EOS reach the max_supply i.e. 10 Billions?
 ```
