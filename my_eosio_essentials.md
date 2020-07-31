@@ -46,14 +46,14 @@
 	- action guaranteed to execute with the current transaction.
 	- No notification about the success or failure.
 		
-	[SOURCE](https://developers.eos.io/eosio-cpp/docs/communication-model#section-inline-communication)
+	[SOURCE](https://developers.eos.io/welcome/latest/getting-started/smart-contract-development/adding-inline-actions)
 	
-	#### Deferred:
-	- action has no guarantee for execution. It gets scheduled to run at `best time`, `later time`, `producer's discretion`. 
+	#### Deferred transaction [DEPRECATED since eosio v2.0]
+	- transaction has no guarantee for execution. It gets scheduled to run at `best time`, `later time`, `producer's discretion`. 
 	- carries the authority of the contract that sends them.
 	- generates notification about the success or failure.
 		
-	[SOURCE](https://developers.eos.io/eosio-cpp/docs/communication-model#section-deferred-communication)
+	[SOURCE](https://developers.eos.io/manuals/eosio.cdt/latest/best-practices/deferred_transactions)
 
 * ### Understanding the `eosio.token` contract
 * ### Understanding the **Table** usage over EOS
@@ -303,6 +303,44 @@ check(has_auth(accounta) && has_auth(accountb), "missing required authority of a
 
 * In a practical dApp, If I want to intimate the user of the action failure, shall I use inline action like send_receipt() for this case, or should I use print()?
 	- Print is only a debugging tool. Not recommended for anything else [Source](https://t.me/c/1139062279/229828)
+
+* Is there a working implementation of the eosio.msig contract using inline actions instead of deferred?
+	- [EOSIO.Contracts v1.8.3 Inline Multi-Signature Release Notes · EOSIO/eosio.contracts
+eosio.msig (#505)](https://github.com/EOSIO/eosio.contracts/releases/tag/v1.8.3-inline-msig)
+
+* Difference b/w `circulating_supply`, `total_supply` & `max_supply`?
+	- circulating supply ≤ total supply ≤ max supply
+	- __circulating supply:__ total number of tokens that are circulating in the market and are available to be traded or used. 
+		+ that means all tokens in total supply except those which are:
+			- not circulating in the market, or
+			- not available to be traded, or
+			- not available to be used
+		+ an example would be tokens that have been created but wont be released until they are mined. 
+		+ another example would be tokens owned by a project team which aren’t liquid and cannot be sold.
+	- __total supply:__ total number of tokens that have been created.
+	- __max supply:__ total number of tokens that can ever be created.
+	- circulating supply is the hard one. you can’t get it via an API and the very method of figuring it out is subjective and prone to errors. however circulating supply is the most common method for calculating cryptocurrency marketcap.
+
+* What will happen after the EOS reach the max_supply i.e. 10 Billions?
+```
+$ cleosm get table eosio.token EOS stat
+{
+  "rows": [{
+      "supply": "1021500842.4833 EOS",
+      "max_supply": "10000000000.0000 EOS",
+      "issuer": "eosio"
+    }
+  ],
+  "more": false,
+  "next_key": ""
+}
+```
+	- i guess they would change the code to increase the max supply [Source](https://t.me/c/1139062279/231203)
+	- i think we have about 10 years before that happens [Source](https://t.me/c/1139062279/231204)
+	- by that time full resync will be impossible and everyone will forget how to change the code [Source](https://t.me/c/1139062279/231211)
+
+* Where is the function defined for inflation of EOS token?
+	- it is in the producer pay in the system contract, its not in the token contract because the system contract just issues more tokens [Source](https://t.me/c/1139062279/231212)
 
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
