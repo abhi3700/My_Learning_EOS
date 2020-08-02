@@ -357,6 +357,10 @@ $ cleosm get table eosio.token EOS stat
 * Where is the function defined for inflation of EOS token?
 	- it is in the producer pay in the system contract, its not in the token contract because the system contract just issues more tokens [Source](https://t.me/c/1139062279/231212)
 
+* Where & What code to add for controlling EOS Resources - __RAM__, __NET__, __CPU__?
+	- __RAM__ --> taken of the param inside `emplace`, `modify` methods of multi_index table
+	- Both __NET__ & __CPU__ --> used of the param inside `require_auth()`
+
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
 bool
