@@ -361,6 +361,21 @@ $ cleosm get table eosio.token EOS stat
 	- __RAM__ --> taken of the param inside `emplace`, `modify` methods of multi_index table
 	- Both __NET__ & __CPU__ --> used of the param inside `require_auth()`
 
+* Which one is correct -> M-1 or M-2?
+```cpp
+static constexpr symbol token_symbol = symbol("TOE", 4);
+
+// M-1
+auto it = x_table.find(token_symbol.code().raw());
+
+// M-2
+auto it = x_table.find(token_symbol.raw());
+```
+	- Both are correct, but they have different meanings.
+	- M-1: only symbol part 'TOE' encoded as integer
+	- M-2: both components - symbol & precision, encoded as integer
+
+
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
 bool
