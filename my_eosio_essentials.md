@@ -375,6 +375,8 @@ auto it = x_table.find(token_symbol.raw());
 	- M-1: only symbol part 'TOE' encoded as integer
 	- M-2: both components - symbol & precision, encoded as integer
 
+* How can we control `[[eosio::on_notify("toe1111token::transfer")]]` based transfers to a contract for different purposes?
+	- Based on @param `memo`, the different tasks (e.g. modifying different tables) for different purposes can be controlled. E.g. Follow the "toeridex::sendridex" action in my dApp -  __TOE__.   
 
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
