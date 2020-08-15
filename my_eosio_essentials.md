@@ -378,6 +378,32 @@ auto it = x_table.find(token_symbol.raw());
 * How can we control `[[eosio::on_notify("toe1111token::transfer")]]` based transfers to a contract for different purposes?
 	- Based on @param `memo`, the different tasks (e.g. modifying different tables) for different purposes can be controlled. E.g. Follow the "toeridex::sendridex" action in my dApp -  __TOE__.   
 
+* How to convert from checksum256 to string?
+	- checksum256 is 32 bytes made up of 8 uint32_t chunks, so the solution would be something like iterating those chunks and building the string. [Source](https://github.com/MitchPierias/advanced-eos-examples/issues/13)
+	- Use this custom templated function
+```cpp
+template<typename CharT>
+static std::string to_hex(const CharT* d, uint32_t s) {
+  std::string r;
+  const char* to_hex="0123456789abcdef";
+  uint8_t* c = (uint8_t*)d;
+  for( uint32_t i = 0; i < s; ++i ) {
+    (r += to_hex[(c[i] >> 4)]) += to_hex[(c[i] & 0x0f)];
+  }
+  return r;
+}
+```
+	- Example to use:
+```cpp
+std::string data = "hello";
+const char * data_str_c = data.c_str(); 
+auto hash_digest = sha256(data_str_c, strlen(data_str_c));
+
+string hash_digest_str = to_hex(&hash_digest, sizeof(hash_digest));
+print(hash_digest_str);
+// 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824
+```
+
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
 bool
