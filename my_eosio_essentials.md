@@ -404,6 +404,28 @@ print(hash_digest_str);
 // 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824
 ```
 
+* How many inline actions can be put into an action? Is there any limit to it?
+	- There is no limit other then cpu. [Source](https://t.me/c/1139062279/233099)
+	- Okay!...is it possible that some part of action is added in different block?
+		+ No they are atomic in the same transaction [Source](https://t.me/c/1139062279/233103)
+	- So, that means: Right??
+		- The inline actions along with the main action will be passed into the same block.
+		- If anything like (diff. block addition) happens, then CPU limit error will be shown
+
+	- Yeah if the total transaction time exceeds the max allowed transaction time or max allowed cpu consumption then the full transaction will roll back and you receive an error
+
+* How many levels deep inline actions can be ? (inline action calling other inline action)
+```
+|
+---|
+-------|
+-----------|
+---------------|
+-------------------|
+```
+	- 6 [Source](https://t.me/c/1139062279/233113)
+	- that’s it. one action makes an inline action, that’s one level deep. if then the second action makes a new inline action, that’s two levels deep [Source](https://t.me/c/1139062279/233112)
+
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
 bool
