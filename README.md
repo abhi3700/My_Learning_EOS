@@ -61,25 +61,42 @@ EOS resources available here.
   - https://api-eos.blckchnd.com - operated by [BLCKCHND](https://eos.blckchnd.com/)
   - https://mainnet.eosimpera.com - operated by [EOS IMPERA](https://www.eosimpera.io/)
   - https://api.franceos.fr - operated by [franceos](https://www.franceos.fr/)
-* Testnet API nodes - [Source](http://jungle.cryptolions.io/#). To get the link, click on the HTTP column values. 
-  - http://jungle2.cryptolions.io:80
-  - https://jungle2.cryptolions.io:443
+* Testnet API nodes - [Source](https://monitor3.jungletestnet.io/#apiendpoints). To get the link, click on the HTTP column values. 
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - http://jungle3.cryptolions.io:80
+  - http://159.69.74.183:2888
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.cryptolions.io:443
+  - https://jungle3.eosdac.io:443
+  - https://jungle.eosn.io:443
+  - http://jungle3.atticlab.net:12875
+  - https://jungle3.eos.barcelona:443
+  - https://jungle3.eosusa.news:443
+  - https://jungle.eosphere.io:443
+  - https://jungle3.eossweden.org:443
+  - https://api.jungle3.alohaeos.com:443
   - https://jungle.eosio.cr:443
-  - https://api.jungle.alohaeos.com:443
-  - http://145.239.133.201:8888
-  - http://35.237.40.93:8888
-  - http://jungle.eosgen.io:80
-  - http://51.15.224.168:8888
-  - http://jungle2.eosdac.io:8882
-  - http://eos.eosza.io:8888
-  - http://5.9.19.86:28888
-  - https://testnet.blockgenesys.com:443
-  - http://jm1234.ddns.net:8888
-  - http://172.93.54.194:8888
-  - http://173.255.195.20:8888
-  - http://ubeos.astrsk.org:7779
-  - http://jungle.eosbcn.com:8080
- 	   
+  - https://api-jungle.eosarabia.net:443
+  - http://15.165.171.27:5666
+  - https://testnet.jungle.eosdetroit.io:443
+  - https://jungle3.decentrawise.com:443 	   
 * EOS block explorer -
   - https://bloks.io/
   - https://scaneos.io/
