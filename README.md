@@ -335,6 +335,7 @@ EOS resources available here.
 * Encrypt Message over Multi-index table - https://github.com/cc32d9/pobox/tree/master/contract
 * Bancor Protocol Contracts - https://github.com/bancorprotocol/contracts_eos
 * EOS smart contract for a catalog of dapps - https://github.com/cc32d9/dappscatalog
+* Sign a file on Blockchain - https://github.com/Europechain/filehashfact
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
@@ -343,6 +344,7 @@ EOS resources available here.
 * EOS voting stackexchange - https://eosio.stackexchange.com/questions/725/how-to-vote-using-cleos
 * How To Secure Messages On EOS - https://medium.com/@darchnetwork0/how-to-secure-messages-on-eos-a9c4e86c3cf7
 * EOS CPU issue | Remove artificial REX lower limit - https://github.com/EOSIO/eosio.contracts/pull/369
+* Testing EOSIO Smart Contracts - https://app.voice.com/post/@philliphamnett/testing-eosio-smart-contracts-1598539888-1
 
 ## TO_READ
 * https://eosio.stackexchange.com/questions/2247/what-is-the-best-way-of-storing-data-on-eos-blockchain
