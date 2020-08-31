@@ -426,6 +426,69 @@ print(hash_digest_str);
 	- 6 [Source](https://t.me/c/1139062279/233113)
 	- that’s it. one action makes an inline action, that’s one level deep. if then the second action makes a new inline action, that’s two levels deep [Source](https://t.me/c/1139062279/233112)
 
+* How to push action with vector param via cleos?
+	- Best way is to use JSON method data inside cleos
+	- E.g. action is defined as:
+```cpp
+ACTION initicorate( const name& buyorsell_type,
+						const name& phase_type,
+						float current_price_pereos,
+						const vector<name> vector_admin );
+```
+	- the corresponding push action command is as follows:
+```console
+cleost push action vigor1111ico initicorate '{"buyorsell_type": "buy","phase_type": "a","current_price_pereos": 40,"vector_admin": ["vigoradmin11", "vigoradmin12", "vigoradmin13", "vigoradmin14", "vigoradmin15"]}' -p vigor1111ico@active
+```
+
+* Does anyone know of a way to allow a contract to encrypt data with a key only the contract has access to? [Source](https://t.me/c/1139062279/235058)
+	- No, all SC data is public so SC can’t store private key inside it [Source](https://t.me/c/1139062279/235059)
+* How would one generate a secret no other entity can access that can only be revealed to that contracts specific actions? [Source](https://t.me/c/1139062279/235060)
+	- You can't [Source](https://t.me/c/1139062279/235061)
+
+* Is it possible to set up a version of nodeos where you have read-access to the blockchain but no ability to push transactions to the chain? [Source](https://t.me/c/1139062279/234950)
+	- Yes. It was called read-mode=read-only, and now there's two new options that are replacing it. Nodeos prints them at the start if read-only is configured [Source](https://t.me/c/1139062279/234951)
+	- It saves a great deal of server CPU if you're on EOS [Source](https://t.me/c/1139062279/234952)
+
+* Can i get action name for using inside an action? [Source](https://t.me/c/1139062279/234654)
+	- The dispatcher knows the action name, but it's hidden for your convenience. It's still possible to replace the default dispatcher. People lost a lot of money on their dispatchers being hacked [Source](https://t.me/c/1139062279/234660)
+
+* Hey, just a question about structs and tables. What's the difference between declaring a struct and table as public instead of private? [Source](https://t.me/c/1139062279/234631)
+	- No impact on access from outside the contract. Sometimes private can cause the serializers to fail to compile. [Source](https://t.me/c/1139062279/234632)
+	- Ah thanks. They're always declared under private in the tutorials but never explained why. [Source](https://t.me/c/1139062279/234633)
+	- It's an ancient idea of Stroustrup that classes would be inherited. [Source](https://t.me/c/1139062279/234634)
+
+* How to filter only 2 token contracts' transfer to a contract?
+	- You can make an universal handler and check the contract name by get_first_recipient [Source](https://t.me/c/1139062279/235048)
+	- Also, check the token symbol as well.
+	- code:
+```cpp
+[[eosio::on_notify("*::transfer")]]
+	void deposit( const name& buyer_ac, 
+					const name& contract_ac, 
+					const asset& quantity, 
+					const string& memo );
+```
+	- use `get_first_receiver()` inside the action
+```cpp
+void vigorico::deposit( const name& user, 
+						const name& contract_ac, 
+						const asset& quantity, 
+						const string& memo ) {
+
+	// check for conditions if either or both of these are true for `from` & `to`
+	if(contract_ac != get_self() ||  user == get_self()) {		// atleast one of the condition is true
+		print("Either money is not sent to the contract or contract itself is the buyer.");
+		return;
+	}
+
+	check((get_first_receiver() == "eosio.token"_n) || (get_first_receiver() == token_contract_ac), 
+		"Acceptable token contracts: \'eosio.token\' or \'" + token_contract_ac.to_string() +" \'.");
+
+...
+...
+}
+```
+
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
 bool
