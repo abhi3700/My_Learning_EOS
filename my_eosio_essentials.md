@@ -488,7 +488,14 @@ void vigorico::deposit( const name& user,
 ...
 }
 ```
-
+* In Multi index table, i saw when multiple people involved as ram_payer, the current ram_payer is replaced by the next ram_payer. Is it possible to keep multiple ram_payers for a row in Multi-index table?
+	- [the internal structure has only one payer per row](https://t.me/c/1139062279/235748)
+	- [Each entry is a byte array](https://t.me/c/1139062279/235752) - per row
+	- [What you see in the struct is just a convenient way to manipulate the data](https://t.me/c/1139062279/235753)
+	- [Nodeos just sees an array of bytes, indexed by primary key, and probably secondary](https://t.me/c/1139062279/235754)
+	- [It's how nodeos handles the data. Each row is an anonymous blob of data, with one payer](https://t.me/c/1139062279/235761)
+	- [Secondary indexes are somewhat similar, but they have semantics of pointing to the row id](https://t.me/c/1139062279/235764)
+	
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
 bool
