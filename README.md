@@ -61,7 +61,7 @@ EOS resources available here.
   - https://api-eos.blckchnd.com - operated by [BLCKCHND](https://eos.blckchnd.com/)
   - https://mainnet.eosimpera.com - operated by [EOS IMPERA](https://www.eosimpera.io/)
   - https://api.franceos.fr - operated by [franceos](https://www.franceos.fr/)
-* Testnet API nodes - [Source](https://monitor3.jungletestnet.io/#apiendpoints). To get the link, click on the HTTP column values. 
+* Jungle3 Testnet API nodes - [Source](https://monitor3.jungletestnet.io/#apiendpoints). To get the link, click on the HTTP column values. 
   - https://jungle3.cryptolions.io:443
   - http://jungle3.cryptolions.io:80
   - http://159.69.74.183:2888
@@ -78,6 +78,27 @@ EOS resources available here.
   - http://15.165.171.27:5666
   - https://testnet.jungle.eosdetroit.io:443
   - https://jungle3.decentrawise.com:443 	   
+* WAX Testnet API nodes - [Source](https://github.com/eosswedenorg/waxtestnet/tree/master/endpoints). To get the link, click on the api param in JSON column values.
+like
+```json
+{
+    "name": "",
+    "p2p": "",
+    "api": "",
+}
+```
+  - https://wax-test.eosdac.io
+  - https://testnet.waxsweden.org
+  - https://testnet.wax.pink.gg
+  - https://api.waxtest.alohaeos.com
+  - https://waxtest.eosn.io
+  - https://testnet.wax.eosrio.io
+  - https://wax-testnet.eoscafeblock.com
+  - https://api.waxtest.greeneosiobp.com
+  - https://wax-testnet.eosphere.io
+  - https://wax-testnet.maltablock.org
+  - https://wax-test.eossweden.eu
+  - https://wax-testnet-api.eoscannon.io
 * EOS block explorer -
   - https://bloks.io/
   - https://scaneos.io/
