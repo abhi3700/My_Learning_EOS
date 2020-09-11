@@ -293,6 +293,11 @@ void send_summary(name user, string memo) {
 * How to ensure single auth?
 	- `require_auth()`
 
+* How to ensure single auth with a permission type?
+	- `require_auth(permission_level(account_name, "active"_n))` [Recommended]
+	- `require_auth2(account_name, "active"_n)`
+	- NOTE: in place of `active`, it could be anything else as a permission type (e.g. custom)
+
 * How to ensure multiple auth?
 	- `has_auth()` All or Either
 	- example
