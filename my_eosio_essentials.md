@@ -501,6 +501,10 @@ void vigorico::deposit( const name& user,
 	- [It's how nodeos handles the data. Each row is an anonymous blob of data, with one payer](https://t.me/c/1139062279/235761)
 	- [Secondary indexes are somewhat similar, but they have semantics of pointing to the row id](https://t.me/c/1139062279/235764)
 	
+* How to transfer the `ram_payer` from contract to user or viceversa?
+	- it can be done by letting the 'to' party (e.g. user in 1st case) set or update an row field's info via a separate action. This action shall have authority of 'to' party (i.e. user in 1st case).
+	- This was done in my creation - `gpk.battles` game, where the `ram_payer` was moved from contract to player using a separate action - `finish`. There the authority was player & it set a param called "finish" as name{"done"} - then the `ram_payer` was transferred.  
+
 * List of available datatypes for action parameter [Source](https://eosio.stackexchange.com/questions/1837/list-of-available-datatypes-for-action-parameter/1932#1932)
 ```cpp
 bool
