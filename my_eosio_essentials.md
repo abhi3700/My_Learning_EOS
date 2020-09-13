@@ -410,7 +410,7 @@ print(hash_digest_str);
 ```
 
 * How many inline actions can be put into an action? Is there any limit to it?
-	- There is no limit other then cpu. [Source](https://t.me/c/1139062279/233099)
+	- There is no limit other than the CPU. [Source](https://t.me/c/1139062279/233099)
 	- Okay!...is it possible that some part of action is added in different block?
 		+ No they are atomic in the same transaction [Source](https://t.me/c/1139062279/233103)
 	- So, that means: Right??
