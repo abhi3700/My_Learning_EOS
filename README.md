@@ -151,6 +151,8 @@ like
 	- History API (optional): "https://eos.hyperion.eosrio.io/"
 * List of EOS accounts
 	- https://snapshots.eosamsterdam.net/public/eos/
+* Calculate WAX Resources
+	- https://waxrp.eosusa.news
 
 ## EOS DApps
 * EOS Filestore - https://eosfilestore.now.sh/download
