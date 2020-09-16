@@ -34,120 +34,123 @@ EOS resources available here.
 * EOS Mainnet - https://github.com/EOS-Mainnet
 * File storage on EOS (Needs enough staking for CPU and NET) - https://github.com/grigio/eosfilestore
 * EOS account creation -
-   * https://eos-account-creator.com/
-   * https://namevault.co/
-   * https://www.zeos.co/
-   * Using `cleos` tool - https://medium.com/@cc32d9/creating-a-new-eos-eosio-account-f88201dc1a
-      + (Refer) - https://eosio-nodeos.readme.io/docs/learn-about-wallets-keys-and-accounts-with-cleos
+	 * https://eos-account-creator.com/
+	 * https://namevault.co/
+	 * https://www.zeos.co/
+	 * Using `cleos` tool - https://medium.com/@cc32d9/creating-a-new-eos-eosio-account-f88201dc1a
+			+ (Refer) - https://eosio-nodeos.readme.io/docs/learn-about-wallets-keys-and-accounts-with-cleos
 * `cleos` tool guide part 1 - https://www.youtube.com/watch?v=IVrwtVFRjj0
 * learn EOS wallets basics - https://www.eosdocs.io/dappdevelopment/wallets/
 * Mainnet API nodes - [Source](https://github.com/greymass/eos-voter/blob/master/nodes.md#eos-nodes)
-  - https://eos.greymass.com - operated by [greymass](https://greymass.com)
-  - https://mainnet.eoscalgary.io - operated by [EOS Cafe](https://eoscafecalgary.com/)
-  - https://api.eosnewyork.io - operated by [EOS New York](https://www.eosnewyork.io/)
-  - https://api.eosdetroit.io - operated by [EOS Detroit](http://eosdetroit.io/)
-  - http://api.hkeos.com - operated by [HK EOS](https://www.hkeos.com/)
-  - https://bp.cryptolions.io - operated by [CryptoLions](http://CryptoLions.io/)
-  - http://dc1.eosemerge.io:8888 - operated by [EOS Emerge Poland](http://eosemerge.io/)
-  - https://dc1.eosemerge.io:5443 - operated by [EOS Emerge Poland](http://eosemerge.io/)
-  - https://api1.eosdublin.io - operated by [EOS Dublin](https://eosdublin.io)
-  - https://api2.eosdublin.io - operated by [EOS Dublin](https://eosdublin.io)
-  - https://mainnet.eoscannon.io - operated by [EOS Cannon](https://eoscannon.io)
-  - https://eos-api.privex.io - operated by [Privex (privexinceos)](http://eosportal.io/chain/12/producers/privexinceos) (HTTP and HTTPS)
-  - https://eosapi.blockmatrix.network - operated by [Block Matrix](https://blockmatrix.network)
-  - https://user-api.eoseoul.io - operated by [EOSeoul](https://portal.eoseoul.io/)
-  - https://api.eos.bitspace.no - operated by [Bitspace](https://eos.bitspace.no/)
-  - https://node.eosflare.io - operated by [EOS Flare](https://eosflare.io/)
-  - https://api-eos.blckchnd.com - operated by [BLCKCHND](https://eos.blckchnd.com/)
-  - https://mainnet.eosimpera.com - operated by [EOS IMPERA](https://www.eosimpera.io/)
-  - https://api.franceos.fr - operated by [franceos](https://www.franceos.fr/)
+	- https://eos.greymass.com - operated by [greymass](https://greymass.com)
+	- https://mainnet.eoscalgary.io - operated by [EOS Cafe](https://eoscafecalgary.com/)
+	- https://api.eosnewyork.io - operated by [EOS New York](https://www.eosnewyork.io/)
+	- https://api.eosdetroit.io - operated by [EOS Detroit](http://eosdetroit.io/)
+	- http://api.hkeos.com - operated by [HK EOS](https://www.hkeos.com/)
+	- https://bp.cryptolions.io - operated by [CryptoLions](http://CryptoLions.io/)
+	- http://dc1.eosemerge.io:8888 - operated by [EOS Emerge Poland](http://eosemerge.io/)
+	- https://dc1.eosemerge.io:5443 - operated by [EOS Emerge Poland](http://eosemerge.io/)
+	- https://api1.eosdublin.io - operated by [EOS Dublin](https://eosdublin.io)
+	- https://api2.eosdublin.io - operated by [EOS Dublin](https://eosdublin.io)
+	- https://mainnet.eoscannon.io - operated by [EOS Cannon](https://eoscannon.io)
+	- https://eos-api.privex.io - operated by [Privex (privexinceos)](http://eosportal.io/chain/12/producers/privexinceos) (HTTP and HTTPS)
+	- https://eosapi.blockmatrix.network - operated by [Block Matrix](https://blockmatrix.network)
+	- https://user-api.eoseoul.io - operated by [EOSeoul](https://portal.eoseoul.io/)
+	- https://api.eos.bitspace.no - operated by [Bitspace](https://eos.bitspace.no/)
+	- https://node.eosflare.io - operated by [EOS Flare](https://eosflare.io/)
+	- https://api-eos.blckchnd.com - operated by [BLCKCHND](https://eos.blckchnd.com/)
+	- https://mainnet.eosimpera.com - operated by [EOS IMPERA](https://www.eosimpera.io/)
+	- https://api.franceos.fr - operated by [franceos](https://www.franceos.fr/)
 * Jungle3 Testnet API nodes - [Source](https://monitor3.jungletestnet.io/#apiendpoints). To get the link, click on the HTTP column values. 
-  - https://jungle3.cryptolions.io:443
-  - http://jungle3.cryptolions.io:80
-  - http://159.69.74.183:2888
-  - https://jungle3.eosdac.io:443
-  - https://jungle.eosn.io:443
-  - http://jungle3.atticlab.net:12875
-  - https://jungle3.eos.barcelona:443
-  - https://jungle3.eosusa.news:443
-  - https://jungle.eosphere.io:443
-  - https://jungle3.eossweden.org:443
-  - https://api.jungle3.alohaeos.com:443
-  - https://jungle.eosio.cr:443
-  - https://api-jungle.eosarabia.net:443
-  - http://15.165.171.27:5666
-  - https://testnet.jungle.eosdetroit.io:443
-  - https://jungle3.decentrawise.com:443 	   
+	- https://jungle3.cryptolions.io:443
+	- http://jungle3.cryptolions.io:80
+	- http://159.69.74.183:2888
+	- https://jungle3.eosdac.io:443
+	- https://jungle.eosn.io:443
+	- http://jungle3.atticlab.net:12875
+	- https://jungle3.eos.barcelona:443
+	- https://jungle3.eosusa.news:443
+	- https://jungle.eosphere.io:443
+	- https://jungle3.eossweden.org:443
+	- https://api.jungle3.alohaeos.com:443
+	- https://jungle.eosio.cr:443
+	- https://api-jungle.eosarabia.net:443
+	- http://15.165.171.27:5666
+	- https://testnet.jungle.eosdetroit.io:443
+	- https://jungle3.decentrawise.com:443 	   
 * WAX Testnet API nodes - [Source](https://github.com/eosswedenorg/waxtestnet/tree/master/endpoints). To get the link, click on the api param in JSON column values.
 like
+
 ```json
 {
-    "name": "",
-    "p2p": "",
-    "api": "",
+		"name": "",
+		"p2p": "",
+		"api": "",
 }
 ```
-  - https://wax-test.eosdac.io
-  - https://testnet.waxsweden.org
-  - https://testnet.wax.pink.gg
-  - https://api.waxtest.alohaeos.com
-  - https://waxtest.eosn.io
-  - https://testnet.wax.eosrio.io
-  - https://wax-testnet.eoscafeblock.com
-  - https://api.waxtest.greeneosiobp.com
-  - https://wax-testnet.eosphere.io
-  - https://wax-testnet.maltablock.org
-  - https://wax-test.eossweden.eu
-  - https://wax-testnet-api.eoscannon.io
+
+	- https://wax-test.eosdac.io
+	- https://testnet.waxsweden.org
+	- https://testnet.wax.pink.gg
+	- https://api.waxtest.alohaeos.com
+	- https://waxtest.eosn.io
+	- https://testnet.wax.eosrio.io
+	- https://wax-testnet.eoscafeblock.com
+	- https://api.waxtest.greeneosiobp.com
+	- https://wax-testnet.eosphere.io
+	- https://wax-testnet.maltablock.org
+	- https://wax-test.eossweden.eu
+	- https://wax-testnet-api.eoscannon.io
 * EOS block explorer -
-  - https://bloks.io/
-  - https://scaneos.io/
-  - https://eospark.com/
-  - https://eostracker.io
-  - https://www.cypherblock.io/
-  - https://eosq.app/
-  - https://explorer.eosvibes.io/
-  - https://eosflare.io/
-  - https://eostree.io/ (Search any account with creator names)
-  - https://www.eosx.io
-  - View personal Account info. - https://eosinbox.io
+	- https://bloks.io/
+	- https://scaneos.io/
+	- https://eospark.com/
+	- https://eostracker.io
+	- https://www.cypherblock.io/
+	- https://eosq.app/
+	- https://explorer.eosvibes.io/
+	- https://eosflare.io/
+	- https://eostree.io/ (Search any account with creator names)
+	- https://www.eosx.io
+	- View personal Account info. - https://eosinbox.io
 
 * History Tools
-  - History API
-    + https://eos.hyperion.eosrio.io/v2/docs/index.html
-    + Dfuse API
-  - History tools by Block.one
-    + https://github.com/EOSIO/history-tools
+	- History API
+		+ https://eos.hyperion.eosrio.io/v2/docs/index.html
+		+ Dfuse API
+	- History tools by Block.one
+		+ https://github.com/EOSIO/history-tools
 	- History API Endpoint List
 		+ https://hyperion.docs.eosrio.io/endpoint/
 	- [History API Nodes status](https://bloks.io/hyperion)
- 	- Examples:
+	- Examples:
 		+ Get actions for an account: `https://junglehistory.cryptolions.io/v2/history/get_actions?account=cabeos1user3`
 * Demux (infrastructure for interating with databases (speed & flexibility) - [MongoDB](https://www.mongodb.com/), [PostgreSQL](https://www.postgresql.org/) along with Blockchain (immutability)):
-  - [MongoDB and MySQL Compared](https://www.mongodb.com/compare/mongodb-mysql)
-  - [PostgreSQL with Python](http://www.postgresqltutorial.com/postgresql-python/) <br/>
-    install using pip - `pip install psycopg2`
-  - https://www.talentica.com/blogs/eos-demux-using-postgresql/
-  - https://medium.com/eosio/introducing-demux-deterministic-databases-off-chain-verified-by-the-eosio-blockchain-bd860c49b017
+	- [MongoDB and MySQL Compared](https://www.mongodb.com/compare/mongodb-mysql)
+	- [PostgreSQL with Python](http://www.postgresqltutorial.com/postgresql-python/) <br/>
+		install using pip - `pip install psycopg2`
+	- https://www.talentica.com/blogs/eos-demux-using-postgresql/
+	- https://medium.com/eosio/introducing-demux-deterministic-databases-off-chain-verified-by-the-eosio-blockchain-bd860c49b017
 * API docs for dev - 
-  - EOS Park - https://developer.eospark.com/api-doc
-  - EOS Canada - https://www.dfuse.io/en
-  - EOS Infra - https://www.eosinfra.io/
+	- EOS Park - https://developer.eospark.com/api-doc
+	- EOS Canada - https://www.dfuse.io/en
+	- EOS Infra - https://www.eosinfra.io/
 * Smart Contract development tool: 
-  - https://dev4eos.com/#/
+	- https://dev4eos.com/#/
 * RAM Tools:
-  - https://www.eosrp.io/#calc
-  - https://eosweb.net/ram
-  - https://eos.feexplorer.io/
-  - https://www.myeoskit.com/tools/ram/buy
+	- https://www.eosrp.io/#calc
+	- https://eosweb.net/ram
+	- https://eos.feexplorer.io/
+	- https://www.myeoskit.com/tools/ram/buy
 * List of dApps using Scatter Login - https://get-scatter.com/Apps
 * EOS Studio (IDE for SC Development)
-  - Linux/Mac: https://download.eosstudio.io/
-  - Windows: https://download.eosstudio.io/win
+	- Linux/Mac: https://download.eosstudio.io/
+	- Windows: https://download.eosstudio.io/win
 * Local blocks.io
-  - enter Mainnet API url (copy from above)
-  - History API (optional): "https://eos.hyperion.eosrio.io/"
-
+	- enter Mainnet API url (copy from above)
+	- History API (optional): "https://eos.hyperion.eosrio.io/"
+* List of EOS accounts
+	- https://snapshots.eosamsterdam.net/public/eos/
 
 ## EOS DApps
 * EOS Filestore - https://eosfilestore.now.sh/download
@@ -160,8 +163,8 @@ like
 * EOS Developer Docs - https://developers.eos.io/
 * EOS Dawn 3.0 - https://medium.com/eosio/eosio-dawn-3-0-now-available-49a3b99242d7
 * EOS Dawn 4.0 - 
-  - Introduction - https://medium.com/eosio/introducing-eosio-dawn-4-0-f738c552879
-  - Release - https://medium.com/eosio/eosio-dawn-4-0-release-b25661a49ac2
+	- Introduction - https://medium.com/eosio/introducing-eosio-dawn-4-0-f738c552879
+	- Release - https://medium.com/eosio/eosio-dawn-4-0-release-b25661a49ac2
 * Multi-Sig wallet - https://steemit.com/eos/@genereos/eos-multisig-tutorial
 * BTS DPoS Consensus Code Implementation Overview - https://blog.csdn.net/ggq89/article/details/80068306
 * [EOS: Explanation of DPoS+BFT w/ Daniel Larimer - Part 1 of 2](https://steemit.com/eos/@eosgo/eos-explanation-of-dpos-bft-w-daniel-larimer-part-1-of-2): This explanation is by Dan himself - part 1.
@@ -176,22 +179,22 @@ like
 * EOSIO Dev Course at Geneva University (November 8-16th 2019)- https://github.com/Europechain/eosio-dev-introduction-course
 * EOS smart contract programming tutorials - https://github.com/cc32d9/eosio.tutorials
 * Webinars:
-  - Block.one EOSIO Webinar - https://eos.io/webinars/
-  - [Getting Started with EOSIO DApp Development](https://www.youtube.com/watch?v=IWsPHZn29K4)
-  - [Introduction to EOSIO Smart Contracts by Phil Mesnier](https://www.youtube.com/watch?v=E3Tx2DseLGE)
-  - [EOSIO Swiss Workshop | Webinar | April 23rd 2020](https://youtu.be/VHqtAuC8nvQ)
-  - [EOSIO Swiss Workshop | Webinar | June 23rd 2020](https://youtu.be/LhKh8FpSB2s)
+	- Block.one EOSIO Webinar - https://eos.io/webinars/
+	- [Getting Started with EOSIO DApp Development](https://www.youtube.com/watch?v=IWsPHZn29K4)
+	- [Introduction to EOSIO Smart Contracts by Phil Mesnier](https://www.youtube.com/watch?v=E3Tx2DseLGE)
+	- [EOSIO Swiss Workshop | Webinar | April 23rd 2020](https://youtu.be/VHqtAuC8nvQ)
+	- [EOSIO Swiss Workshop | Webinar | June 23rd 2020](https://youtu.be/LhKh8FpSB2s)
 * Read Medium articles by Mitcher:
-  - [Github repo](https://github.com/MitchPierias/advanced-eos-examples)
-  - [Advanced EOS Series — Part 1 — Cryptographic Hashes](https://medium.com/coinmonks/advanced-eos-series-part-1-cryptographic-hashes-a251a8d371b8)
-  - [Advanced EOS Series — Part 2 — Singletons](https://medium.com/coinmonks/advanced-eos-series-part-2-singletons-9e903772f71c)
-  - [Advanced EOS Series — Part 3 — Secondary Indexes](https://medium.com/coinmonks/advanced-eos-series-part-3-secondary-indexes-1798f339cbb8)
-  - [Advanced EOS Series — Part 4 — Table Uniqueness](https://medium.com/coinmonks/advanced-eos-series-part-4-table-uniqueness-835843a207fc)
-  - [Advanced EOS Series — Part 5 — One-to-many Relationships](https://medium.com/coinmonks/advanced-eos-series-part-5-one-to-many-relationships-42d2e075e05d)
-  - [Advanced EOS Series — Part 6 —Contract-to-Contract Communication](https://medium.com/coinmonks/advanced-eos-series-part-6-contract-to-contract-communication-ab352a8b60aa)
-  - [Advanced EOS Series — Part 9 — Payable Actions](https://medium.com/coinmonks/advanced-eos-series-part-9-payable-actions-42bf878bee36)
+	- [Github repo](https://github.com/MitchPierias/advanced-eos-examples)
+	- [Advanced EOS Series — Part 1 — Cryptographic Hashes](https://medium.com/coinmonks/advanced-eos-series-part-1-cryptographic-hashes-a251a8d371b8)
+	- [Advanced EOS Series — Part 2 — Singletons](https://medium.com/coinmonks/advanced-eos-series-part-2-singletons-9e903772f71c)
+	- [Advanced EOS Series — Part 3 — Secondary Indexes](https://medium.com/coinmonks/advanced-eos-series-part-3-secondary-indexes-1798f339cbb8)
+	- [Advanced EOS Series — Part 4 — Table Uniqueness](https://medium.com/coinmonks/advanced-eos-series-part-4-table-uniqueness-835843a207fc)
+	- [Advanced EOS Series — Part 5 — One-to-many Relationships](https://medium.com/coinmonks/advanced-eos-series-part-5-one-to-many-relationships-42d2e075e05d)
+	- [Advanced EOS Series — Part 6 —Contract-to-Contract Communication](https://medium.com/coinmonks/advanced-eos-series-part-6-contract-to-contract-communication-ab352a8b60aa)
+	- [Advanced EOS Series — Part 9 — Payable Actions](https://medium.com/coinmonks/advanced-eos-series-part-9-payable-actions-42bf878bee36)
 * Coinbase EOS Basics:
-  - [YouTube playlist](https://www.youtube.com/playlist?list=PLCUj29wM0gddsSvbqAkYiSsAD-UFzLBpa)
+	- [YouTube playlist](https://www.youtube.com/playlist?list=PLCUj29wM0gddsSvbqAkYiSsAD-UFzLBpa)
 
 
 ## Hackathons
@@ -224,20 +227,20 @@ like
 * Understanding the eosio.token contract - https://medium.com/coinmonks/understanding-the-eosio-token-contract-87466b9fdca9
 * Smart City on Steroids - https://github.com/serganus/scos-smartcontract
 * Blog dApp - 
-  - https://github.com/TaraTritt/eos-blog-dapp
-  - https://github.com/EOSIO/eosio-project-demux-example/tree/master/eosio_docker/contracts/blog
+	- https://github.com/TaraTritt/eos-blog-dapp
+	- https://github.com/EOSIO/eosio-project-demux-example/tree/master/eosio_docker/contracts/blog
 * Ping EOS contract - https://steemit.com/devs/@eos-asia/eos-smart-contracts-part-1-getting-started-ping-equivalent-in-eos
 * Todo list contract - https://steemit.com/eos/@eos-asia/part-2-building-a-to-do-list-with-eos-or-working-with-persistent-data-in-eos
 * Oraclize EOS:
-  - [eos-api](https://github.com/oraclize/eos-api)
-  - [Oraclize Documentation](http://docs.oraclize.it/#eos)
+	- [eos-api](https://github.com/oraclize/eos-api)
+	- [Oraclize Documentation](http://docs.oraclize.it/#eos)
 * EOS contract examples (Table, Transfer-award, etc.) -  https://github.com/itleaks/eos-contract
 * incoming transfer rules for transaction in memo - https://github.com/eosauthority/incoming-transfer-rules
 * EOS Pixels contract - https://github.com/eosasia/eospixels
 * EOS Smart contract bugs (Be careful, for dev reference) - https://github.com/EOSArgentina/eos_known_attacks
 * Pet Smart contract 
-  - https://gist.github.com/leordev/c927cd919f3a84be368b2bc5e2aee883
-  - https://github.com/eun2ce/eosio.pet
+	- https://gist.github.com/leordev/c927cd919f3a84be368b2bc5e2aee883
+	- https://github.com/eun2ce/eosio.pet
 * EOS timelock contract - https://github.com/michaeljyeates/eos-timelock
 * EOS button contract - https://github.com/eosbutton/eosbutton-contract
 * EOS voting contract - https://github.com/EOSMore/eos-contracts/tree/dev/more.voting [Read first](https://github.com/EOSMore/eos-contracts/blob/dev/README.md)
