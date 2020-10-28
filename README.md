@@ -363,6 +363,8 @@ like
 * EOS smart contract for a catalog of dapps - https://github.com/cc32d9/dappscatalog
 * Sign a file on Blockchain - https://github.com/Europechain/filehashfact
 * Game contract SDK for EOS - https://github.com/DaoCasino/game-contract-sdk
+* DAOPlatform contracts (all games and casinos interact with this contracts) - https://github.com/DaoCasino/platform-contracts
+* DEFI - https://github.com/onesgame/defi
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
