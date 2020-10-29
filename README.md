@@ -158,6 +158,15 @@ like
 * EOS Filestore - https://eosfilestore.now.sh/download
 * EOS dMail - [YouTube demo](https://www.youtube.com/watch?v=BVa24dSCFOw)
 
+## EOSIO Chains
+* WAX
+	- [Github](https://github.com/worldwide-asset-exchange)
+	- [Developer portal](https://developer.wax.io/)
+* FIO
+	- [Github](https://github.com/fioprotocol)
+	- [Contracts](https://github.com/fioprotocol/fio.contracts)
+	- [Developer portal](https://developers.fioprotocol.io/)
+
 ## Concepts (Official)
 * EOS updation by @bytemaster - https://github.com/EOSIO/eos/tree/contextfree
 * EOS: an Introduction - https://eos.io/documents/EOS_An_Introduction.pdf
