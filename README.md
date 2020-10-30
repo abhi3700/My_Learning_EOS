@@ -363,6 +363,9 @@ like
 * EOS smart contract for a catalog of dapps - https://github.com/cc32d9/dappscatalog
 * Sign a file on Blockchain - https://github.com/Europechain/filehashfact
 * Game contract SDK for EOS - https://github.com/DaoCasino/game-contract-sdk
+* Telos Shops is a decentralized storefront service - https://github.com/telosnetwork/telos-shops
+* Telos Login Service - https://github.com/telosnetwork/telos-login
+* EOSIO signing request java - https://github.com/greymass/eosio-signing-request-java
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
