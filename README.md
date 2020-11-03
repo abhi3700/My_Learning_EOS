@@ -153,6 +153,8 @@ like
 	- https://snapshots.eosamsterdam.net/public/eos/
 * Calculate WAX Resources
 	- https://waxrp.eosusa.news
+* EOSIO Dashboard
+	- https://github.com/eoscostarica/eosio-dashboard
 
 ## EOS DApps
 * EOS Filestore - https://eosfilestore.now.sh/download
@@ -377,6 +379,7 @@ like
 * EOSIO signing request java - https://github.com/greymass/eosio-signing-request-java
 * DAOPlatform contracts (all games and casinos interact with this contracts) - https://github.com/DaoCasino/platform-contracts
 * DEFI - https://github.com/onesgame/defi
+* Multi signature commands (in bash scripts) - https://github.com/CryptoLions/MSIG_console_manager 
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
