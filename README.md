@@ -381,6 +381,7 @@ like
 * DEFI - https://github.com/onesgame/defi
 * Multi signature commands (in bash scripts) - https://github.com/CryptoLions/MSIG_console_manager
 * Events receiver example for SimpleAssets.io - https://github.com/CryptoLions/SimpleAssets-EventReceiverExample 
+* Stress testing for EOS blockchain - [Blog](https://medium.com/@cryptolions/new-maximum-eosio-tps-demonstrated-in-jungle-testnet-9179-15a485f2e79), [Github](https://github.com/CryptoLions/TxShooterContract)
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
