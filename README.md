@@ -379,7 +379,8 @@ like
 * EOSIO signing request java - https://github.com/greymass/eosio-signing-request-java
 * DAOPlatform contracts (all games and casinos interact with this contracts) - https://github.com/DaoCasino/platform-contracts
 * DEFI - https://github.com/onesgame/defi
-* Multi signature commands (in bash scripts) - https://github.com/CryptoLions/MSIG_console_manager 
+* Multi signature commands (in bash scripts) - https://github.com/CryptoLions/MSIG_console_manager
+* Events receiver example for SimpleAssets.io - https://github.com/CryptoLions/SimpleAssets-EventReceiverExample 
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
