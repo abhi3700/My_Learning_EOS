@@ -221,6 +221,46 @@ like
 		+ [eosio.evm: Using Metamask and Remix with EOSIO nodes](https://www.youtube.com/watch?v=9y6Gjw4TiDk)
 	- prize money by Block.one - `200,000 USD`
 
+## EOS Programming API
+### Python
+* eos-py
+	- [Github](https://github.com/eosnewyork/eospy)
+	- [pip](https://pypi.org/project/libeospy/)
+	- Examples
+		+ [EOS send transaction](https://github.com/phDooY/eos_send_tx)
+		+ [More](https://github.com/eosnewyork/eospy/tree/master/examples)
+
+### Java
+* eosio-java
+	- [Github](https://github.com/EOSIO/eosio-java)
+	- Examples
+		+ [Application demonstrating integration with EOSIO-based blockchains using EOSIO SDK for Java](https://github.com/EOSIO/eosio-java-android-example-app)
+
+### Javascript
+* eosjs
+	- Github
+		+ [eosjs](https://github.com/EOSIO/eosjs)
+		+ [eosjs-keygen](https://github.com/EOSIO/eosjs-keygen)
+		+ [eosjs-api](https://github.com/EOSIO/eosjs-api)
+		+ [eosjs-ecc](https://github.com/EOSIO/eosjs-ecc)
+		+ [eosjs-json](https://github.com/EOSIO/eosjs-json)
+	- [npm](https://www.npmjs.com/package/eosjs)
+	- Examples
+		+ [Reading Blockchain](https://developers.eos.io/manuals/eosjs/latest/reading-blockchain-examples/#reading-blockchain)
+		+ [Get table rows](https://developers.eos.io/manuals/eosjs/latest/reading-blockchain-examples/#get-table-rows)
+		+ [Get one row by index](https://developers.eos.io/manuals/eosjs/latest/reading-blockchain-examples/#get-one-row-by-index)
+		+ [Get one row by secondary index](https://developers.eos.io/manuals/eosjs/latest/reading-blockchain-examples/#get-one-row-by-secondary-index)
+		+ [Get currency balance](https://developers.eos.io/manuals/eosjs/latest/reading-blockchain-examples/#get-currency-balance)
+		+ [Get account info](https://developers.eos.io/manuals/eosjs/latest/reading-blockchain-examples/#get-currency-balance)
+		+ [Get block](https://developers.eos.io/manuals/eosjs/latest/reading-blockchain-examples/#get-currency-balance)
+		+ [Transaction Examples](https://developers.eos.io/manuals/eosjs/latest/transaction-examples)
+		+ [Buy ram](https://developers.eos.io/manuals/eosjs/latest/transaction-examples/#buy-ram)
+		+ [Stake](https://developers.eos.io/manuals/eosjs/latest/transaction-examples/#stake)
+		+ [Unstake](https://developers.eos.io/manuals/eosjs/latest/transaction-examples/#example-unstake)
+		+ [Create new account](https://developers.eos.io/manuals/eosjs/latest/transaction-examples/#create-new-account-multiple-actions)
+
+
+
 ## Repositories
 * [EOSIO Boilerplate](https://github.com/abhi3700/eosio-boilerplate)
 * My contract [Setup](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#summary)
