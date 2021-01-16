@@ -161,6 +161,10 @@ like
 * EOS dMail - [YouTube demo](https://www.youtube.com/watch?v=BVa24dSCFOw)
 
 ## EOSIO Chains
+* EOS
+	- [Github](https://github.com/eosio/eos)
+	- [Contracts](https://github.com/EOSIO/eosio.contracts)
+	- [Developer portal](https://developers.eos.io/)
 * WAX
 	- [Github](https://github.com/worldwide-asset-exchange)
 	- [Developer portal](https://developer.wax.io/)
@@ -208,7 +212,14 @@ like
 	- [Advanced EOS Series — Part 9 — Payable Actions](https://medium.com/coinmonks/advanced-eos-series-part-9-payable-actions-42bf878bee36)
 * Coinbase EOS Basics:
 	- [YouTube playlist](https://www.youtube.com/playlist?list=PLCUj29wM0gddsSvbqAkYiSsAD-UFzLBpa)
-
+* C++ Guide for EOS Development by C Mitchel
+	- [Basics](https://cmichel.io/cpp-guide-for-eos-development-basics/)
+	- [Call by value / reference & Pointers](https://cmichel.io/cpp-guide-for-eos-development-call-by-value-reference/)
+	- [Classes and Structs](https://cmichel.io/cpp-guide-for-eos-development-classes-and-structs/)
+	- [Templates](https://cmichel.io/cpp-guide-for-eos-development-templates)
+	- [Iterators & Lambda Expressions](https://cmichel.io/cpp-guide-for-eos-development-iterators-lambda-expressions)
+	- [Multi-index](https://cmichel.io/cpp-guide-for-eos-development-multi-index)
+	- [Header files](https://cmichel.io/cpp-guide-for-eos-development-header-files)
 
 ## Hackathons
 * EOSIO Ethereum Virtual Machine (EVM) 
@@ -276,7 +287,6 @@ like
 * How to build an EOS application - https://freestartupkits.com/articles/technology/cryptocurrency-news-and-tips/how-to-build-an-eos-application-eosio-1/
 * InfinitexLabs Project Oasis (entire game built on EOS) - [Part 1 & 2 Github](https://github.com/infiniteXLabs/Oasis), [Part 1 Article](https://infinitexlabs.com/eos-development-tutorial-part-1/), [Part 2 Article](https://infinitexlabs.com/eos-development-tutorial-part-2/) 
 * InfinitexLabs Project Robot factory - [Version 1 Github](https://github.com/infiniteXLabs/RobotFactory), [Version 1 Article](https://infinitexlabs.com/eos-communication-model/), [Version 2 Github](https://github.com/infiniteXLabs/RobotFactory-02)
-* Learn EOS #tutorials - https://cmichel.io/categories/learneos
 * Understanding the eosio.token contract - https://medium.com/coinmonks/understanding-the-eosio-token-contract-87466b9fdca9
 * Smart City on Steroids - https://github.com/serganus/scos-smartcontract
 * Blog dApp - 
