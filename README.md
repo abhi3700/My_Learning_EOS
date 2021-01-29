@@ -41,7 +41,7 @@ EOS resources available here.
 			+ (Refer) - https://eosio-nodeos.readme.io/docs/learn-about-wallets-keys-and-accounts-with-cleos
 * `cleos` tool guide part 1 - https://www.youtube.com/watch?v=IVrwtVFRjj0
 * learn EOS wallets basics - https://www.eosdocs.io/dappdevelopment/wallets/
-* Mainnet API nodes - [Source](https://github.com/greymass/eos-voter/blob/master/nodes.md#eos-nodes)
+* EOS Mainnet RPC API - [Source](https://github.com/greymass/eos-voter/blob/master/nodes.md#eos-nodes)
 	- https://eos.greymass.com - operated by [greymass](https://greymass.com)
 	- https://mainnet.eoscalgary.io - operated by [EOS Cafe](https://eoscafecalgary.com/)
 	- https://api.eosnewyork.io - operated by [EOS New York](https://www.eosnewyork.io/)
@@ -61,7 +61,7 @@ EOS resources available here.
 	- https://api-eos.blckchnd.com - operated by [BLCKCHND](https://eos.blckchnd.com/)
 	- https://mainnet.eosimpera.com - operated by [EOS IMPERA](https://www.eosimpera.io/)
 	- https://api.franceos.fr - operated by [franceos](https://www.franceos.fr/)
-* Jungle3 Testnet API nodes - [Source](https://monitor3.jungletestnet.io/#apiendpoints). To get the link, click on the HTTP column values. 
+* EOS Testnet RPC API [Jungle 3] - [Source](https://monitor3.jungletestnet.io/#apiendpoints). To get the link, click on the HTTP column values. 
 	- https://jungle3.cryptolions.io:443
 	- http://jungle3.cryptolions.io:80
 	- http://159.69.74.183:2888
@@ -78,17 +78,17 @@ EOS resources available here.
 	- http://15.165.171.27:5666
 	- https://testnet.jungle.eosdetroit.io:443
 	- https://jungle3.decentrawise.com:443 	   
+* WAX Mainnet RPC API - [Source](https://developer.wax.io/dapps/wax-rpc-api/)
+	- https://chain.wax.io/
 * WAX Testnet API nodes - [Source](https://github.com/eosswedenorg/waxtestnet/tree/master/endpoints). To get the link, click on the api param in JSON column values.
 like
-
 ```json
 {
 		"name": "",
 		"p2p": "",
 		"api": "",
 }
-```
-
+``` 
 	- https://wax-test.eosdac.io
 	- https://testnet.waxsweden.org
 	- https://testnet.wax.pink.gg
@@ -114,7 +114,7 @@ like
 	- https://www.eosx.io
 	- View personal Account info. - https://eosinbox.io
 
-* History Tools
+* EOSIO History Tools
 	- History API
 		+ https://eos.hyperion.eosrio.io/v2/docs/index.html
 		+ Dfuse API
