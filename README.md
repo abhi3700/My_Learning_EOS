@@ -219,6 +219,7 @@ like
 	- [Iterators & Lambda Expressions](https://cmichel.io/cpp-guide-for-eos-development-iterators-lambda-expressions)
 	- [Multi-index](https://cmichel.io/cpp-guide-for-eos-development-multi-index)
 	- [Header files](https://cmichel.io/cpp-guide-for-eos-development-header-files)
+* [EOSIO 1 vs 2](https://eos.io/news/introducing-eosio-2/)
 
 ## Hackathons
 * EOSIO Ethereum Virtual Machine (EVM) 
