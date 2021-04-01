@@ -20,7 +20,9 @@ EOS resources available here.
 * EOSIO.CDT (from v1.5 to v1.6) - https://developers.eos.io/manuals/eosio.cdt/latest/upgrading/1.5-to-1.6
 
 ## Development
-* Python-based Framework for EOS - https://github.com/tokenika/eosfactory
+* Python-based Framework for EOS 
+	- https://github.com/tokenika/eosfactory
+	- https://github.com/eosnewyork/eospy [RECOMMENDED]
 * JavaScript API for EOS - https://github.com/EOSIO/eosjs-json
 * EOS API endpoint - https://t1api.eos.io/v1/docs/#api-_
 * Android client for EOS - https://github.com/plactal/EosCommander
