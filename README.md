@@ -23,8 +23,10 @@ EOS resources available here.
 * Python-based Framework for EOS 
 	- https://github.com/tokenika/eosfactory
 	- https://github.com/eosnewyork/eospy [RECOMMENDED]
+	- https://pypi.org/project/aioeos/ [RECOMMENDED]
 * JavaScript API for EOS - https://github.com/EOSIO/eosjs-json
 * EOS API endpoint - https://t1api.eos.io/v1/docs/#api-_
+* Tools for exporting EOS blockchain data to JSON - https://pypi.org/project/eos-etl/
 * Android client for EOS - https://github.com/plactal/EosCommander
 * Getting Started With WebAssembly - https://tutorialzine.com/2017/06/getting-started-with-web-assembly
 * Compiling from C/C++ to WebAssembly - https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm
