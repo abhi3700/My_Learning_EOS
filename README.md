@@ -158,6 +158,9 @@ like
 	- https://waxrp.eosusa.news
 * EOSIO Dashboard
 	- https://github.com/eoscostarica/eosio-dashboard
+* EOSIO Wallets
+	- [Sqrl](https://sqrlwallet.io/)
+	- [Anchor](https://docs.bloks.io/login/desktop-wallets/anchor)
 
 ## EOS DApps
 * EOS Filestore - https://eosfilestore.now.sh/download
