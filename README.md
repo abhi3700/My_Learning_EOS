@@ -447,6 +447,7 @@ like
 * How To Secure Messages On EOS - https://medium.com/@darchnetwork0/how-to-secure-messages-on-eos-a9c4e86c3cf7
 * EOS CPU issue | Remove artificial REX lower limit - https://github.com/EOSIO/eosio.contracts/pull/369
 * Testing EOSIO Smart Contracts - https://app.voice.com/post/@philliphamnett/testing-eosio-smart-contracts-1598539888-1
+* [EOS Multisig — Advanced Security Made Easy](https://medium.com/@bensig/aeos-multisig-easy-394f86071fcf)
 
 ## TO_READ
 * https://eosio.stackexchange.com/questions/2247/what-is-the-best-way-of-storing-data-on-eos-blockchain
