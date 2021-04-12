@@ -1,5 +1,24 @@
-# My_Learning_EOS
-EOS resources available here.
+# My_Learning_EOSIO
+EOS EOSIO resources available here.
+
+## My EOSIO Projects
+* [x] 1. TOE: Transporation Services (Taxi, Bikes, Metro, Bus) on EOSIO
+	- [smart contracts on Github](https://github.com/abhi3700/toe_contracts)
+* [x] 2. ICO contract
+	- [ico contract](https://github.com/abhi3700/eosio_dci_contracts/tree/master/dciico)
+	- [token contract](https://github.com/abhi3700/eosio_dci_contracts/tree/master/dcitoken)
+* [x] 3. Rehabilitation Centre on EOSIO
+	- [ico contract](https://github.com/abhi3700/eosio_tropium_contracts/tree/master/tropiumico)
+	- [stake contract](https://github.com/abhi3700/eosio_tropium_contracts/tree/master/tropiumstake)
+	- [token contract](https://github.com/abhi3700/eosio_tropium_contracts/tree/master/tropiumtoken)
+* [x] 4. GPK.Battles Game on WAX Blockchain
+	- [escrow contract](https://github.com/GPKBattles/eosio_gpkbattles_contracts/tree/master/2_testnet/gpkbatescrow)
+	- [game contract](https://github.com/GPKBattles/eosio_gpkbattles_contracts/tree/master/2_testnet/gpkbattlesco)
+* [x] 5. Show Balance, Deposit, Withdraw, Tip EOSIO tokens to User via Telegram ID
+	- [tip contract](https://github.com/abhi3700/eosio_tipuser_contracts/tree/main/tippertipper)
+	- [token contract](https://github.com/abhi3700/eosio_tipuser_contracts/tree/main/tokenfutbol)
+* [ ] 6. A DApp where, user maintain KYC via WhatsApp Bot. This gets validated on EOSIO Blockchain & stored in Cloud database.
+	- [KYC contract](https://github.com/abhi3700/eosio_kyc_contracts) 
 
 ## Official Repo (by Block.one EOS)
 * The platform (dependency libraries, cleos, nodeos, keosd) - https://github.com/EOSIO/eos
