@@ -64,6 +64,8 @@ EOS EOSIO resources available here.
 			+ (Refer) - https://eosio-nodeos.readme.io/docs/learn-about-wallets-keys-and-accounts-with-cleos
 * `cleos` tool guide part 1 - https://www.youtube.com/watch?v=IVrwtVFRjj0
 * learn EOS wallets basics - https://www.eosdocs.io/dappdevelopment/wallets/
+
+### EOS
 * EOS Mainnet Chain API - [Source](https://github.com/greymass/eos-voter/blob/master/nodes.md#eos-nodes)
 	- https://eos.greymass.com - operated by [greymass](https://greymass.com)
 	- https://mainnet.eoscalgary.io - operated by [EOS Cafe](https://eoscafecalgary.com/)
@@ -101,6 +103,83 @@ EOS EOSIO resources available here.
 	- http://15.165.171.27:5666
 	- https://testnet.jungle.eosdetroit.io:443
 	- https://jungle3.decentrawise.com:443 	   
+
+### Telos
+* Telos Testnet Chain API
+	- http://testnet2.telos.eosusa.news
+	- https://node1.testnet2.telosglobal.io:8899
+	- https://node2.testnet2.telosglobal.io:8899
+	- https://sslapi.teloscentral.com:9995
+	- http://145.239.133.188:9999
+	- http://testnet.telos.eclipse24.io:8000
+	- https://testnet2.telos.eosdetroit.io
+	- https://basho-api.telosuk.io
+	- http://testnet.eossweden.eu
+	- http://testnet.telos.cryptosuvi.io:8889
+	- https://nickfury.tlos.goodblock.io
+	- https://telosapi.eosmetal.io
+	- http://207.148.6.75:8889
+	- https://api.testnet2.telosgermany.io
+	- http://176.9.86.214:8889
+	- https://telos-testnet-b.eosphere.io
+	- http://testnet.telos.africa:7777
+	- https://api.testnet.telosgreen.com
+	- https://testnet2api.telosarabia.net
+	- http://157.230.29.117:8888
+	- https://api.tlostest.alohaeos.com
+* Telos Testnet p2p peer address
+	- p2p-peer-address=testnet2.telos.eosusa.news:59877
+	- p2p-peer-address=node1.testnet2.telosglobal.io:9876
+	- p2p-peer-address=node2.testnet2.telosglobal.io:9876
+	- p2p-peer-address=basho.eos.barcelona:9899
+	- p2p-peer-address=sslapi.teloscentral.com:9875
+	- p2p-peer-address=145.239.133.188:5566
+	- p2p-peer-address=testnet.telos.eclipse24.io:6789
+	- p2p-peer-address=testnet2.telos.eosdetroit.io:1337
+	- p2p-peer-address=basho-p2p.telosuk.io:19876
+	- p2p-peer-address=telos-testnet.atticlab.net:7876
+	- p2p-peer-address=testnet.eossweden.eu:8022
+	- p2p-peer-address=testnet.telos.cryptosuvi.io:2223
+	- p2p-peer-address=nickfury.tlos.goodblock.io:9876
+	- p2p-peer-address=telosapi.eosmetal.io:59877
+	- p2p-peer-address=207.148.6.75:9877
+	- p2p-peer-address=p2p.testnet.telosgermany.io
+	- p2p-peer-address=176.9.86.214:9877
+	- p2p-peer-address=telos-testnet-b.eosphere.io:9876
+	- p2p-peer-address=testnet.telos.africa:9875
+	- p2p-peer-address=p2p.testnet.telosgreen.com:9876
+	- p2p-peer-address=testnet2p2p.telosarabia.net:9876
+	- p2p-peer-address=peer.tlostest.alohaeos.com:9876
+	- p2p-peer-address=157.230.29.117:9876
+* Telos Testnet `genesis.json` [Source](https://bp.eosusa.news/telos/testnet2.genesis.json)
+```json
+{
+"initial_key": "EOS7xyPWfh6743fhZ46zQQcXSctddoqG65d44YsyRnCJCs54mJLrH",
+"initial_configuration": {
+   "max_block_net_usage": 1048576,
+   "target_block_net_usage_pct": 1000,
+   "max_transaction_net_usage": 524288,
+   "base_per_transaction_net_usage": 12,
+   "net_usage_leeway": 500,
+   "context_free_discount_net_usage_num": 20,
+   "context_free_discount_net_usage_den": 100,
+   "max_block_cpu_usage": 5000000,
+   "target_block_cpu_usage_pct": 1000,
+   "max_transaction_cpu_usage": 150000,
+   "min_transaction_cpu_usage": 100,
+   "max_transaction_lifetime": 3600,
+   "deferred_trx_expiration_window": 600,
+   "max_transaction_delay": 3888000,
+   "max_inline_action_size": 4096,
+   "max_inline_action_depth": 4,
+   "max_authority_depth": 6
+ },
+"initial_timestamp": "2019–08–07T12:00:00.000"
+}
+```
+
+
+### WAX
 * WAX Mainnet Chain API - [Source](https://developer.wax.io/dapps/wax-rpc-api/)
 	- https://chain.wax.io/
 * WAX Testnet Chain API - [Source](https://github.com/eosswedenorg/waxtestnet/tree/master/endpoints). To get the link, click on the api param in JSON column values.
@@ -124,6 +203,8 @@ like
 	- https://wax-testnet.maltablock.org
 	- https://wax-test.eossweden.eu
 	- https://wax-testnet-api.eoscannon.io
+
+### Block Explorer
 * EOS block explorer -
 	- https://bloks.io/
 	- https://scaneos.io/
@@ -136,17 +217,20 @@ like
 	- https://eostree.io/ (Search any account with creator names)
 	- https://www.eosx.io
 	- View personal Account info. - https://eosinbox.io
-* EOSIO History Tools
-	- History API
-		+ https://eos.hyperion.eosrio.io/v2/docs/index.html
-		+ Dfuse API
-	- History tools by Block.one
-		+ https://github.com/EOSIO/history-tools
-	- History API Endpoint List
-		+ https://hyperion.docs.eosrio.io/endpoint/
-	- [History API Nodes status](https://bloks.io/hyperion)
-	- Examples:
-		+ Get actions for an account: `https://junglehistory.cryptolions.io/v2/history/get_actions?account=cabeos1user3`
+
+### EOSIO History Tools
+- History API
+	+ https://eos.hyperion.eosrio.io/v2/docs/index.html
+	+ Dfuse API
+- History tools by Block.one
+	+ https://github.com/EOSIO/history-tools
+- History API Endpoint List
+	+ https://hyperion.docs.eosrio.io/endpoint/
+- [History API Nodes status](https://bloks.io/hyperion)
+- Examples:
+	+ Get actions for an account: `https://junglehistory.cryptolions.io/v2/history/get_actions?account=cabeos1user3`
+
+### Others
 * Demux (infrastructure for interating with databases (speed & flexibility) - [MongoDB](https://www.mongodb.com/), [PostgreSQL](https://www.postgresql.org/) along with Blockchain (immutability)):
 	- [MongoDB and MySQL Compared](https://www.mongodb.com/compare/mongodb-mysql)
 	- [PostgreSQL with Python](http://www.postgresqltutorial.com/postgresql-python/) <br/>
