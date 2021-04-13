@@ -17,6 +17,8 @@ EOS EOSIO resources available here.
 * [x] 5. Show Balance, Deposit, Withdraw, Tip EOSIO tokens to User via Telegram ID
 	- [tip contract](https://github.com/abhi3700/eosio_tipuser_contracts/tree/main/tippertipper)
 	- [token contract](https://github.com/abhi3700/eosio_tipuser_contracts/tree/main/tokenfutbol)
+* Telos Blockchain Documentation
+	- [x] [Setting up Telos Validator Nodes](https://docs.telos.net/validator-nodes/setting-up-telos-validator-nodes#what-is-the-role-of-a-telos-validator), [on Github](https://github.com/TelosGlobal/telosdocs/blob/master/telosnodesetup.md)
 * [ ] 6. A DApp where, user maintain KYC via WhatsApp Bot. This gets validated on EOSIO Blockchain & stored in Cloud database.
 	- [KYC contract](https://github.com/abhi3700/eosio_kyc_contracts) 
 
