@@ -66,6 +66,8 @@ EOS EOSIO resources available here.
 			+ (Refer) - https://eosio-nodeos.readme.io/docs/learn-about-wallets-keys-and-accounts-with-cleos
 * `cleos` tool guide part 1 - https://www.youtube.com/watch?v=IVrwtVFRjj0
 * learn EOS wallets basics - https://www.eosdocs.io/dappdevelopment/wallets/
+* EOSIO BP Information Standard | JSON Standard for Block Producer Information on EOSIO Blockchains - https://github.com/eosrio/bp-info-standard
+	- The `bp.json` validator aims to check if Block Producers and Standby Block Producers are providing information to the community in a "standard" way. The validator has a set of "checks" and after executing the "checks" it then reports how well the bp.json file published by each block producer aligns to the "standard". To get a full understanding of how well a Block Producer or Standby Block Producer is contributing to the community takes more than the checks done here, but these checks can help the EOS community determine which organizations to vote for.
 
 ### EOS
 * EOS Mainnet Chain API - [Source](https://github.com/greymass/eos-voter/blob/master/nodes.md#eos-nodes)
@@ -105,6 +107,7 @@ EOS EOSIO resources available here.
 	- http://15.165.171.27:5666
 	- https://testnet.jungle.eosdetroit.io:443
 	- https://jungle3.decentrawise.com:443 	   
+* EOS Mainnet repo (`genesis.json`, `config.ini`, `start.sh`, `stop.sh`, ) - https://github.com/CryptoLions/EOS-MainNet
 
 ### Telos
 * Telos Testnet Chain API
@@ -180,8 +183,14 @@ EOS EOSIO resources available here.
 }
 ```
 
+### BOS
+* BOS Mainnet repo (`genesis.json`, `config.ini`, `start.sh`, `stop.sh`, ) - https://github.com/CryptoLions/EOS-MainNet
+
 
 ### WAX
+* [WAX Blockchain repo in Github](https://github.com/worldwide-asset-exchange/wax-blockchain)
+* [WAX Mainnet genesis.json](https://github.com/worldwide-asset-exchange/wax-blockchain/blob/develop/samples/mainnet/genesis.json)
+* [WAX Whitepaper](https://github.com/worldwide-asset-exchange/whitepaper)
 * WAX Mainnet Chain API - [Source](https://developer.wax.io/dapps/wax-rpc-api/)
 	- https://chain.wax.io/
 * WAX Testnet Chain API - [Source](https://github.com/eosswedenorg/waxtestnet/tree/master/endpoints). To get the link, click on the api param in JSON column values.
@@ -205,6 +214,8 @@ like
 	- https://wax-testnet.maltablock.org
 	- https://wax-test.eossweden.eu
 	- https://wax-testnet-api.eoscannon.io
+* AtomicHub - Interface for the EOSIO AtomicAssets NFT standard - https://wax-test.atomichub.io/
+
 
 ### Block Explorer
 * EOS block explorer -
