@@ -41,10 +41,13 @@ EOS EOSIO resources available here.
 * EOSIO.CDT (from v1.5 to v1.6) - https://developers.eos.io/manuals/eosio.cdt/latest/upgrading/1.5-to-1.6
 
 ## Development
-* Python-based Framework for EOS 
+* Python library for EOSIO Blockchain 
 	- https://github.com/tokenika/eosfactory
-	- https://github.com/eosnewyork/eospy [RECOMMENDED]
-	- https://pypi.org/project/aioeos/ [RECOMMENDED]
+	- https://github.com/eosnewyork/eospy
+	- https://github.com/ulamlabs/aioeos [last updated 2020]
+	- https://github.com/EOSArgentina/ueosio [last updated Feb 2021]
+	- https://github.com/EvaCoop/eosjs_python [last updated Feb 2021]
+
 * JavaScript API for EOS - https://github.com/EOSIO/eosjs-json
 * EOS API endpoint - https://t1api.eos.io/v1/docs/#api-_
 * Tools for exporting EOS blockchain data to JSON - https://pypi.org/project/eos-etl/
