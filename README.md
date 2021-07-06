@@ -21,6 +21,8 @@ EOS EOSIO resources available here.
 	- [x] [Setting up Telos Validator Nodes](https://docs.telos.net/validator-nodes/setting-up-telos-validator-nodes#what-is-the-role-of-a-telos-validator), [on Github](https://github.com/TelosGlobal/telosdocs/blob/master/telosnodesetup.md)
 * [x] 6. A DApp where, user maintain KYC via WhatsApp Bot. This gets validated on EOSIO Blockchain & stored in Cloud database.
 	- [KYC contract](https://github.com/abhi3700/eosio_kyc_contracts) 
+* [x] 7. Ceven.Parks SNI Hackathon 2021 (02-04 Jul, 2021): Provides a digital identity for parks to enable humans to interact with and take care of them.
+	- [cevenparksio contract](https://github.com/abhi3700/eosio_cevenparks_contracts/tree/main/cevenparksio)
 
 ## Official Repo (by Block.one EOS)
 * The platform (dependency libraries, cleos, nodeos, keosd) - https://github.com/EOSIO/eos
