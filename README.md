@@ -571,6 +571,9 @@ like
 * EOSIO payout contracts - https://github.com/cc32d9/eosio_payout/tree/master/contracts
 * NFC Seal of Authenticity - https://github.com/cc32d9/nfc-seal
 
+### DeFi
+* [SX Curve: amplified AMM (automated market maker) swap liquidity pool designed efficiently for stable currencies and/or highly correlated assets](https://github.com/stableex/sx.curve)
+
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
 * Object computing Blogs- [What is Graphene](https://objectcomputing.com/resources/publications/sett/march-2017-graphene-an-open-source-blockchain/) , [EOS Smart contracts](https://objectcomputing.com/resources/publications/sett/february-2018-eos-smart-contracts/)
