@@ -49,7 +49,6 @@ EOS EOSIO resources available here.
 	- https://github.com/ulamlabs/aioeos [last updated 2020]
 	- https://github.com/EOSArgentina/ueosio [last updated Feb 2021]
 	- https://github.com/EvaCoop/eosjs_python [last updated Feb 2021]
-
 * JavaScript API for EOS - https://github.com/EOSIO/eosjs-json
 * EOS API endpoint - https://t1api.eos.io/v1/docs/#api-_
 * Tools for exporting EOS blockchain data to JSON - https://pypi.org/project/eos-etl/
@@ -73,6 +72,8 @@ EOS EOSIO resources available here.
 * learn EOS wallets basics - https://www.eosdocs.io/dappdevelopment/wallets/
 * EOSIO BP Information Standard | JSON Standard for Block Producer Information on EOSIO Blockchains - https://github.com/eosrio/bp-info-standard
 	- The `bp.json` validator aims to check if Block Producers and Standby Block Producers are providing information to the community in a "standard" way. The validator has a set of "checks" and after executing the "checks" it then reports how well the bp.json file published by each block producer aligns to the "standard". To get a full understanding of how well a Block Producer or Standby Block Producer is contributing to the community takes more than the checks done here, but these checks can help the EOS community determine which organizations to vote for.
+* __Liquid DApps__: working on EOSIO-ETH bridge, vRAM (cheaper than physical RAM)
+	- Read [more](https://liquidapps.gitbook.io/liquidapps-documentation/)
 
 ### EOS
 * EOS Mainnet Chain API - [Source](https://github.com/greymass/eos-voter/blob/master/nodes.md#eos-nodes)
