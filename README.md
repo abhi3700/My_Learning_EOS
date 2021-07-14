@@ -564,7 +564,7 @@ like
 * Telos Shops is a decentralized storefront service - https://github.com/telosnetwork/telos-shops
 * Telos Login Service - https://github.com/telosnetwork/telos-login
 * EOSIO signing request java - https://github.com/greymass/eosio-signing-request-java
-* DAOPlatform contracts (all games and casinos interact with this contracts) - https://github.com/DaoCasino/platform-contracts
+* DAO Platform contracts (all games and casinos interact with this contracts) - https://github.com/DaoCasino/platform-contracts
 * DEFI - https://github.com/onesgame/defi
 * Multi signature commands (in bash scripts) - https://github.com/CryptoLions/MSIG_console_manager
 * Events receiver example for SimpleAssets.io - https://github.com/CryptoLions/SimpleAssets-EventReceiverExample 
@@ -572,8 +572,16 @@ like
 * EOSIO payout contracts - https://github.com/cc32d9/eosio_payout/tree/master/contracts
 * NFC Seal of Authenticity - https://github.com/cc32d9/nfc-seal
 
+### Governance
+* Eden OS - https://github.com/eoscommunity/Eden
+
+### Identity
+* [EOS Titan Proof Of Ownership](https://github.com/CryptoMechanics/proof-of-ownership)
+
 ### DeFi
-* [SX Curve: amplified AMM (automated market maker) swap liquidity pool designed efficiently for stable currencies and/or highly correlated assets](https://github.com/stableex/sx.curve)
+* SX Curve: amplified AMM (automated market maker) swap liquidity pool designed efficiently for stable currencies and/or highly correlated assets - https://github.com/stableex/sx.curve
+* SX Vaults 🏦 follow interest yielding strategies that are designed to maximize the yield of the deposited asset and minimize risk - https://github.com/stableex/sx.vaults
+* SX Flash Loans ⚡️ Borrow any amount of liquidity instantly for near-zero fees & no collateral - https://github.com/stableex/sx.flash
 
 ## Blogs, News articles
 * What is EOS? - https://www.weusecoins.com/what-is-eos/
