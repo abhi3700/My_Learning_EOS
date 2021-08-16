@@ -291,6 +291,7 @@ like
 ## EOS DApps
 * EOS Filestore - https://eosfilestore.now.sh/download
 * EOS dMail - [YouTube demo](https://www.youtube.com/watch?v=BVa24dSCFOw)
+* EOS Marketplace - https://eosmarketplace.io/
 
 ### [NFT](https://github.com/abhi3700/My_Learning_Blockchain/NFT)
 
