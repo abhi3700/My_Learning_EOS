@@ -50,6 +50,9 @@ EOS EOSIO resources available here.
 	- https://github.com/EOSArgentina/ueosio [last updated Feb 2021]
 	- https://github.com/EvaCoop/eosjs_python [last updated Feb 2021]
 * JavaScript API for EOS - https://github.com/EOSIO/eosjs-json
+* Test, Deployment tools
+	- [zeus-sdk](https://github.com/liquidapps-io/zeus-sdk)
+	- [EOSlime](https://github.com/LimeChain/eoslime)
 * EOS API endpoint - https://t1api.eos.io/v1/docs/#api-_
 * Tools for exporting EOS blockchain data to JSON - https://pypi.org/project/eos-etl/
 * Android client for EOS - https://github.com/plactal/EosCommander
