@@ -290,6 +290,9 @@ like
 * Powerup
 	- [Free every 12 hr](https://eospowerup.io/free)
 	- [Auto Powerup Login to continue using Anchor & Scatter](https://eospowerup.io/auto)
+* EOSIO.EVM
+	- [Github](https://github.com/jafri/eosio.evm/tree/master/eosio.evm)
+	- [Developing Smart Contracts on Telos-EVM](https://docs.telos.net/evm/getting-started)
 
 ## EOS DApps
 * EOS Filestore - https://eosfilestore.now.sh/download
