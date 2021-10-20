@@ -229,18 +229,17 @@
   Public: start with "EOS" and contain 53 characters
 
 37. ### What is max-transaction-time in mainnet now?
-    3.6 sec <br/>
-    [Source](https://github.com/CryptoLions/EOS-MainNet/blob/master/genesis.json)
+  - 3.6 sec [Source](https://github.com/CryptoLions/EOS-MainNet/blob/master/genesis.json)
 
 38. ### What are the sources of income generation for REX users?
-		- RAM Trading fees
-		- Namebids
-		- Lending CPU, BW
+	- RAM Trading fees
+	- Namebids
+	- Lending CPU, BW
 
 39. ### How public key is calculated from a base58 encoded private key?
-		- [Source](https://bitcoin.stackexchange.com/a/83398)
+	- [Source](https://bitcoin.stackexchange.com/a/83398)
 	
-	
-	
-	
+40. ### Can the BP no. of EOSIO Blockchain protocol be increased from `21` to `1000`?
+	- There isn't a hard limit as such. But, every additional active BP adds roughly 8 seconds to the time to irreversibility.
+
 	
