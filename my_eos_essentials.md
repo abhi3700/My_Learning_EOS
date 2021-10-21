@@ -241,5 +241,8 @@
 	
 40. ### Can the BP no. of EOSIO Blockchain protocol be increased from `21` to `1000`?
 	- There isn't a hard limit as such. But, every additional active BP adds roughly 8 seconds to the time to irreversibility.
+	- The max. no. of BPs can be set [here](https://github.com/EOSIO/eos/blob/master/libraries/chain/include/eosio/chain/config.hpp#L135).
 
-	
+41. ### Is there any config file for EOSIO chain?
+	- Yes
+	- It can be found [here](https://github.com/EOSIO/eos/blob/master/libraries/chain/include/eosio/chain/config.hpp).
