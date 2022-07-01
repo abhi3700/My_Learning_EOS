@@ -605,15 +605,17 @@ EOS EOSIO resources available here.
 
 ### SC using Rust
 
-- Rust Smart Contracts Development Kit - [Github](https://github.com/uuosio/rscdk), [Documentation](https://uuosio.github.io/rscdk-book/)
+- Rust Smart Contracts Development Kit (RSCDK) - [Github](https://github.com/uuosio/rscdk), [Documentation](https://uuosio.github.io/rscdk-book/)
 
 ### SC using AssemblyScript
 
-- AssemblyScript Smart Contracts Development Kit - https://github.com/uuosio/ascdk/tree/ascdk-dev
+- AssemblyScript Smart Contracts Development Kit (ASCDK) - https://github.com/uuosio/ascdk
 
 ### SC using TypeScript
 
-- Proton Typescript Smart assembly Development Kit - [Github](https://github.com/ProtonProtocol/proton-ts-contracts), [Documentation](https://sc.protonchain.com/introduction/overview.html)
+- Proton Typescript Smart assembly - [Github](https://github.com/ProtonProtocol/proton-ts-contracts), [Documentation](https://sc.protonchain.com/introduction/overview.html)
+
+> NOTE: It uses ASCDk: https://github.com/uuosio/ascdk
 
 ### Governance
 
