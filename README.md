@@ -398,7 +398,7 @@ EOS EOSIO resources available here.
 
 ### Python
 
-- eos-py
+- **eos-py**
   - [Github](https://github.com/eosnewyork/eospy)
   - [pip](https://pypi.org/project/libeospy/)
   - Examples
@@ -407,14 +407,14 @@ EOS EOSIO resources available here.
 
 ### Java
 
-- eosio-java
+- **eosio-java**
   - [Github](https://github.com/EOSIO/eosio-java)
   - Examples
     - [Application demonstrating integration with EOSIO-based blockchains using EOSIO SDK for Java](https://github.com/EOSIO/eosio-java-android-example-app)
 
 ### Javascript
 
-- eosjs
+- **eosjs**
   - Github
     - [eosjs](https://github.com/EOSIO/eosjs)
     - [eosjs-keygen](https://github.com/EOSIO/eosjs-keygen)
@@ -435,6 +435,9 @@ EOS EOSIO resources available here.
     - [Stake](https://developers.eos.io/manuals/eosjs/latest/transaction-examples/#stake)
     - [Unstake](https://developers.eos.io/manuals/eosjs/latest/transaction-examples/#example-unstake)
     - [Create new account](https://developers.eos.io/manuals/eosjs/latest/transaction-examples/#create-new-account-multiple-actions)
+- **@greymass/eosio-core**
+  - [Github](https://github.com/greymass/eosio-core)
+  - [npm](https://www.npmjs.com/package/@greymass/eosio)
 
 ## Repositories
 
