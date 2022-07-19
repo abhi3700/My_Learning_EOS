@@ -352,6 +352,8 @@ EOS EOSIO resources available here.
 
 ## Education, Academics, Course
 
+- [EOSIO Developer Portal | Block.one](https://developers.eos.io/)
+- [EOSIO Smart Contract Developer's Handbook | `cc32d9`](https://cc32d9.gitbook.io/eosio-smart-contract-developers-handbook/)
 - EOSIO Dev Course at Geneva University (November 8-16th 2019)- https://github.com/Europechain/eosio-dev-introduction-course
 - EOS smart contract programming tutorials - https://github.com/cc32d9/eosio.tutorials
 - [EOSIO Training & Certification](https://training.eos.io/collections)
