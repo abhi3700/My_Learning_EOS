@@ -26,7 +26,7 @@ EOS EOSIO resources available here.
 - [x] 7. Ceven.Parks SNI Hackathon 2021 (02-04 Jul, 2021): Provides a digital identity for parks to enable humans to interact with and take care of them.
   - [cevenparksio contract](https://github.com/abhi3700/eosio_cevenparks_contracts/tree/main/cevenparksio)
 
-## Official Repo (by Block.one EOS)
+## ~~Official Repo (by Block.one EOS) [DEPRECATED]~~
 
 - The platform (dependency libraries, cleos, nodeos, keosd) - https://github.com/EOSIO/eos
 - EOS Contract Development Toolkit (CDT) - https://github.com/EOSIO/eosio.cdt
@@ -44,6 +44,13 @@ EOS EOSIO resources available here.
 - EOSIO Modules - https://developers.eos.io/manuals/eosio.cdt/v1.7/modules
 - EOSIO.CDT (from v1.2 to v1.3) - https://developers.eos.io/manuals/eosio.cdt/latest/upgrading/1.2-to-1.3
 - EOSIO.CDT (from v1.5 to v1.6) - https://developers.eos.io/manuals/eosio.cdt/latest/upgrading/1.5-to-1.6
+
+## EOS Network Foundation
+
+- [Block.one](https://b1.com/) -> [EOS Foundation](https://eosnetwork.com/)
+- [EOSIO/eos](https://github.com/EOSIO/eos) -> [Mandel](https://github.com/eosnetworkfoundation/mandel)
+- [EOSIO/eosio.contracts](https://github.com/EOSIO/eosio.contracts) -> [mandel-contracts](https://github.com/eosnetworkfoundation/mandel-contracts)
+- [EOSIO/eosio.cdt](https://github.com/EOSIO/eosio.cdt) -> [mandel.cdt](https://github.com/eosnetworkfoundation/mandel.cdt)
 
 ## Development
 
