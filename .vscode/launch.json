@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": true,
+      "externalConsole": false,
+      "cwd": "/Users/abhi3700/F/coding/github_repos/My_Learning_EOS",
+      "program": "/Users/abhi3700/F/coding/github_repos/My_Learning_EOS/build/Debug/outDebug",
+      "MIMode": "gdb"
+    }
+  ]
+}

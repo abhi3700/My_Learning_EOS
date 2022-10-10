@@ -62,9 +62,10 @@ EOS EOSIO resources available here.
   - https://github.com/EvaCoop/eosjs_python [last updated Feb 2021]
 - JavaScript API for EOS - https://github.com/EOSIO/eosjs-json
 - Test, Deployment tools
-  - [zeus-sdk](https://github.com/liquidapps-io/zeus-sdk)
-  - [EOSlime](https://github.com/LimeChain/eoslime)
-- EOS API endpoint - https://t1api.eos.io/v1/docs/#api-_
+  - [zeus-sdk](https://github.com/liquidapps-io/zeus-sdk) [**Deprecated**]
+  - [EOSlime](https://github.com/LimeChain/eoslime) [**Deprecated**]
+  - [Qtest](https://github.com/GenerEOS/Qtest) [**Recommended**]
+- ~~EOS API endpoint - https://t1api.eos.io/v1/docs/#api-_~~
 - Tools for exporting EOS blockchain data to JSON - https://pypi.org/project/eos-etl/
 - Android client for EOS - https://github.com/plactal/EosCommander
 - Getting Started With WebAssembly - https://tutorialzine.com/2017/06/getting-started-with-web-assembly
