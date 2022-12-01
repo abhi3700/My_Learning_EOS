@@ -1,6 +1,6 @@
 # My_Learning_EOSIO
 
-EOS EOSIO resources available here.
+EOS, Antelope (formerly EOSIO) resources available here.
 
 ## My EOSIO Projects
 
@@ -220,32 +220,33 @@ EOS EOSIO resources available here.
 - WAX Testnet Chain API - [Source](https://github.com/eosswedenorg/waxtestnet/tree/master/endpoints). To get the link, click on the api param in JSON column values.
   like
 
-```json
-{
-  "name": "",
-  "p2p": "",
-  "api": ""
-}
-```
+  ```json
+  {
+    "name": "",
+    "p2p": "",
+    "api": ""
+  }
+  ```
 
-    - https://wax-test.eosdac.io
-    - https://testnet.waxsweden.org
-    - https://testnet.wax.pink.gg
-    - https://api.waxtest.alohaeos.com
-    - https://waxtest.eosn.io
-    - https://testnet.wax.eosrio.io
-    - https://wax-testnet.eoscafeblock.com
-    - https://api.waxtest.greeneosiobp.com
-    - https://wax-testnet.eosphere.io
-    - https://wax-testnet.maltablock.org
-    - https://wax-test.eossweden.eu
-    - https://wax-testnet-api.eoscannon.io
+  - https://wax-test.eosdac.io
+  - https://testnet.waxsweden.org
+  - https://testnet.wax.pink.gg
+  - https://api.waxtest.alohaeos.com
+  - https://waxtest.eosn.io
+  - https://testnet.wax.eosrio.io
+  - https://wax-testnet.eoscafeblock.com
+  - https://api.waxtest.greeneosiobp.com
+  - https://wax-testnet.eosphere.io
+  - https://wax-testnet.maltablock.org
+  - https://wax-test.eossweden.eu
+  - https://wax-testnet-api.eoscannon.io
 
 - AtomicHub - Interface for the EOSIO AtomicAssets NFT standard - https://wax-test.atomichub.io/
 
 ### Block Explorer
 
-- EOS block explorer -
+- EOS block explorer:
+
   - https://bloks.io/
   - https://mainnet.eosio.online/
   - https://scaneos.io/
@@ -258,6 +259,10 @@ EOS EOSIO resources available here.
   - https://eostree.io/ (Search any account with creator names)
   - https://www.eosx.io
   - View personal Account info. - https://eosinbox.io
+
+- WAX:
+  - https://waxblock.io/
+  - https://wax.bloks.io/
 
 ### EOSIO History Tools
 
