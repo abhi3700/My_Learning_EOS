@@ -48,42 +48,43 @@ EOS, Antelope (formerly EOSIO) resources available here.
 ## EOS Network Foundation
 
 - [Block.one](https://b1.com/) -> [EOS Foundation](https://eosnetwork.com/)
-- [EOSIO/eos](https://github.com/EOSIO/eos) -> [Mandel](https://github.com/eosnetworkfoundation/mandel)
-- [EOSIO/eosio.contracts](https://github.com/EOSIO/eosio.contracts) -> [mandel-contracts](https://github.com/eosnetworkfoundation/mandel-contracts)
-- [EOSIO/eosio.cdt](https://github.com/EOSIO/eosio.cdt) -> [mandel.cdt](https://github.com/eosnetworkfoundation/mandel.cdt)
+  > EOS Network Foundation is working towards EOS blockchain. And AntelopeIO is aiming to better the EOSIO blockchains as a whole.
+- [EOSIO/eos](https://github.com/EOSIO/eos) -> [AntelopeIO/leap](https://github.com/AntelopeIO/leap)
+- [EOSIO/eosio.contracts](https://github.com/EOSIO/eosio.contracts) -> [AntelopeIO/reference-contracts](https://github.com/AntelopeIO/reference-contracts)
+- [EOSIO/eosio.cdt](https://github.com/EOSIO/eosio.cdt) -> [AntelopeIO/cdt](https://github.com/AntelopeIO/cdt)
 
 ## Development
 
 - Python library for EOSIO Blockchain
   - https://github.com/tokenika/eosfactory
   - https://github.com/eosnewyork/eospy
-  - https://github.com/ulamlabs/aioeos [last updated 2020]
-  - https://github.com/EOSArgentina/ueosio [last updated Feb 2021]
-  - https://github.com/EvaCoop/eosjs_python [last updated Feb 2021]
-- JavaScript API for EOS - https://github.com/EOSIO/eosjs-json
+  - https://github.com/ulamlabs/aioeos [last updated Apr 2020]
+  - https://github.com/EOSArgentina/ueosio [last updated Nov 2021]
+  - https://github.com/EvaCoop/eosjs_python [last updated Apr 2022]
+- ~~JavaScript API for EOS - https://github.com/EOSIO/eosjs-json~~
 - Test, Deployment tools
-  - [zeus-sdk](https://github.com/liquidapps-io/zeus-sdk) [**Deprecated**]
-  - [EOSlime](https://github.com/LimeChain/eoslime) [**Deprecated**]
+  - [zeus-sdk](https://github.com/liquidapps-io/zeus-sdk)
+  - [EOSlime](https://github.com/LimeChain/eoslime)
   - [Qtest](https://github.com/GenerEOS/Qtest) [**Recommended**]
 - ~~EOS API endpoint - https://t1api.eos.io/v1/docs/#api-_~~
-- Tools for exporting EOS blockchain data to JSON - https://pypi.org/project/eos-etl/
-- Android client for EOS - https://github.com/plactal/EosCommander
+- ~~Tools for exporting EOS blockchain data to JSON - https://pypi.org/project/eos-etl/~~
+- ~~Android client for EOS - https://github.com/plactal/EosCommander~~
 - Getting Started With WebAssembly - https://tutorialzine.com/2017/06/getting-started-with-web-assembly
 - Compiling from C/C++ to WebAssembly - https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_wasm
 - EOS IDE (browser-based) - https://tbfleming.github.io/cib/eos.html
 - EOS Dev tool by OracleChain - https://github.com/OracleChain/EOSDevHelper
-- EOS docs - https://www.eosdocs.io/
+- ~~EOS docs - https://www.eosdocs.io/~~
 - EOS setup - https://medium.com/b21official/eos-dawn-3-0-setup-instructions-for-developers-9434fcb64d2d
-- EOS governance - https://github.com/EOS-Mainnet/governance
-- EOS Mainnet - https://github.com/EOS-Mainnet
+- ~~EOS governance - https://github.com/EOS-Mainnet/governance~~
+- ~~EOS Mainnet - https://github.com/EOS-Mainnet~~
 - File storage on EOS (Needs enough staking for CPU and NET) - https://github.com/grigio/eosfilestore
 - EOS account creation -
   - https://eos-account-creator.com/
-  - https://namevault.co/
-  - https://www.zeos.co/
+  - ~~https://namevault.co/~~
+  - ~~https://www.zeos.co/~~
   - Using `cleos` tool - https://medium.com/@cc32d9/creating-a-new-eos-eosio-account-f88201dc1a + (Refer) - https://eosio-nodeos.readme.io/docs/learn-about-wallets-keys-and-accounts-with-cleos
 - `cleos` tool guide part 1 - https://www.youtube.com/watch?v=IVrwtVFRjj0
-- learn EOS wallets basics - https://www.eosdocs.io/dappdevelopment/wallets/
+- ~~learn EOS wallets basics - https://www.eosdocs.io/dappdevelopment/wallets/~~
 - EOSIO BP Information Standard | JSON Standard for Block Producer Information on EOSIO Blockchains - https://github.com/eosrio/bp-info-standard
   - The `bp.json` validator aims to check if Block Producers and Standby Block Producers are providing information to the community in a "standard" way. The validator has a set of "checks" and after executing the "checks" it then reports how well the bp.json file published by each block producer aligns to the "standard". To get a full understanding of how well a Block Producer or Standby Block Producer is contributing to the community takes more than the checks done here, but these checks can help the EOS community determine which organizations to vote for.
 - **Liquid DApps**: working on EOSIO-ETH bridge, vRAM (cheaper than physical RAM)
@@ -431,11 +432,12 @@ EOS, Antelope (formerly EOSIO) resources available here.
 
 - **eosjs**
   - Github
-    - [eosjs](https://github.com/EOSIO/eosjs)
+    - [eosjs](https://github.com/eosnetworkfoundation/mandel-eosjs)
     - [eosjs-keygen](https://github.com/EOSIO/eosjs-keygen)
     - [eosjs-api](https://github.com/EOSIO/eosjs-api)
-    - [eosjs-ecc](https://github.com/EOSIO/eosjs-ecc)
+    - [eosjs-ecc](https://github.com/pur3miish/eos-ecc)
     - [eosjs-json](https://github.com/EOSIO/eosjs-json)
+    - [graphql for eosio blockchain](https://github.com/pur3miish/smartql)
   - [npm](https://www.npmjs.com/package/eosjs)
   - Examples
     - [Reading Blockchain](https://developers.eos.io/manuals/eosjs/latest/reading-blockchain-examples/#reading-blockchain)
@@ -624,6 +626,8 @@ EOS, Antelope (formerly EOSIO) resources available here.
 ### SC using Rust
 
 - Rust Smart Contracts Development Kit (RSCDK) - [Github](https://github.com/uuosio/rscdk), [Documentation](https://uuosio.github.io/rscdk-book/)
+
+Here, try the getting started tutorial, And then try to write unit tests using `Qtest` on top of the `.wasm` & `.abi` files.
 
 ### SC using AssemblyScript
 
