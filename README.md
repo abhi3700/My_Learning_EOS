@@ -460,7 +460,7 @@ EOS, Antelope (formerly EOSIO) resources available here.
 
 ### SC using C/C++
 
-- EOSIO.CDT (Contract Development Toolkit) - https://github.com/EOSIO/eosio.cdt
+- ~~EOSIO.CDT (Contract Development Toolkit) - https://github.com/EOSIO/eosio.cdt~~
 - [EOSIO Boilerplate](https://github.com/abhi3700/eosio-boilerplate)
 - My contract [Setup](https://github.com/abhi3700/My_Learning_EOS/blob/master/EOSIO_contract_setup.md#summary)
 - [my_eosio_essentials](https://github.com/abhi3700/My_Learning_EOS/blob/master/my_eosio_essentials.md)
