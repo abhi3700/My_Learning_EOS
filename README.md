@@ -629,6 +629,21 @@ EOS, Antelope (formerly EOSIO) resources available here.
 
 Here, try the getting started tutorial, And then try to write unit tests using `Qtest` on top of the `.wasm` & `.abi` files.
 
+Failing on macOS M1. Getting this error:
+
+```console
+❯ eosdebugger
+export CHAIN_API_LIB=/Users/abhi3700/opt/anaconda3/lib/python3.9/site-packages/ipyeos/release/lib/libchain_api.dylib
+export VM_API_LIB=/Users/abhi3700/opt/anaconda3/lib/python3.9/site-packages/ipyeos/release/lib/libvm_api.dylib
+export PYTHON_SHARED_LIB_PATH=/Users/abhi3700/opt/anaconda3/lib/libpython3.9.dylib
+/Users/abhi3700/opt/anaconda3/lib/python3.9/site-packages/ipyeos/release/bin/ipyeos -m ipyeos eosdebugger
+dyld[85548]: Library not loaded: /usr/local/opt/zstd/lib/libzstd.1.dylib
+  Referenced from: <9D771806-EEBF-3787-9792-2F1465279363> /Users/abhi3700/opt/anaconda3/lib/python3.9/site-packages/ipyeos/release/bin/ipyeos
+  Reason: tried: '/usr/local/opt/zstd/lib/libzstd.1.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/zstd/lib/libzstd.1.dylib' (no such file), '/usr/local/opt/zstd/lib/libzstd.1.dylib' (no such file), '/usr/local/lib/libzstd.1.dylib' (no such file), '/usr/lib/libzstd.1.dylib' (no such file, not in dyld cache)
+```
+
+> Tried after `$ python3 -m pip install -U ipyeos`
+
 ### SC using AssemblyScript
 
 - AssemblyScript Smart Contracts Development Kit (ASCDK) - https://github.com/uuosio/ascdk
